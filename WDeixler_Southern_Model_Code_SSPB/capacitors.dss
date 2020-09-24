@@ -1,0 +1,9 @@
+! converted from CYME 5.04 .sxst-file with OpenDSS_SFC.py (version: 01.00.012, last update: 03/22/2017)
+
+New Capacitor.AN6545_M3442-9466  phases=3 bus1=941_8999680.1.2.3 kvar=600.0 kv=13.1982271537
+New Capacitor.AN6796_M3442-9466  phases=3 bus1=941_9002321.1.2.3 kvar=600.0 kv=13.1982271537
+New Capacitor.VWA12_M3222-9466  phases=3 bus1=941_6290575.1.2.3 kvar=600.0 kv=13.1982271537
+New Capacitor.VWA13_M3222-9466  phases=3 bus1=195_1467482.1.2.3 kvar=600.0 kv=13.1982271537
+New Capacitor.VWA6_1306801  phases=3 bus1=195_1480540.1.2.3 kvar=600.0 kv=13.1982271537
+New Capacitor.VWA6_M3222-9466  phases=3 bus1=941_8992867.1.2.3 kvar=600.0 kv=13.1982271537
+New Capacitor.VWA9_M3222-9466  phases=3 bus1=941_6298640.1.2.3 kvar=600.0 kv=13.1982271537

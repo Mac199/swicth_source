@@ -1,0 +1,14 @@
+! converted from CYME 5.04 .sxst-file with OpenDSS_SFC.py (version: 01.00.012, last update: 03/22/2017)
+
+!New Transformer.AF2620_M3222-9466A  phases=1 wdg=1 bus=190_17361_2R.1 kV=7.96743371482 kVA=1670.0 wdg=2 bus=190_17361.1 kV=7.96743371482 kVA=1670.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+!New Transformer.AF2620_M3222-9466B  phases=1 wdg=1 bus=190_17361_2R.2 kV=7.96743371482 kVA=1670.0 wdg=2 bus=190_17361.2 kV=7.96743371482 kVA=1670.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+!New Transformer.AF2620_M3222-9466C  phases=1 wdg=1 bus=190_17361_2R.3 kV=7.96743371482 kVA=1670.0 wdg=2 bus=190_17361.3 kV=7.96743371482 kVA=1670.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R008_M3442-9466A  phases=1 wdg=1 bus=190_8644_2R.1 kV=7.96743371482 kVA=1670.0 wdg=2 bus=190_8644.1 kV=7.96743371482 kVA=1670.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R008_M3442-9466B  phases=1 wdg=1 bus=190_8644_2R.2 kV=7.96743371482 kVA=1670.0 wdg=2 bus=190_8644.2 kV=7.96743371482 kVA=1670.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R008_M3442-9466C  phases=1 wdg=1 bus=190_8644_2R.3 kV=7.96743371482 kVA=1670.0 wdg=2 bus=190_8644.3 kV=7.96743371482 kVA=1670.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R015_M3222-9466A  phases=1 wdg=1 bus=190_8642_2R.1 kV=7.96743371482 kVA=3330.0 wdg=2 bus=190_8642.1 kV=7.96743371482 kVA=3330.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R015_M3222-9466B  phases=1 wdg=1 bus=190_8642_2R.2 kV=7.96743371482 kVA=3330.0 wdg=2 bus=190_8642.2 kV=7.96743371482 kVA=3330.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R015_M3222-9466C  phases=1 wdg=1 bus=190_8642_2R.3 kV=7.96743371482 kVA=3330.0 wdg=2 bus=190_8642.3 kV=7.96743371482 kVA=3330.0 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R020_M3222-9466A  phases=1 wdg=1 bus=190_8643_2R.1 kV=7.96743371482 kVA=4162.99988 wdg=2 bus=190_8643.1 kV=7.96743371482 kVA=4162.99988 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R020_M3222-9466B  phases=1 wdg=1 bus=190_8643_2R.2 kV=7.96743371482 kVA=4162.99988 wdg=2 bus=190_8643.2 kV=7.96743371482 kVA=4162.99988 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.R020_M3222-9466C  phases=1 wdg=1 bus=190_8643_2R.3 kV=7.96743371482 kVA=4162.99988 wdg=2 bus=190_8643.3 kV=7.96743371482 kVA=4162.99988 xhl=0.1 %loadloss=.01 %noloadloss=.0025

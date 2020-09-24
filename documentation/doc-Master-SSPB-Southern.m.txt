@@ -1,0 +1,5 @@
+variables:
+	Node: this defines the location of device placement.
+	I_Meas: this defines the current measurment location.
+	Vnode: this defines the voltage measument location.
+	

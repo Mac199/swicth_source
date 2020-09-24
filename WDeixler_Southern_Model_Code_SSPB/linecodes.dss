@@ -1,0 +1,47 @@
+! converted from CYME5.04 .sxst-file with OpenDSS_SFC.py (version: 01.00.012, last update: 03/22/2017)
+
+! basic line codes for default use
+New LineCode.basic1 nphases=1 R1=0.001 R0=0.001 X1=0.001 X0=0.001 B1=0.001 B0=0.001 NormAmps=1 EmergAmps=1.25 units=mi
+New LineCode.basic2 nphases=2 R1=0.001 R0=0.001 X1=0.001 X0=0.001 B1=0.001 B0=0.001 NormAmps=1 EmergAmps=1.25 units=mi
+New LineCode.basic3 nphases=3 R1=0.001 R0=0.001 X1=0.001 X0=0.001 B1=0.001 B0=0.001 NormAmps=1 EmergAmps=1.25 units=mi
+
+! overhead lines
+New linecode.DEFAULT_1_line  nphases=1 r1=2.58167966667 r0=2.58167966667 x1=0.969316 x0=0.969316 b1=2.81831566667 b0=2.81831566667 NormAmps=100.000000 units=km
+New linecode.DEFAULT_3_line  nphases=3 r1=2.460630 r0=2.823779 x1=0.513975 x0=1.879998 b1=3.445808 b0=1.563331 NormAmps=100.000000 units=km
+
+! cables
+New linecode.1P_1/0_AXNJ_DB_1  nphases=1 r1=1.09470866667 r0=1.09470866667 x1=0.615704 x0=0.615704 b1=47.884417 b0=47.884417 NormAmps=165.000000 units=km
+New linecode.1P_1/0_AXN_DB_1  nphases=1 r1=1.09470866667 r0=1.09470866667 x1=0.615704 x0=0.615704 b1=47.884417 b0=47.884417 NormAmps=165.000000 units=km
+New linecode.2P_1/0_AXNJ_DB_2  nphases=2 r1=0.698819 r0=1.591213 x1=0.193570 x0=0.544619 b1=47.884417 b0=47.884417 NormAmps=175.000000 units=km
+New linecode.2P_1/0_AXN_DB_2  nphases=2 r1=0.698819 r0=1.591213 x1=0.193570 x0=0.544619 b1=47.884417 b0=47.884417 NormAmps=175.000000 units=km
+New linecode.3P_1/0_AXNJ_DB_3  nphases=3 r1=0.698819 r0=1.591213 x1=0.193570 x0=0.544619 b1=47.884417 b0=47.884417 NormAmps=190.000000 units=km
+New linecode.3P_1/0_AXN_DB_3  nphases=3 r1=0.698819 r0=1.591213 x1=0.193570 x0=0.544619 b1=47.884417 b0=47.884417 NormAmps=190.000000 units=km
+New linecode.3P_1000_ALLC_DB_3  nphases=3 r1=0.091864 r0=0.603675 x1=0.157480 x0=0.203412 b1=104.700673 b0=104.700673 NormAmps=635.000000 units=km
+New linecode.3P_2#1000_ALLC_DB_3  nphases=3 r1=0.046916 r0=0.301837 x1=0.080052 x0=0.101706 b1=104.700673 b0=104.700673 NormAmps=1130.000000 units=km
+
+! conductors
+New wiredata.1/0_ACSR  Rac=0.533465 GMRac=0.194361 diam=1.010920 normamps=260.000000 emergamps=260.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.2_ACSR  Rac=0.848793 GMRac=0.129794 diam=0.802640 normamps=200.000000 emergamps=200.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.2_AL  Rac=0.848793 GMRac=0.129794 diam=0.802640 normamps=200.000000 emergamps=200.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.3/0_ACSR  Rac=0.335851 GMRac=0.281153 diam=1.275080 normamps=330.000000 emergamps=330.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.336_ACSR  Rac=0.169510 GMRac=0.740664 diam=1.828800 normamps=570.000000 emergamps=570.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.397_ACSR  Rac=0.145152 GMRac=0.731520 diam=1.887220 normamps=630.000000 emergamps=630.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4/0_ACSR  Rac=0.266444 GMRac=0.336474 diam=1.430020 normamps=390.000000 emergamps=390.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4/0_AL  Rac=0.266444 GMRac=0.336474 diam=1.430020 normamps=390.000000 emergamps=390.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4_ACSR  Rac=1.349370 GMRac=0.086462 diam=0.635000 normamps=150.000000 emergamps=150.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.6_CU  Rac=1.374100 GMRac=0.160274 diam=0.411480 normamps=120.000000 emergamps=120.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.795_AAC  Rac=0.074378 GMRac=0.999744 diam=2.606040 normamps=970.000000 emergamps=970.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.BUSS  Rac=0.000006 GMRac=2.539746 diam=5.080000 normamps=9999.000000 emergamps=9999.000000 Runits=km GMRunits=cm radunits=cm
+
+! overhead spacing data
+New linespacing.1PH_1_NNYY  Nconds=2 Nphases=1 x=[-0.099060 0.129540]  h=[10.546080 8.229600]  units=m
+New linespacing.1PH_1_NYNY  Nconds=2 Nphases=1 x=[-0.099060 0.129540]  h=[10.546080 8.229600]  units=m
+New linespacing.1PH_1_YNNY  Nconds=2 Nphases=1 x=[-0.099060 0.129540]  h=[10.546080 8.229600]  units=m
+New linespacing.2PH_H_2_NYYY  Nconds=3 Nphases=2 x=[-0.116840 0.759460 0.142240]  h=[11.917680 11.361420 9.601200]  units=m
+New linespacing.2PH_H_2_YNYY  Nconds=3 Nphases=2 x=[-0.116840 0.759460 0.142240]  h=[11.917680 11.361420 9.601200]  units=m
+New linespacing.2PH_H_2_YYNY  Nconds=3 Nphases=2 x=[-0.116840 0.759460 0.142240]  h=[11.917680 11.361420 9.601200]  units=m
+New linespacing.3PH_H_3_YYYY  Nconds=4 Nphases=3 x=[-0.762000 -0.116840 0.762000 0.147320]  h=[11.379189 11.917680 11.379189 9.601200]  units=m
+New linespacing.BUSS_1_NNYY  Nconds=2 Nphases=1 x=[-0.762000 0.147320]  h=[11.379189 9.601200]  units=m
+New linespacing.BUSS_1_NYNY  Nconds=2 Nphases=1 x=[-0.762000 0.147320]  h=[11.379189 9.601200]  units=m
+New linespacing.BUSS_1_YNNY  Nconds=2 Nphases=1 x=[-0.762000 0.147320]  h=[11.379189 9.601200]  units=m
+New linespacing.BUSS_3_YYYY  Nconds=4 Nphases=3 x=[-0.762000 -0.116840 0.762000 0.147320]  h=[11.379189 11.917680 11.379189 9.601200]  units=m

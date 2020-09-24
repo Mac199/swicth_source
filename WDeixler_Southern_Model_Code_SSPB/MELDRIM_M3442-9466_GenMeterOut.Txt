@@ -1,0 +1,24 @@
+
+GENERATOR ENERGY METER VALUES
+
+Generator          kWh        kvarh      Max kW     Max kVA    Hours      $          
+
+671a1                0          0          0          0          0          0 
+671a2                0          0          0          0          0          0 
+671b1                0          0          0          0          0          0 
+671b2                0          0          0          0          0          0 
+671c1                0          0          0          0          0          0 
+671c2                0          0          0          0          0          0 
+pvgen1               0          0          0          0          0          0 
+pvgen2               0          0          0          0          0          0 
+pvgen3               0          0          0          0          0          0 
+pvgen4               0          0          0          0          0          0 
+pvgen5               0          0          0          0          0          0 
+pvgen6               0          0          0          0          0          0 
+pvgen7               0          0          0          0          0          0 
+pvgen8               0          0          0          0          0          0 
+pvgen9               0          0          0          0          0          0 
+pvgen10              0          0          0          0          0          0 
+pvgen11              0          0          0          0          0          0 
+pvgen12              0          0          0          0          0          0 
+pvgen13              0          0          0          0          0          0 

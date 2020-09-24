@@ -1,0 +1,691 @@
+
+!*************************************** Single pH Load Transformer On Buses **********************************************************************************************************
+
+
+
+!*********************************************  L5000 SINGLE Ph XFMRS *****************************************************************************************************************
+
+
+New Transformer.XFM4 phases=1 wdg=1 bus=N4.2 kV=4.8 kVA=10 wdg=2 bus=N4T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM4_1 phases=1 wdg=1 bus=N041.1 kV=4.8 kVA=25 wdg=2 bus=N041T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM4_2 phases=1 wdg=1 bus=N042.1 kV=4.8 kVA=75 wdg=2 bus=N042T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM6A phases=3 wdg=1 bus=N6.1 kV=4.8 kVA=2500 wdg=2 bus=N6TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM6B phases=3 wdg=1 bus=N6.2 kV=4.8 kVA=2500 wdg=2 bus=N6TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM6C phases=3 wdg=1 bus=N6.3 kV=4.8 kVA=2500 wdg=2 bus=N6TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM8 phases=1 wdg=1 bus=N8.2 kV=4.8 kVA=50 wdg=2 bus=N8T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM9 phases=1 wdg=1 bus=N9.3 kV=4.8 kVA=50 wdg=2 bus=N9T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM9_2 phases=1 wdg=1 bus=N092.3 kV=4.8 kVA=50 wdg=2 bus=N092T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM9_3 phases=1 wdg=1 bus=N093.3 kV=4.8 kVA=50 wdg=2 bus=N093T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM10 phases=1 wdg=1 bus=N10.3 kV=4.8 kVA=50 wdg=2 bus=N10T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM11 phases=1 wdg=1 bus=N11.3 kV=4.8 kVA=50 wdg=2 bus=N11T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM12 phases=1 wdg=1 bus=N12.3 kV=4.8 kVA=50 wdg=2 bus=N12T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM13 phases=1 wdg=1 bus=N13.3 kV=4.8 kVA=50 wdg=2 bus=N13T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM14 phases=1 wdg=1 bus=N14.3 kV=4.8 kVA=50 wdg=2 bus=N14T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM15 phases=1 wdg=1 bus=N15.3 kV=4.8 kVA=75 wdg=2 bus=N15T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM16 phases=1 wdg=1 bus=N16.3 kV=4.8 kVA=75 wdg=2 bus=N16T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM17 phases=1 wdg=1 bus=N17.3 kV=4.8 kVA=75 wdg=2 bus=N17T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM18 phases=1 wdg=1 bus=N18.3 kV=4.8 kVA=75 wdg=2 bus=N18T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM19 phases=1 wdg=1 bus=N19.3 kV=4.8 kVA=75 wdg=2 bus=N19T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM20 phases=1 wdg=1 bus=N20.3 kV=4.8 kVA=75 wdg=2 bus=N20T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM21 phases=1 wdg=1 bus=N21.3 kV=4.8 kVA=75 wdg=2 bus=N21T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM21_2 phases=1 wdg=1 bus=N0212.1 kV=4.8 kVA=100 wdg=2 bus=N0212T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM22 phases=1 wdg=1 bus=N22.3 kV=4.8 kVA=75 wdg=2 bus=N22T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM23 phases=1 wdg=1 bus=N23.3 kV=4.8 kVA=75 wdg=2 bus=N23T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM24 phases=1 wdg=1 bus=N24.3 kV=4.8 kVA=75 wdg=2 bus=N24T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM25 phases=1 wdg=1 bus=N25.1 kV=4.8 kVA=75 wdg=2 bus=N25T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM26 phases=1 wdg=1 bus=N26.1 kV=4.8 kVA=75 wdg=2 bus=N26T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM27 phases=1 wdg=1 bus=N27.1 kV=4.8 kVA=50 wdg=2 bus=N27T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM28 phases=1 wdg=1 bus=N28.1 kV=4.8 kVA=50 wdg=2 bus=N28T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM29 phases=1 wdg=1 bus=N29.1 kV=4.8 kVA=50 wdg=2 bus=N29T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM30A phases=1 wdg=1 bus=N30.1 kV=4.8 kVA=10 wdg=2 bus=N30TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM30B phases=1 wdg=1 bus=N30.2 kV=4.8 kVA=25 wdg=2 bus=N30TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM30_1A phases=1 wdg=1 bus=N0301.1 kV=4.8 kVA=75 wdg=2 bus=N0301TA.1. kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM30_1B phases=1 wdg=1 bus=N0301.2 kV=4.8 kVA=75 wdg=2 bus=N0301TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM30_1C phases=1 wdg=1 bus=N0301.3 kV=4.8 kVA=75 wdg=2 bus=N0301TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM30_2A phases=1 wdg=1 bus=N0302.1 kV=4.8 kVA=10 wdg=2 bus=N0302TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM30_2B phases=1 wdg=1 bus=N0302.2 kV=4.8 kVA=10 wdg=2 bus=N0302TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM32 phases=1 wdg=1 bus=N32.1 kV=4.8 kVA=50 wdg=2 bus=N32T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM33 phases=1 wdg=1 bus=N33.1 kV=4.8 kVA=50 wdg=2 bus=N33T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM34 phases=1 wdg=1 bus=N34.1 kV=4.8 kVA=50 wdg=2 bus=N34T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM35 phases=1 wdg=1 bus=N35.1 kV=4.8 kVA=50 wdg=2 bus=N35T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM37 phases=1 wdg=1 bus=N37.1 kV=4.8 kVA=50 wdg=2 bus=N37T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM39 phases=1 wdg=1 bus=N39.3 kV=4.8 kVA=50 wdg=2 bus=N39T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM40 phases=1 wdg=1 bus=N40.3 kV=4.8 kVA=50 wdg=2 bus=N40T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM41 phases=1 wdg=1 bus=N41.3 kV=4.8 kVA=50 wdg=2 bus=N41T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM42 phases=1 wdg=1 bus=N42.3 kV=4.8 kVA=50 wdg=2 bus=N42T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM43 phases=1 wdg=1 bus=N43.3 kV=4.8 kVA=50 wdg=2 bus=N43T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM44 phases=1 wdg=1 bus=N44.3 kV=4.8 kVA=25 wdg=2 bus=N44T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM45A phases=1 wdg=1 bus=N45.1 kV=4.8 kVA=75 wdg=2 bus=N45TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM45B phases=1 wdg=1 bus=N45.2 kV=4.8 kVA=75 wdg=2 bus=N45TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM45C phases=1 wdg=1 bus=N45.3 kV=4.8 kVA=75 wdg=2 bus=N45TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM46 phases=1 wdg=1 bus=N46.2 kV=4.8 kVA=75 wdg=2 bus=N46T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM48A phases=1 wdg=1 bus=N48.1 kV=4.8 kVA=100 wdg=2 bus=N48TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM48B phases=1 wdg=1 bus=N48.2 kV=4.8 kVA=100 wdg=2 bus=N48TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM48C phases=1 wdg=1 bus=N48.3 kV=4.8 kVA=100 wdg=2 bus=N48TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM49 phases=1 wdg=1 bus=N49.2 kV=4.8 kVA=50 wdg=2 bus=N49T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM50 phases=1 wdg=1 bus=N50.2 kV=4.8 kVA=75 wdg=2 bus=N50T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM51 phases=1 wdg=1 bus=N51.1 kV=4.8 kVA=50 wdg=2 bus=N51T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM51_1A phases=1 wdg=1 bus=N0511.1 kV=4.8 kVA=75 wdg=2 bus=N0511TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM51_1C phases=1 wdg=1 bus=N0511.3 kV=4.8 kVA=50 wdg=2 bus=N0511TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM52 phases=1 wdg=1 bus=N52.1 kV=4.8 kVA=25 wdg=2 bus=N52T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM53 phases=1 wdg=1 bus=N53.1 kV=4.8 kVA=75 wdg=2 bus=N53T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM54 phases=1 wdg=1 bus=N54.1 kV=4.8 kVA=75 wdg=2 bus=N54T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFM56 phases=1 wdg=1 bus=N56.1 kV=4.8 kVA=75 wdg=2 bus=N56T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM57 phases=1 wdg=1 bus=N57.1 kV=4.8 kVA=75 wdg=2 bus=N57T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM58 phases=1 wdg=1 bus=N58.1 kV=4.8 kVA=75 wdg=2 bus=N58T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM59 phases=1 wdg=1 bus=N59.1 kV=4.8 kVA=75 wdg=2 bus=N59T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM60 phases=1 wdg=1 bus=N60.1 kV=4.8 kVA=75 wdg=2 bus=N60T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM61 phases=1 wdg=1 bus=N61.1 kV=4.8 kVA=75 wdg=2 bus=N61T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM64 phases=1 wdg=1 bus=N64.1 kV=4.8 kVA=75 wdg=2 bus=N64T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM65 phases=1 wdg=1 bus=N65.1 kV=4.8 kVA=75 wdg=2 bus=N65T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM66 phases=1 wdg=1 bus=N66.1 kV=4.8 kVA=50 wdg=2 bus=N66T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM67_5_1A phases=1 wdg=1 bus=N06751.1 kV=4.8 kVA=37.5 wdg=2 bus=N06751TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM67_5_1C phases=1 wdg=1 bus=N06751.3 kV=4.8 kVA=37.5 wdg=2 bus=N06751TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM67_5_1B phases=1 wdg=1 bus=N06751.2 kV=4.8 kVA=50 wdg=2 bus=N06751TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM68_1A phases=1 wdg=1 bus=N0681.1 kV=4.8 kVA=50 wdg=2 bus=N0681TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_1B phases=1 wdg=1 bus=N0681.2 kV=4.8 kVA=50 wdg=2 bus=N0681TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_1C phases=1 wdg=1 bus=N0681.3 kV=4.8 kVA=50 wdg=2 bus=N0681TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM68_1_1A phases=1 wdg=1 bus=N06811.1 kV=4.8 kVA=50 wdg=2 bus=N06811TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_1_1B phases=1 wdg=1 bus=N06811.2 kV=4.8 kVA=50 wdg=2 bus=N06811TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_1_1C phases=1 wdg=1 bus=N06811.3 kV=4.8 kVA=50 wdg=2 bus=N06811TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM68_2 phases=1 wdg=1 bus=N0682.3 kV=4.8 kVA=50 wdg=2 bus=N0682T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM68_3_1A phases=1 wdg=1 bus=N06831.1 kV=4.8 kVA=50 wdg=2 bus=N06831TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_3_1B phases=1 wdg=1 bus=N06831.2 kV=4.8 kVA=50 wdg=2 bus=N06831TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_3_1C phases=1 wdg=1 bus=N06831.3 kV=4.8 kVA=50 wdg=2 bus=N06831TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM68_3_2A phases=1 wdg=1 bus=N06832.1 kV=4.8 kVA=15 wdg=2 bus=N06832TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_3_2C phases=1 wdg=1 bus=N06832.3 kV=4.8 kVA=10 wdg=2 bus=N06832TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM68_3_3A phases=1 wdg=1 bus=N06833.1 kV=4.8 kVA=50 wdg=2 bus=N06833TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_3_3B phases=1 wdg=1 bus=N06833.2 kV=4.8 kVA=50 wdg=2 bus=N06833TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM68_3_3C phases=1 wdg=1 bus=N06833.3 kV=4.8 kVA=50 wdg=2 bus=N06833TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM69 phases=1 wdg=1 bus=N69.1 kV=4.8 kVA=50 wdg=2 bus=N69T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM69_1A phases=1 wdg=1 bus=N0691.1 kV=4.8 kVA=50 wdg=2 bus=N0691TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM69_1B phases=1 wdg=1 bus=N0691.2 kV=4.8 kVA=50 wdg=2 bus=N0691TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM69_1C phases=1 wdg=1 bus=N0691.3 kV=4.8 kVA=50 wdg=2 bus=N0691TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM70 phases=1 wdg=1 bus=N70.1 kV=4.8 kVA=50 wdg=2 bus=N70T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM71A phases=1 wdg=1 bus=N71.1 kV=4.8 kVA=50 wdg=2 bus=N71TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM71B phases=1 wdg=1 bus=N71.2 kV=4.8 kVA=10 wdg=2 bus=N71TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM71C phases=1 wdg=1 bus=N71.3 kV=4.8 kVA=10 wdg=2 bus=N71TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM72 phases=1 wdg=1 bus=N72.1 kV=4.8 kVA=50 wdg=2 bus=N72T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM73 phases=1 wdg=1 bus=N73.1 kV=4.8 kVA=50 wdg=2 bus=N73T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM74_1A phases=1 wdg=1 bus=N0741.1 kV=4.8 kVA=75 wdg=2 bus=N0741TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM74_1B phases=1 wdg=1 bus=N0741.2 kV=4.8 kVA=75 wdg=2 bus=N0741TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM74_1C phases=1 wdg=1 bus=N0741.3 kV=4.8 kVA=75 wdg=2 bus=N0741TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM75 phases=1 wdg=1 bus=N75.3 kV=4.8 kVA=50 wdg=2 bus=N75T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM76 phases=1 wdg=1 bus=N76.3 kV=4.8 kVA=50 wdg=2 bus=N76T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM76_1A phases=1 wdg=1 bus=N0761.1 kV=4.8 kVA=37.5 wdg=2 bus=N0761TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM76_1B phases=1 wdg=1 bus=N0761.2 kV=4.8 kVA=37.5 wdg=2 bus=N0761TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM76_1C phases=1 wdg=1 bus=N0761.3 kV=4.8 kVA=37.5 wdg=2 bus=N0761TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM77 phases=1 wdg=1 bus=N77.3 kV=4.8 kVA=50 wdg=2 bus=N77T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM79 phases=1 wdg=1 bus=N79.3 kV=4.8 kVA=50 wdg=2 bus=N79T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM79_1A phases=1 wdg=1 bus=N0791.1 kV=4.8 kVA=100 wdg=2 bus=N0791TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM79_1B phases=1 wdg=1 bus=N0791.2 kV=4.8 kVA=100 wdg=2 bus=N0791TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM79_1C phases=1 wdg=1 bus=N0791.3 kV=4.8 kVA=100 wdg=2 bus=N0791TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFM79_2A phases=1 wdg=1 bus=N0792.1 kV=4.8 kVA=10 wdg=2 bus=N0792TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM79_2B phases=1 wdg=1 bus=N0792.2 kV=4.8 kVA=10 wdg=2 bus=N0792TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM79_2C phases=1 wdg=1 bus=N0792.3 kV=4.8 kVA=50 wdg=2 bus=N0792TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM80 phases=1 wdg=1 bus=N80.3 kV=4.8 kVA=50 wdg=2 bus=N80T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM81 phases=1 wdg=1 bus=N81.3 kV=4.8 kVA=50 wdg=2 bus=N81T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFM83 phases=1 wdg=1 bus=N83.3 kV=4.8 kVA=50 wdg=2 bus=N83T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM84A phases=1 wdg=1 bus=N84.1 kV=4.8 kVA=25 wdg=2 bus=N84TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM84B phases=1 wdg=1 bus=N84.2 kV=4.8 kVA=25 wdg=2 bus=N84TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM84C phases=1 wdg=1 bus=N84.3 kV=4.8 kVA=25 wdg=2 bus=N84TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM85 phases=1 wdg=1 bus=N85.1 kV=4.8 kVA=15 wdg=2 bus=N85T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM86 phases=1 wdg=1 bus=N86.1 kV=4.8 kVA=50 wdg=2 bus=N86T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM89 phases=1 wdg=1 bus=N89.2 kV=4.8 kVA=25 wdg=2 bus=N89T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM90 phases=1 wdg=1 bus=N90.1 kV=4.8 kVA=10 wdg=2 bus=N90T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM91_1 phases=1 wdg=1 bus=N0911.1 kV=4.8 kVA=10 wdg=2 bus=N0911T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM91_3 phases=1 wdg=1 bus=N0913.3 kV=4.8 kVA=25 wdg=2 bus=N0913T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM91_4 phases=1 wdg=1 bus=N0914.3 kV=4.8 kVA=15 wdg=2 bus=N0914T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM92_1 phases=1 wdg=1 bus=N0921.3 kV=4.8 kVA=25 wdg=2 bus=N0921T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM94 phases=1 wdg=1 bus=N94.1 kV=4.8 kVA=25 wdg=2 bus=N94T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM94_1A phases=1 wdg=1 bus=N0941.1 kV=4.8 kVA=10 wdg=2 bus=N0941TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM94_1S phases=1 wdg=1 bus=N0941.1 kV=4.8 kVA=25 wdg=2 bus=N0941TS.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM99A phases=1 wdg=1 bus=N99.1 kV=4.8 kVA=37.5 wdg=2 bus=N99TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM99B phases=1 wdg=1 bus=N99.2 kV=4.8 kVA=37.5 wdg=2 bus=N99TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM99C phases=1 wdg=1 bus=N99.3 kV=4.8 kVA=37.5 wdg=2 bus=N99TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM100 phases=1 wdg=1 bus=N100.1 kV=4.8 kVA=75 wdg=2 bus=N100T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM101_1 phases=1 wdg=1 bus=N01011.3 kV=4.8 kVA=15 wdg=2 bus=N01011T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+!New Transformer.XFM101_1S phases=1 wdg=1 bus=N01011.3 kV=4.8 kVA=50 wdg=2 bus=N01011TS.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFM101_2 phases=1 wdg=1 bus=N01012.3 kV=4.8 kVA=37.5 wdg=2 bus=N01012T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM102 phases=1 wdg=1 bus=N102.3 kV=4.8 kVA=15 wdg=2 bus=N102T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM104 phases=1 wdg=1 bus=N104.2 kV=4.8 kVA=5 wdg=2 bus=N104T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM107 phases=1 wdg=1 bus=N107.2 kV=4.8 kVA=25 wdg=2 bus=N107T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM111 phases=1 wdg=1 bus=N111.2 kV=4.8 kVA=25 wdg=2 bus=N111T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM112 phases=1 wdg=1 bus=N112.2 kV=4.8 kVA=25 wdg=2 bus=N112T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM113_1 phases=1 wdg=1 bus=N01131.2 kV=4.8 kVA=15 wdg=2 bus=N01131T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM114_1 phases=1 wdg=1 bus=N01141.2 kV=4.8 kVA=15 wdg=2 bus=N01141T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM115 phases=1 wdg=1 bus=N115.2 kV=4.8 kVA=15 wdg=2 bus=N115T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM118 phases=1 wdg=1 bus=N118.2 kV=4.8 kVA=15 wdg=2 bus=N118T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM120_3 phases=1 wdg=1 bus=N01203.2 kV=4.8 kVA=37.5 wdg=2 bus=N01203T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+New Transformer.XFM123 phases=1 wdg=1 bus=N123.2 kV=4.8 kVA=10 wdg=2 bus=N123T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM124_1 phases=1 wdg=1 bus=N01241.2 kV=4.8 kVA=25 wdg=2 bus=N01241T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM128 phases=1 wdg=1 bus=N128.2 kV=4.8 kVA=10 wdg=2 bus=N128T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM130 phases=1 wdg=1 bus=N130.2 kV=4.8 kVA=25 wdg=2 bus=N130T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM130_1 phases=1 wdg=1 bus=N01301.2 kV=4.8 kVA=25 wdg=2 bus=N01301T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM130_2 phases=1 wdg=1 bus=N01302.2 kV=4.8 kVA=50 wdg=2 bus=N01302T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM133_1_1 phases=1 wdg=1 bus=N013311.2 kV=4.8 kVA=10 wdg=2 bus=N013311T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM133_4 phases=1 wdg=1 bus=N01334.2 kV=4.8 kVA=15 wdg=2 bus=N01334T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFM138 phases=1 wdg=1 bus=N138.2 kV=4.8 kVA=15 wdg=2 bus=N138T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM139 phases=1 wdg=1 bus=N139.2 kV=4.8 kVA=15 wdg=2 bus=N139T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM141 phases=1 wdg=1 bus=N141.2 kV=4.8 kVA=25 wdg=2 bus=N141T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM141_1 phases=1 wdg=1 bus=N01411.2 kV=4.8 kVA=15 wdg=2 bus=N01411T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM141_2 phases=1 wdg=1 bus=N01412.2 kV=4.8 kVA=15 wdg=2 bus=N01412T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM141_3 phases=1 wdg=1 bus=N01413.2 kV=4.8 kVA=50 wdg=2 bus=N01413T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM142 phases=1 wdg=1 bus=N142.2 kV=4.8 kVA=50 wdg=2 bus=N142T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM143 phases=1 wdg=1 bus=N143.2 kV=4.8 kVA=15 wdg=2 bus=N143T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFM144 phases=1 wdg=1 bus=N144.2 kV=4.8 kVA=25 wdg=2 bus=N144T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+!*********************************************  L5100 SINGLE Ph XFMRS *****************************************************************************************************************
+
+
+New Transformer.XFMP1_1 phases=1 wdg=1 bus=P011.1 kV=4.8 kVA=167 wdg=2 bus=P011T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMP2 phases=1 wdg=1 bus=P2.2 kV=4.8 kVA=50 wdg=2 bus=P2T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMP4_1 phases=1 wdg=1 bus=P041.1 kV=4.8 kVA=50 wdg=2 bus=P041T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMP5_1 phases=1 wdg=1 bus=P051.1 kV=4.8 kVA=100 wdg=2 bus=P051T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMP5_2 phases=1 wdg=1 bus=P052.2 kV=4.8 kVA=25 wdg=2 bus=P052T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMP5_3 phases=1 wdg=1 bus=P053.2 kV=4.8 kVA=25 wdg=2 bus=P053T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+!*********************************************  L5300 SINGLE Ph XFMRS *****************************************************************************************************************
+
+
+New Transformer.XFMQ1 phases=1 wdg=1 bus=Q1.1 kV=4.8 kVA=75 wdg=2 bus=Q1T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ2 phases=1 wdg=1 bus=Q2.2 kV=4.8 kVA=50 wdg=2 bus=Q2T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ3 phases=1 wdg=1 bus=Q3.2 kV=4.8 kVA=50 wdg=2 bus=Q3T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ4 phases=1 wdg=1 bus=Q4.2 kV=4.8 kVA=50 wdg=2 bus=Q4T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ6 phases=1 wdg=1 bus=Q6.2 kV=4.8 kVA=50 wdg=2 bus=Q6T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ7 phases=1 wdg=1 bus=Q7.2 kV=4.8 kVA=50 wdg=2 bus=Q7T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ8 phases=1 wdg=1 bus=Q8.2 kV=4.8 kVA=50 wdg=2 bus=Q8T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ9 phases=1 wdg=1 bus=Q9.2 kV=4.8 kVA=50 wdg=2 bus=Q9T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMQ10A phases=1 wdg=1 bus=Q10.1 kV=4.8 kVA=167 wdg=2 bus=Q10TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ10C phases=1 wdg=1 bus=Q10.3 kV=4.8 kVA=167 wdg=2 bus=Q10TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ11 phases=1 wdg=1 bus=Q11.2 kV=4.8 kVA=50 wdg=2 bus=Q11T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMQ12A phases=1 wdg=1 bus=Q12.1 kV=4.8 kVA=45 wdg=2 bus=Q12TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ12B phases=1 wdg=1 bus=Q12.2 kV=4.8 kVA=167 wdg=2 bus=Q12TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ12C phases=1 wdg=1 bus=Q12.3 kV=4.8 kVA=167 wdg=2 bus=Q12TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMQ13 phases=1 wdg=1 bus=Q13.2 kV=4.8 kVA=50 wdg=2 bus=Q13T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ14 phases=1 wdg=1 bus=Q14.2 kV=4.8 kVA=37.5 wdg=2 bus=Q14T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ14_1 phases=1 wdg=1 bus=Q0141.2 kV=4.8 kVA=50 wdg=2 bus=Q0141T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ14_3 phases=1 wdg=1 bus=Q0143.2 kV=4.8 kVA=50 wdg=2 bus=Q0143T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ15 phases=1 wdg=1 bus=Q15.2 kV=4.8 kVA=37.5 wdg=2 bus=Q15T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ16 phases=1 wdg=1 bus=Q16.2 kV=4.8 kVA=37.5 wdg=2 bus=Q16T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ17 phases=1 wdg=1 bus=Q17.2 kV=4.8 kVA=37.5 wdg=2 bus=Q17T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ18 phases=1 wdg=1 bus=Q18.2 kV=4.8 kVA=37.5 wdg=2 bus=Q18T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ19 phases=1 wdg=1 bus=Q19.2 kV=4.8 kVA=37.5 wdg=2 bus=Q19T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMQ20A phases=1 wdg=1 bus=Q20.1 kV=4.8 kVA=10 wdg=2 bus=Q20TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ20B phases=1 wdg=1 bus=Q20.2 kV=4.8 kVA=15 wdg=2 bus=Q20TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMQ20C phases=1 wdg=1 bus=Q20.3 kV=4.8 kVA=15 wdg=2 bus=Q20TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+
+
+
+!*********************************************  L5400 SINGLE Ph XFMRS *****************************************************************************************************************
+
+New Transformer.XFMR2_1 phases=1 wdg=1 bus=R021.3 kV=4.8 kVA=10 wdg=2 bus=R021T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR4 phases=1 wdg=1 bus=R4.2 kV=4.8 kVA=25 wdg=2 bus=R4T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR5 phases=1 wdg=1 bus=R5.2 kV=4.8 kVA=25 wdg=2 bus=R5T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR6 phases=1 wdg=1 bus=R6.2 kV=4.8 kVA=50 wdg=2 bus=R6T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR8 phases=1 wdg=1 bus=R8.2 kV=4.8 kVA=50 wdg=2 bus=R8T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR9 phases=1 wdg=1 bus=R9.2 kV=4.8 kVA=50 wdg=2 bus=R9T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR10 phases=1 wdg=1 bus=R10.2 kV=4.8 kVA=50 wdg=2 bus=R10T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR11 phases=1 wdg=1 bus=R11.2 kV=4.8 kVA=50 wdg=2 bus=R11T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR12 phases=1 wdg=1 bus=R12.2 kV=4.8 kVA=50 wdg=2 bus=R12T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR13 phases=1 wdg=1 bus=R13.2 kV=4.8 kVA=50 wdg=2 bus=R13T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR14 phases=1 wdg=1 bus=R14.2 kV=4.8 kVA=50 wdg=2 bus=R14T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR15 phases=1 wdg=1 bus=R15.3 kV=4.8 kVA=50 wdg=2 bus=R15T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR16 phases=1 wdg=1 bus=R16.3 kV=4.8 kVA=50 wdg=2 bus=R16T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR17 phases=1 wdg=1 bus=R17.3 kV=4.8 kVA=50 wdg=2 bus=R17T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR18 phases=1 wdg=1 bus=R18.3 kV=4.8 kVA=50 wdg=2 bus=R18T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR19 phases=1 wdg=1 bus=R19.3 kV=4.8 kVA=25 wdg=2 bus=R19T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR20 phases=1 wdg=1 bus=R20.2 kV=4.8 kVA=50 wdg=2 bus=R20T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR21 phases=1 wdg=1 bus=R21.2 kV=4.8 kVA=50 wdg=2 bus=R21T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR23 phases=1 wdg=1 bus=R23.1 kV=4.8 kVA=50 wdg=2 bus=R23T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR24 phases=1 wdg=1 bus=R24.1 kV=4.8 kVA=10 wdg=2 bus=R24T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR25 phases=1 wdg=1 bus=R25.1 kV=4.8 kVA=5 wdg=2 bus=R25T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR25_1 phases=1 wdg=1 bus=R0251.1 kV=4.8 kVA=15 wdg=2 bus=R0251T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR27 phases=1 wdg=1 bus=R27.1 kV=4.8 kVA=37.5 wdg=2 bus=R27T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR29 phases=1 wdg=1 bus=R29.1 kV=4.8 kVA=15 wdg=2 bus=R29T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR30 phases=1 wdg=1 bus=R30.1 kV=4.8 kVA=15 wdg=2 bus=R30T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR31 phases=1 wdg=1 bus=R31.1 kV=4.8 kVA=37.5 wdg=2 bus=R31T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR32 phases=1 wdg=1 bus=R32.1 kV=4.8 kVA=25 wdg=2 bus=R32T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMR37 phases=1 wdg=1 bus=R37.1 kV=4.8 kVA=15 wdg=2 bus=R37T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMRR1 phases=1 wdg=1 bus=RR1.1 kV=4.8 kVA=15 wdg=2 bus=RR1T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMRR2 phases=1 wdg=1 bus=RR2.1 kV=4.8 kVA=15 wdg=2 bus=RR2T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMRR021 phases=1 wdg=1 bus=RR021.1 kV=4.8 kVA=15 wdg=2 bus=RR021T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMRR3 phases=1 wdg=1 bus=RR3.1 kV=4.8 kVA=15 wdg=2 bus=RR3T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMRR6 phases=1 wdg=1 bus=RR6.1 kV=4.8 kVA=25 wdg=2 bus=RR6T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+!*********************************************  L5500 SINGLE Ph XFMRS *****************************************************************************************************************
+
+
+New Transformer.XFMS1_1 phases=1 wdg=1 bus=S011.3 kV=4.8 kVA=25 wdg=2 bus=S011T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS6 phases=1 wdg=1 bus=S6.3 kV=4.8 kVA=25 wdg=2 bus=S6T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS9 phases=1 wdg=1 bus=S9.3 kV=4.8 kVA=25 wdg=2 bus=S9T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS11 phases=1 wdg=1 bus=S11.3 kV=4.8 kVA=25 wdg=2 bus=S11T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS12_1 phases=1 wdg=1 bus=S0121.3 kV=4.8 kVA=25 wdg=2 bus=S0121T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS15 phases=1 wdg=1 bus=S15.3 kV=4.8 kVA=15 wdg=2 bus=S15T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS17S phases=1 wdg=1 bus=S17S.3 kV=4.8 kVA=15 wdg=2 bus=S17ST.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS18 phases=1 wdg=1 bus=S18.3 kV=4.8 kVA=15 wdg=2 bus=S18T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS19 phases=1 wdg=1 bus=S19.3 kV=4.8 kVA=25 wdg=2 bus=S19T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS20_1 phases=1 wdg=1 bus=S0201.3 kV=4.8 kVA=15 wdg=2 bus=S0201T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+New Transformer.XFMS21_1 phases=1 wdg=1 bus=S0211.3 kV=4.8 kVA=15 wdg=2 bus=S0211T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS25 phases=1 wdg=1 bus=S25.3 kV=4.8 kVA=15 wdg=2 bus=S25T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS27 phases=1 wdg=1 bus=S27.3 kV=4.8 kVA=25 wdg=2 bus=S27T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS28 phases=1 wdg=1 bus=S28.3 kV=4.8 kVA=15 wdg=2 bus=S28T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS29_1 phases=1 wdg=1 bus=S0291.3 kV=4.8 kVA=10 wdg=2 bus=S0291T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS33 phases=1 wdg=1 bus=S33.3 kV=4.8 kVA=15 wdg=2 bus=S33T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS36 phases=1 wdg=1 bus=S36.3 kV=4.8 kVA=10 wdg=2 bus=S36T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS37_1 phases=1 wdg=1 bus=S0371.3 kV=4.8 kVA=10 wdg=2 bus=S0371T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS37_2 phases=1 wdg=1 bus=S0372.3 kV=4.8 kVA=25 wdg=2 bus=S0372T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS39 phases=1 wdg=1 bus=S39.3 kV=4.8 kVA=15 wdg=2 bus=S39T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS39_1 phases=1 wdg=1 bus=S0391.3 kV=4.8 kVA=50 wdg=2 bus=S0391T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS40 phases=1 wdg=1 bus=S40.3 kV=4.8 kVA=25 wdg=2 bus=S40T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMS42 phases=1 wdg=1 bus=S42.3 kV=4.8 kVA=15 wdg=2 bus=S42T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMSS1 phases=1 wdg=1 bus=SS1.3 kV=4.8 kVA=50 wdg=2 bus=SS1T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSS3_1 phases=1 wdg=1 bus=SS031.3 kV=4.8 kVA=25 wdg=2 bus=SS031T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSS5 phases=1 wdg=1 bus=SS5.3 kV=4.8 kVA=10 wdg=2 bus=SS5T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSS6 phases=1 wdg=1 bus=SS6.3 kV=4.8 kVA=50 wdg=2 bus=SS6T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSS7 phases=1 wdg=1 bus=SS7.3 kV=4.8 kVA=15 wdg=2 bus=SS7T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMSSS1_1 phases=1 wdg=1 bus=SSS011.3 kV=4.8 kVA=15 wdg=2 bus=SSS011T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSSS2 phases=1 wdg=1 bus=SSS2.3 kV=4.8 kVA=15 wdg=2 bus=SSS2T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSSS3 phases=1 wdg=1 bus=SSS3.3 kV=4.8 kVA=10 wdg=2 bus=SSS3T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSSS4 phases=1 wdg=1 bus=SSS4.3 kV=4.8 kVA=15 wdg=2 bus=SSS4T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSSS7 phases=1 wdg=1 bus=SSS7.3 kV=4.8 kVA=15 wdg=2 bus=SSS7T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSSS11 phases=1 wdg=1 bus=SSS11.3 kV=4.8 kVA=10 wdg=2 bus=SSS11T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMSSS12 phases=1 wdg=1 bus=SSS12.3 kV=4.8 kVA=15 wdg=2 bus=SSS12T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+
+!*********************************************  L5600 SINGLE Ph XFMRS *****************************************************************************************************************
+
+
+New Transformer.XFMT2_2 phases=1 wdg=1 bus=T022.1 kV=4.8 kVA=25 wdg=2 bus=TO22T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT2_3 phases=1 wdg=1 bus=T023.1 kV=4.8 kVA=25 wdg=2 bus=TO23T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT3 phases=1 wdg=1 bus=T3.1 kV=4.8 kVA=15 wdg=2 bus=T3T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT4 phases=1 wdg=1 bus=T4.1 kV=4.8 kVA=15 wdg=2 bus=T4T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT5 phases=1 wdg=1 bus=T5.1 kV=4.8 kVA=15 wdg=2 bus=T5T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT6 phases=1 wdg=1 bus=T6.1 kV=4.8 kVA=15 wdg=2 bus=T6T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT7 phases=1 wdg=1 bus=T7.1 kV=4.8 kVA=15 wdg=2 bus=T7T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT8 phases=1 wdg=1 bus=T8.1 kV=4.8 kVA=15 wdg=2 bus=T8T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT9 phases=1 wdg=1 bus=T9.1 kV=4.8 kVA=15 wdg=2 bus=T9T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT9_1 phases=1 wdg=1 bus=T091.1 kV=4.8 kVA=25 wdg=2 bus=T091T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT10 phases=1 wdg=1 bus=T10.1 kV=4.8 kVA=10 wdg=2 bus=T10T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT10_1 phases=1 wdg=1 bus=T0101.1 kV=4.8 kVA=25 wdg=2 bus=T0101T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT11 phases=1 wdg=1 bus=T11.1 kV=4.8 kVA=15 wdg=2 bus=T11T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMT12_1 phases=1 wdg=1 bus=T0121.1 kV=4.8 kVA=25 wdg=2 bus=T0121T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT13 phases=1 wdg=1 bus=T13.1 kV=4.8 kVA=25 wdg=2 bus=T13T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT15 phases=1 wdg=1 bus=T15.1 kV=4.8 kVA=15 wdg=2 bus=T15T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT16 phases=1 wdg=1 bus=T16.1 kV=4.8 kVA=50 wdg=2 bus=T16T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT19 phases=1 wdg=1 bus=T19.1 kV=4.8 kVA=15 wdg=2 bus=T19T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMT21 phases=1 wdg=1 bus=T21.1 kV=4.8 kVA=15 wdg=2 bus=T21T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMTT3_2 phases=1 wdg=1 bus=TT032.1 kV=4.8 kVA=25 wdg=2 bus=TT032T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMTT9 phases=1 wdg=1 bus=TT9.1 kV=4.8 kVA=25 wdg=2 bus=TT9T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+
+!*********************************************  L5800 SINGLE Ph XFMRS *****************************************************************************************************************
+
+New Transformer.XFMU1 phases=1 wdg=1 bus=U1.2 kV=4.8 kVA=10 wdg=2 bus=U1T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU2_1 phases=1 wdg=1 bus=U021.2 kV=4.8 kVA=15 wdg=2 bus=U021T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU3 phases=1 wdg=1 bus=U3.2 kV=4.8 kVA=15 wdg=2 bus=U3T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU4_1 phases=1 wdg=1 bus=U041.2 kV=4.8 kVA=15 wdg=2 bus=U041T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU5 phases=1 wdg=1 bus=U5.2 kV=4.8 kVA=25 wdg=2 bus=U5T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU5_5_1 phases=1 wdg=1 bus=U0551.2 kV=4.8 kVA=15 wdg=2 bus=U0551T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU6 phases=1 wdg=1 bus=U6.2 kV=4.8 kVA=10 wdg=2 bus=U6T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU6_2 phases=1 wdg=1 bus=U062.2 kV=4.8 kVA=25 wdg=2 bus=U062T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU8 phases=1 wdg=1 bus=U8.2 kV=4.8 kVA=10 wdg=2 bus=U8T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMU9 phases=1 wdg=1 bus=U9.2 kV=4.8 kVA=25 wdg=2 bus=U9T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+!***************************************** L1000 SINGLE PH XFMRS********************************************************************************
+
+New Transformer.XFMV2A phases=1 wdg=1 bus=V2.1 kV=4.8 kVA=25 wdg=2 bus=V2TA.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV2B phases=1 wdg=1 bus=V2.2 kV=4.8 kVA=25 wdg=2 bus=V2TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV2C phases=1 wdg=1 bus=V2.3 kV=4.8 kVA=25 wdg=2 bus=V2TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV3 phases=1 wdg=1 bus=V3.1 kV=4.8 kVA=50 wdg=2 bus=V3T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV5 phases=1 wdg=1 bus=V5.1 kV=4.8 kVA=50 wdg=2 bus=V5T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV8 phases=1 wdg=1 bus=V8.1 kV=4.8 kVA=50 wdg=2 bus=V8T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV11 phases=1 wdg=1 bus=V11.1 kV=4.8 kVA=50 wdg=2 bus=V11T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV12 phases=1 wdg=1 bus=V12.1 kV=4.8 kVA=50 wdg=2 bus=V12T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV14 phases=1 wdg=1 bus=V14.1 kV=4.8 kVA=50 wdg=2 bus=V14T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV18 phases=1 wdg=1 bus=V18.1 kV=4.8 kVA=50 wdg=2 bus=V18T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV16 phases=1 wdg=1 bus=V16.1 kV=4.8 kVA=50 wdg=2 bus=V16T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV15 phases=1 wdg=1 bus=V15.1 kV=4.8 kVA=50 wdg=2 bus=V15T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV14_2 phases=1 wdg=1 bus=V0142.2 kV=4.8 kVA=50 wdg=2 bus=V0142T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV13 phases=1 wdg=1 bus=V18.1 kV=4.8 kVA=50 wdg=2 bus=V13T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV10 phases=1 wdg=1 bus=V10.1 kV=4.8 kVA=50 wdg=2 bus=V10T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV9 phases=1 wdg=1 bus=V9.1 kV=4.8 kVA=50 wdg=2 bus=V9T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV6 phases=1 wdg=1 bus=V6.1 kV=4.8 kVA=50 wdg=2 bus=V6T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMV19 phases=1 wdg=1 bus=V19.1 kV=4.8 kVA=50 wdg=2 bus=V19T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV20 phases=1 wdg=1 bus=V20.1 kV=4.8 kVA=50 wdg=2 bus=V20T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV21 phases=1 wdg=1 bus=V21.1 kV=4.8 kVA=50 wdg=2 bus=V21T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV22 phases=1 wdg=1 bus=V22.1 kV=4.8 kVA=50 wdg=2 bus=V22T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV23 phases=1 wdg=1 bus=V23.1 kV=4.8 kVA=50 wdg=2 bus=V23T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV24 phases=1 wdg=1 bus=V24.1 kV=4.8 kVA=50 wdg=2 bus=V24T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV25 phases=1 wdg=1 bus=V25.1 kV=4.8 kVA=50 wdg=2 bus=V25T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV26 phases=1 wdg=1 bus=V26.1 kV=4.8 kVA=50 wdg=2 bus=V26T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV27 phases=1 wdg=1 bus=V27.1 kV=4.8 kVA=50 wdg=2 bus=V27T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV30 phases=1 wdg=1 bus=V30.3 kV=4.8 kVA=15 wdg=2 bus=V30T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV30_3 phases=1 wdg=1 bus=V0303.3 kV=4.8 kVA=10 wdg=2 bus=V0303T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+New Transformer.XFMV33 phases=1 wdg=1 bus=V33.2 kV=4.8 kVA=10 wdg=2 bus=V33T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV38 phases=1 wdg=1 bus=V38.2 kV=4.8 kVA=10 wdg=2 bus=V38T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV41 phases=1 wdg=1 bus=V41.1 kV=4.8 kVA=50 wdg=2 bus=V41T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV42 phases=1 wdg=1 bus=V42.2 kV=4.8 kVA=15 wdg=2 bus=V42T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV45 phases=1 wdg=1 bus=V45.2 kV=4.8 kVA=15 wdg=2 bus=V45T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV46 phases=1 wdg=1 bus=V46.3 kV=4.8 kVA=25 wdg=2 bus=V46T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV48 phases=1 wdg=1 bus=V48.2 kV=4.8 kVA=25 wdg=2 bus=V48T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV49 phases=1 wdg=1 bus=V49.1 kV=4.8 kVA=15 wdg=2 bus=V49T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV55 phases=1 wdg=1 bus=V55.3 kV=4.8 kVA=25 wdg=2 bus=V55T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV57 phases=1 wdg=1 bus=V57.1 kV=4.8 kVA=15 wdg=2 bus=V57T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV61 phases=1 wdg=1 bus=V61.3 kV=4.8 kVA=10 wdg=2 bus=V61T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMV63 phases=1 wdg=1 bus=V63.3 kV=4.8 kVA=15 wdg=2 bus=V63T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV64 phases=1 wdg=1 bus=V64.3 kV=4.8 kVA=25 wdg=2 bus=V64T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV66 phases=1 wdg=1 bus=V66.2 kV=4.8 kVA=25 wdg=2 bus=V66T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV68B phases=1 wdg=1 bus=V68.2 kV=4.8 kVA=25 wdg=2 bus=V68TB.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV68C phases=1 wdg=1 bus=V68.3 kV=4.8 kVA=37.5 wdg=2 bus=V68TC.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV69 phases=1 wdg=1 bus=V69.1 kV=4.8 kVA=25 wdg=2 bus=V69T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV71_1 phases=1 wdg=1 bus=V0711.1 kV=4.8 kVA=25 wdg=2 bus=V0711T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV71_2 phases=1 wdg=1 bus=V0712.1 kV=4.8 kVA=25 wdg=2 bus=V0712T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV71_3 phases=1 wdg=1 bus=V0713.1 kV=4.8 kVA=25 wdg=2 bus=V0713T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV71_4 phases=1 wdg=1 bus=V0714.1 kV=4.8 kVA=15 wdg=2 bus=V0714T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV71_5 phases=1 wdg=1 bus=V0715.1 kV=4.8 kVA=25 wdg=2 bus=V0715T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV71_3_1 phases=1 wdg=1 bus=V07131.1 kV=4.8 kVA=15 wdg=2 bus=V07131T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV71_3_3 phases=1 wdg=1 bus=V07133.1 kV=4.8 kVA=15 wdg=2 bus=V07133T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV73 phases=1 wdg=1 bus=V73.3 kV=4.8 kVA=10 wdg=2 bus=V73T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV74 phases=1 wdg=1 bus=V74.3 kV=4.8 kVA=10 wdg=2 bus=V74T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMV81 phases=1 wdg=1 bus=V81.3 kV=4.8 kVA=50 wdg=2 bus=V81T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV87 phases=1 wdg=1 bus=V87.3 kV=4.8 kVA=10 wdg=2 bus=V87T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV88 phases=1 wdg=1 bus=V88.3 kV=4.8 kVA=25 wdg=2 bus=V88T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV89 phases=1 wdg=1 bus=V89.3 kV=4.8 kVA=15 wdg=2 bus=V89T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV92 phases=1 wdg=1 bus=V92.3 kV=4.8 kVA=10 wdg=2 bus=V92T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV95 phases=1 wdg=1 bus=V95.3 kV=4.8 kVA=15 wdg=2 bus=V95T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV97 phases=1 wdg=1 bus=V97.3 kV=4.8 kVA=37.5 wdg=2 bus=V97T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV100_2 phases=1 wdg=1 bus=V01002.3 kV=4.8 kVA=15 wdg=2 bus=V01002T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV101 phases=1 wdg=1 bus=V101.3 kV=4.8 kVA=15 wdg=2 bus=V101T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV102 phases=1 wdg=1 bus=V102.3 kV=4.8 kVA=10 wdg=2 bus=V102T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV104 phases=1 wdg=1 bus=V104.3 kV=4.8 kVA=25 wdg=2 bus=V104T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV105_1 phases=1 wdg=1 bus=V01051.3 kV=4.8 kVA=15 wdg=2 bus=V01051T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV106 phases=1 wdg=1 bus=V106.3 kV=4.8 kVA=25 wdg=2 bus=V106T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV108 phases=1 wdg=1 bus=V108.3 kV=4.8 kVA=15 wdg=2 bus=V108T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMV113 phases=1 wdg=1 bus=V113.3 kV=4.8 kVA=25 wdg=2 bus=V113T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV118 phases=1 wdg=1 bus=V118.3 kV=4.8 kVA=37.5 wdg=2 bus=V118T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV118_1 phases=1 wdg=1 bus=V01181.3 kV=4.8 kVA=25 wdg=2 bus=V01181T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV124 phases=1 wdg=1 bus=V124.3 kV=4.8 kVA=25 wdg=2 bus=V124T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV128 phases=1 wdg=1 bus=V128.3 kV=4.8 kVA=15 wdg=2 bus=V128T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV129 phases=1 wdg=1 bus=V129.3 kV=4.8 kVA=10 wdg=2 bus=V129T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV135 phases=1 wdg=1 bus=V135.3 kV=4.8 kVA=10 wdg=2 bus=V135T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV135_5 phases=1 wdg=1 bus=V01355.3 kV=4.8 kVA=15 wdg=2 bus=V01355T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV136 phases=1 wdg=1 bus=V136.3 kV=4.8 kVA=10 wdg=2 bus=V136T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV137_1 phases=1 wdg=1 bus=V01371.3 kV=4.8 kVA=25 wdg=2 bus=V01371T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV140 phases=1 wdg=1 bus=V140.3 kV=4.8 kVA=25 wdg=2 bus=V140T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV143_1 phases=1 wdg=1 bus=V01431.3 kV=4.8 kVA=25 wdg=2 bus=V01431T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV145_1 phases=1 wdg=1 bus=V01451.3 kV=4.8 kVA=25 wdg=2 bus=V01451T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV145_2 phases=1 wdg=1 bus=V01452.3 kV=4.8 kVA=15 wdg=2 bus=V01452T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV150_2 phases=1 wdg=1 bus=V01502.3 kV=4.8 kVA=15 wdg=2 bus=V01502T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV150_3 phases=1 wdg=1 bus=V01503.3 kV=4.8 kVA=25 wdg=2 bus=V01503T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV150_7 phases=1 wdg=1 bus=V01507.3 kV=4.8 kVA=15 wdg=2 bus=V01507T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMV151 phases=1 wdg=1 bus=V151.3 kV=4.8 kVA=10 wdg=2 bus=V151T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV152 phases=1 wdg=1 bus=V152.3 kV=4.8 kVA=37.5 wdg=2 bus=V152T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+!New Transformer.XFMV157 phases=1 wdg=1 bus=V157.3 kV=4.8 kVA=37.5 wdg=2 bus=V157T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMV161 phases=1 wdg=1 bus=V161.3 kV=4.8 kVA=50 wdg=2 bus=V161T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV162 phases=1 wdg=1 bus=V162.3 kV=4.8 kVA=25 wdg=2 bus=V162T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMV171_5 phases=1 wdg=1 bus=V01715.3 kV=4.8 kVA=15 wdg=2 bus=V01715T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV176 phases=1 wdg=1 bus=V176.3 kV=4.8 kVA=15 wdg=2 bus=V176T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV176_1 phases=1 wdg=1 bus=V01761.3 kV=4.8 kVA=10 wdg=2 bus=V01761T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV178 phases=1 wdg=1 bus=V178.3 kV=4.8 kVA=25 wdg=2 bus=V178T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV180 phases=1 wdg=1 bus=V180.3 kV=4.8 kVA=10 wdg=2 bus=V180T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV183 phases=1 wdg=1 bus=V183.3 kV=4.8 kVA=15 wdg=2 bus=V183T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV189 phases=1 wdg=1 bus=V189.3 kV=4.8 kVA=37.5 wdg=2 bus=V189T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV191 phases=1 wdg=1 bus=V191.3 kV=4.8 kVA=37.5 wdg=2 bus=V191T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMV194 phases=1 wdg=1 bus=V194.3 kV=4.8 kVA=50 wdg=2 bus=V194T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV198 phases=1 wdg=1 bus=V198.3 kV=4.8 kVA=50 wdg=2 bus=V198T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV198_1 phases=1 wdg=1 bus=V01981.3 kV=4.8 kVA=15 wdg=2 bus=V01981T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV198_2 phases=1 wdg=1 bus=V01982.3 kV=4.8 kVA=10 wdg=2 bus=V01982T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV198_2_1 phases=1 wdg=1 bus=V019821.3 kV=4.8 kVA=25 wdg=2 bus=V019821T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV198_3 phases=1 wdg=1 bus=V01983.3 kV=4.8 kVA=15 wdg=2 bus=V01983T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV198_4 phases=1 wdg=1 bus=V01984.3 kV=4.8 kVA=25 wdg=2 bus=V01984T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+New Transformer.XFMV201_1 phases=1 wdg=1 bus=V02011.3 kV=4.8 kVA=25 wdg=2 bus=V02011T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV202 phases=1 wdg=1 bus=V202.3 kV=4.8 kVA=25 wdg=2 bus=V202T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV204 phases=1 wdg=1 bus=V204.3 kV=4.8 kVA=15 wdg=2 bus=V204T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMV206 phases=1 wdg=1 bus=V206.3 kV=4.8 kVA=25 wdg=2 bus=V206T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+!****************************************** L1100 SINGLE PH XFMRS PHASE B ********************************************************************************
+
+
+New Transformer.XFMW0_5 phases=1 wdg=1 bus=WO5.2 kV=4.8 kVA=15 wdg=2 bus=W05T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW2 phases=1 wdg=1 bus=W2.2 kV=4.8 kVA=15 wdg=2 bus=W2T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW4_5 phases=1 wdg=1 bus=W045.2 kV=4.8 kVA=15 wdg=2 bus=W045T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW5 phases=1 wdg=1 bus=W5.2 kV=4.8 kVA=10 wdg=2 bus=W5T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW8 phases=1 wdg=1 bus=W8.2 kV=4.8 kVA=15 wdg=2 bus=W8T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW14 phases=1 wdg=1 bus=W14.2 kV=4.8 kVA=10 wdg=2 bus=W14T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW15 phases=1 wdg=1 bus=W15.2 kV=4.8 kVA=15 wdg=2 bus=W15T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW17 phases=1 wdg=1 bus=W17.2 kV=4.8 kVA=25 wdg=2 bus=W17T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW17_1 phases=1 wdg=1 bus=W0171.2 kV=4.8 kVA=15 wdg=2 bus=W0171T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW20 phases=1 wdg=1 bus=W20.2 kV=4.8 kVA=15 wdg=2 bus=W20T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW22 phases=1 wdg=1 bus=W22.2 kV=4.8 kVA=10 wdg=2 bus=W22T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW24 phases=1 wdg=1 bus=W24.2 kV=4.8 kVA=25 wdg=2 bus=W24T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW26 phases=1 wdg=1 bus=W26.2 kV=4.8 kVA=37.5 wdg=2 bus=W26T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMW27 phases=1 wdg=1 bus=W27.2 kV=4.8 kVA=15 wdg=2 bus=W27T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+New Transformer.XFMWW1_1 phases=1 wdg=1 bus=WW011.2 kV=4.8 kVA=10 wdg=2 bus=WW011T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW1_6 phases=1 wdg=1 bus=WW016.2 kV=4.8 kVA=10 wdg=2 bus=WW016T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW2 phases=1 wdg=1 bus=WW2.2 kV=4.8 kVA=25 wdg=2 bus=WW2T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW3 phases=1 wdg=1 bus=WW3.2 kV=4.8 kVA=5 wdg=2 bus=WW3T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW4 phases=1 wdg=1 bus=WW4.2 kV=4.8 kVA=25 wdg=2 bus=WW4T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW4_5 phases=1 wdg=1 bus=WW045.2 kV=4.8 kVA=15 wdg=2 bus=WW045T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW6 phases=1 wdg=1 bus=WW6.2 kV=4.8 kVA=15 wdg=2 bus=WW6T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW7_4 phases=1 wdg=1 bus=WW074.2 kV=4.8 kVA=15 wdg=2 bus=WW074T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW8 phases=1 wdg=1 bus=WW8.2 kV=4.8 kVA=25 wdg=2 bus=WW8T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW9 phases=1 wdg=1 bus=WW9.2 kV=4.8 kVA=10 wdg=2 bus=WW9T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW10 phases=1 wdg=1 bus=WW10.2 kV=4.8 kVA=15 wdg=2 bus=WW10T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW11 phases=1 wdg=1 bus=WW11.2 kV=4.8 kVA=25 wdg=2 bus=WW11T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW12 phases=1 wdg=1 bus=WW12.2 kV=4.8 kVA=10 wdg=2 bus=WW12T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW12_1 phases=1 wdg=1 bus=WW0121.2 kV=4.8 kVA=25 wdg=2 bus=WW0121T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW13 phases=1 wdg=1 bus=WW13.2 kV=4.8 kVA=15 wdg=2 bus=WW13T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW13_3 phases=1 wdg=1 bus=WW0133.2 kV=4.8 kVA=15 wdg=2 bus=WW0133T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW13_5 phases=1 wdg=1 bus=WW0135.2 kV=4.8 kVA=25 wdg=2 bus=WW0135T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW13_7 phases=1 wdg=1 bus=WW0137.2 kV=4.8 kVA=10 wdg=2 bus=WW0137T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW14 phases=1 wdg=1 bus=WW14.2 kV=4.8 kVA=25 wdg=2 bus=WW14T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMWW17 phases=1 wdg=1 bus=WW17.2 kV=4.8 kVA=15 wdg=2 bus=WW17T.2 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+!****************************************** L1200 SINGLE PH XFMRS PHASE A ********************************************************************************
+
+
+New Transformer.XFMX1 phases=1 wdg=1 bus=X1.1 kV=4.8 kVA=15 wdg=2 bus=X1T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX8 phases=1 wdg=1 bus=X8.1 kV=4.8 kVA=15 wdg=2 bus=X8T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX10 phases=1 wdg=1 bus=X10.1 kV=4.8 kVA=10 wdg=2 bus=X10T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX11_1 phases=1 wdg=1 bus=X0111.1 kV=4.8 kVA=15 wdg=2 bus=X0111T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX12 phases=1 wdg=1 bus=X12.1 kV=4.8 kVA=15 wdg=2 bus=X12T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX14 phases=1 wdg=1 bus=X14.1 kV=4.8 kVA=10 wdg=2 bus=X14T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX15 phases=1 wdg=1 bus=X15.1 kV=4.8 kVA=25 wdg=2 bus=X15T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX17 phases=1 wdg=1 bus=X17.1 kV=4.8 kVA=10 wdg=2 bus=X17T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX18 phases=1 wdg=1 bus=X18.1 kV=4.8 kVA=15 wdg=2 bus=X18T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX19_2 phases=1 wdg=1 bus=X0192.1 kV=4.8 kVA=10 wdg=2 bus=X0192T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX21 phases=1 wdg=1 bus=X21.1 kV=4.8 kVA=15 wdg=2 bus=X21T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX23 phases=1 wdg=1 bus=X23.1 kV=4.8 kVA=10 wdg=2 bus=X23T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX29 phases=1 wdg=1 bus=X29.1 kV=4.8 kVA=25 wdg=2 bus=X29T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMX34 phases=1 wdg=1 bus=X34.1 kV=4.8 kVA=10 wdg=2 bus=X34T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMXX1 phases=1 wdg=1 bus=XX1.1 kV=4.8 kVA=25 wdg=2 bus=XX1T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXX1_3 phases=1 wdg=1 bus=XX013.1 kV=4.8 kVA=10 wdg=2 bus=XX013T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXX1_1_1 phases=1 wdg=1 bus=XX0111.1 kV=4.8 kVA=15 wdg=2 bus=XX0111T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXX6 phases=1 wdg=1 bus=XX6.1 kV=4.8 kVA=15 wdg=2 bus=XX6T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXX7 phases=1 wdg=1 bus=XX7.1 kV=4.8 kVA=5 wdg=2 bus=XX7T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXX7_4 phases=1 wdg=1 bus=XX074.1 kV=4.8 kVA=15 wdg=2 bus=XX074T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXX10 phases=1 wdg=1 bus=XX10.1 kV=4.8 kVA=25 wdg=2 bus=XX10T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+New Transformer.XFMXXX1 phases=1 wdg=1 bus=XXX1.1 kV=4.8 kVA=15 wdg=2 bus=XXX1T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXXX3 phases=1 wdg=1 bus=XXX3.1 kV=4.8 kVA=25 wdg=2 bus=XXX3T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXXX4_1 phases=1 wdg=1 bus=XXX041.1 kV=4.8 kVA=15 wdg=2 bus=XXX041T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMXXX5 phases=1 wdg=1 bus=XXX5.1 kV=4.8 kVA=15 wdg=2 bus=XXX5T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+!****************************************** L1400 SINGLE PH XFMRS PHASE A ********************************************************************************
+
+
+New Transformer.XFMY1 phases=1 wdg=1 bus=Y1.1 kV=4.8 kVA=25 wdg=2 bus=Y1T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY1_5 phases=1 wdg=1 bus=Y015.1 kV=4.8 kVA=10 wdg=2 bus=Y015T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY2_1 phases=1 wdg=1 bus=Y021.1 kV=4.8 kVA=15 wdg=2 bus=Y021T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY4_1 phases=1 wdg=1 bus=Y041.1 kV=4.8 kVA=25 wdg=2 bus=Y041T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY5_3 phases=1 wdg=1 bus=Y053.1 kV=4.8 kVA=15 wdg=2 bus=Y053T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY5_5 phases=1 wdg=1 bus=Y055.1 kV=4.8 kVA=37.5 wdg=2 bus=Y055T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY6_1 phases=1 wdg=1 bus=Y061.1 kV=4.8 kVA=15 wdg=2 bus=Y061T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY8 phases=1 wdg=1 bus=Y8.1 kV=4.8 kVA=5 wdg=2 bus=Y8T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY9 phases=1 wdg=1 bus=Y9.1 kV=4.8 kVA=25 wdg=2 bus=Y9T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY10 phases=1 wdg=1 bus=Y10.1 kV=4.8 kVA=10 wdg=2 bus=Y10T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY11 phases=1 wdg=1 bus=Y11.1 kV=4.8 kVA=15 wdg=2 bus=Y11T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY12 phases=1 wdg=1 bus=Y12.1 kV=4.8 kVA=15 wdg=2 bus=Y12T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY14 phases=1 wdg=1 bus=Y14.1 kV=4.8 kVA=15 wdg=2 bus=Y14T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY15 phases=1 wdg=1 bus=Y15.1 kV=4.8 kVA=15 wdg=2 bus=Y15T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY16 phases=1 wdg=1 bus=Y16.1 kV=4.8 kVA=15 wdg=2 bus=Y16T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMY18 phases=1 wdg=1 bus=Y18.1 kV=4.8 kVA=25 wdg=2 bus=Y18T.1 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+!****************************************** L1500 SINGLE PH XFMRS PHASE C ********************************************************************************
+
+
+New Transformer.XFMZ6 phases=1 wdg=1 bus=Z6.3 kV=4.8 kVA=25 wdg=2 bus=Z6T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMZ12 phases=1 wdg=1 bus=Z12.3 kV=4.8 kVA=15 wdg=2 bus=Z12T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMZ13_2 phases=1 wdg=1 bus=Z0132.3 kV=4.8 kVA=15 wdg=2 bus=Z0132T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFMZ14 phases=1 wdg=1 bus=Z14.3 kV=4.8 kVA=25 wdg=2 bus=Z14T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+!****************************************** L1600 SINGLE PH XFMRS PHASE C ********************************************************************************
+
+New Transformer.XFML1 phases=1 wdg=1 bus=L1.3 kV=4.8 kVA=25 wdg=2 bus=L1T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+New Transformer.XFML3 phases=1 wdg=1 bus=L3.3 kV=4.8 kVA=25 wdg=2 bus=L3T.3 kV=0.120 xhl=0.1 %loadloss=.01 %noloadloss=.0025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

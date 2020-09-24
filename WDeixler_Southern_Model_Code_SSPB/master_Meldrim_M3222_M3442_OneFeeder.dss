@@ -1,0 +1,64 @@
+!---------------------------------
+! converted from CYME 5.04 .sxst-file with OpenDSS_SFC.py (version: 01.00.012, last update: 03/22/2017)
+! ---------------------------------
+
+Clear
+
+New Circuit.MELDRIM_M3442-9466 bus1=MELDRIM_M3442-9466
+~ BasekV=13.8 pu=1.00000001069 angle=0.00000
+~ Z1=[0.002100, 0.012602] ! actual ohms positive-sequence impedance, as a 2-element array representing a complex number 1+2j
+~ Z0=[0.010502, 0.042008] !zero-sequence impedance, 
+
+
+AddBusMarker Bus=MELDRIM_M3442-9466 Code=36 color=yellow size=10 !Feeder 1 main bus
+AddBusMarker Bus=MELDRIM_M3222-9466 Code=36 color=Black size=2 !Feeder 2 main bus
+
+! bus marker 
+AddBusMarker Bus=189_3744947 Code=3 color=yellow size=35 
+
+!markers for the transformers
+AddBusMarker Bus=190_17361_2R Code=36 color=Green size=5 ! This is the location of the tie controller (Tie with Bus=190_17361)
+!AddBusMarker Bus=190_8644_2R Code=3 color=Green size=5
+!AddBusMarker Bus=190_8642_2R Code=3 color=Green size=5
+!AddBusMarker Bus=190_8643_2R Code=3 color=Green size=5
+
+
+
+Redirect linecodes.dss
+Redirect lines.dss
+!New Line.Temp1 Phases=3 Bus1=MELDRIM_M3442-9466 Bus2=meldrim_m3222-9466.1.2.3 Length=11.011531 units=m Spacing=3PH_H_3_YYYY wires=[795_AAC 795_AAC 795_AAC 4/0_ACSR] faultrate=4.8606136e-05 repair=3.7
+Redirect loads.dss
+
+Redirect Distloads.dss
+
+Redirect capacitors.dss
+Redirect transformers.dss
+Redirect regulators.dss
+Redirect miscellaneous.dss
+Redirect switches.dss
+!Redirect PVGen.txt
+
+Set voltagebases =  [13.2, 24.94, 69.0]
+
+CalcVoltageBases
+buscoords buscoords.dss
+New energymeter.m1 line.227_4349091_1 1
+!New energymeter.m2 line.227_4349089_3 1
+
+
+! Some command templates, commented out
+
+
+solve
+!plot circuit Power max=2000 n n C1=$00FF0000
+!plot circuit Voltage Max=2000 dots=nlabels=n subs=y C1=$00FF0000
+!plot profile
+!--------------------------------
+Interpolate  ! this will pick up buses added for regulators
+!ClearBusMarkers
+!AddBusMarker Bus=..... Code=5  color=Lime  size=3
+!--------------------------------
+!Set Markcapacitor=yes 
+!Set MarkRegulators=yes RegMarkerCode=17 RegMarkerSize=7
+
+

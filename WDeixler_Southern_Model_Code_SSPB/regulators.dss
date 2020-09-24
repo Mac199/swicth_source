@@ -1,0 +1,14 @@
+! converted from CYME 5.04 .sxst-file with OpenDSS_SFC.py (version: 01.00.012, last update: 03/22/2017)
+
+!New RegControl.AF2620_M3222-9466A  transformer=AF2620_M3222-9466A winding=2 vreg=123.500000 band=2.500000 ptratio=64.513633 ctprim=250.000000 r=0.000000 x=0.000000
+!New RegControl.AF2620_M3222-9466B  transformer=AF2620_M3222-9466B winding=2 vreg=123.500000 band=2.500000 ptratio=64.513633 ctprim=250.000000 r=0.000000 x=0.000000
+!New RegControl.AF2620_M3222-9466C  transformer=AF2620_M3222-9466C winding=2 vreg=123.500000 band=2.500000 ptratio=64.513633 ctprim=250.000000 r=0.000000 x=0.000000
+New RegControl.R008_M3442-9466A  transformer=R008_M3442-9466A winding=2 vreg=123.500000 band=2.500000 ptratio=64.513633 ctprim=250.000000 r=0.000000 x=0.000000
+New RegControl.R008_M3442-9466B  transformer=R008_M3442-9466B winding=2 vreg=123.500000 band=2.500000 ptratio=64.513633 ctprim=250.000000 r=0.000000 x=0.000000
+New RegControl.R008_M3442-9466C  transformer=R008_M3442-9466C winding=2 vreg=123.500000 band=2.500000 ptratio=64.513633 ctprim=250.000000 r=0.000000 x=0.000000
+New RegControl.R015_M3222-9466A  transformer=R015_M3222-9466A winding=2 vreg=123.500000 band=2.500000 ptratio=60.000000 ctprim=400.000000 r=0.000000 x=0.000000
+New RegControl.R015_M3222-9466B  transformer=R015_M3222-9466B winding=2 vreg=123.500000 band=2.500000 ptratio=60.000000 ctprim=400.000000 r=0.000000 x=0.000000
+New RegControl.R015_M3222-9466C  transformer=R015_M3222-9466C winding=2 vreg=123.500000 band=2.500000 ptratio=60.000000 ctprim=400.000000 r=0.000000 x=0.000000
+New RegControl.R020_M3222-9466A  transformer=R020_M3222-9466A winding=2 vreg=123.500000 band=2.500000 ptratio=60.000000 ctprim=700.000000 r=0.000000 x=0.000000
+New RegControl.R020_M3222-9466B  transformer=R020_M3222-9466B winding=2 vreg=123.500000 band=2.500000 ptratio=60.000000 ctprim=700.000000 r=0.000000 x=0.000000
+New RegControl.R020_M3222-9466C  transformer=R020_M3222-9466C winding=2 vreg=123.500000 band=2.500000 ptratio=60.000000 ctprim=700.000000 r=0.000000 x=0.000000

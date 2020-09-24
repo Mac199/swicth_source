@@ -1,0 +1,84 @@
+! converted from CYME5.04 .sxst-file with OpenDSS_SFC.py (version: 01.00.012, last update: 03/22/2017)
+
+! basic line codes for default use
+New LineCode.basic1 nphases=1 R1=0.001 R0=0.001 X1=0.001 X0=0.001 B1=0.001 B0=0.001 NormAmps=1 EmergAmps=1.25 units=mi
+New LineCode.basic2 nphases=2 R1=0.001 R0=0.001 X1=0.001 X0=0.001 B1=0.001 B0=0.001 NormAmps=1 EmergAmps=1.25 units=mi
+New LineCode.basic3 nphases=3 R1=0.001 R0=0.001 X1=0.001 X0=0.001 B1=0.001 B0=0.001 NormAmps=1 EmergAmps=1.25 units=mi
+
+! overhead lines
+New linecode.DEFAULT_1_line  nphases=1 r1=2.58167966667 r0=2.58167966667 x1=0.969316 x0=0.969316 b1=2.81831566667 b0=2.81831566667 NormAmps=100.000000 units=km
+New linecode.DEFAULT_3_line  nphases=3 r1=2.460630 r0=2.823779 x1=0.513975 x0=1.879998 b1=3.445808 b0=1.563331 NormAmps=100.000000 units=km
+
+! cables
+New linecode.1P_1/0_AXNJ_DB_1  nphases=1 r1=1.09470866667 r0=1.09470866667 x1=0.615704 x0=0.615704 b1=47.884417 b0=47.884417 NormAmps=165.000000 units=km
+New linecode.1P_1/0_AXN_DB_1  nphases=1 r1=1.09470866667 r0=1.09470866667 x1=0.615704 x0=0.615704 b1=47.884417 b0=47.884417 NormAmps=165.000000 units=km
+New linecode.2P_1/0_AXNJ_DB_2  nphases=2 r1=0.698819 r0=1.591213 x1=0.193570 x0=0.544619 b1=47.884417 b0=47.884417 NormAmps=175.000000 units=km
+New linecode.2P_1/0_AXN_DB_2  nphases=2 r1=0.698819 r0=1.591213 x1=0.193570 x0=0.544619 b1=47.884417 b0=47.884417 NormAmps=175.000000 units=km
+New linecode.3P_1/0_AXNJ_DB_3  nphases=3 r1=0.698819 r0=1.591213 x1=0.193570 x0=0.544619 b1=47.884417 b0=47.884417 NormAmps=190.000000 units=km
+New linecode.3P_1/0_AXN_DB_3  nphases=3 r1=0.698819 r0=1.591213 x1=0.193570 x0=0.544619 b1=47.884417 b0=47.884417 NormAmps=190.000000 units=km
+New linecode.3P_1000_ALLC_DB_3  nphases=3 r1=0.091864 r0=0.603675 x1=0.157480 x0=0.203412 b1=104.700673 b0=104.700673 NormAmps=635.000000 units=km
+New linecode.3P_2#1000_ALLC_DB_3  nphases=3 r1=0.046916 r0=0.301837 x1=0.080052 x0=0.101706 b1=104.700673 b0=104.700673 NormAmps=1130.000000 units=km
+
+/*
+!***********************************************conductor data with updated resistance values, gmr ORIGINAL ********************************************************************************************* 
+
+New wiredata.1/0_ACSR  Rac=0.535624 GMRac=0.387096 diam=0.337058 normamps=260.000000 emergamps=260.000000 Runits=km GMRunits=cm radunits=cm
+!New wiredata.2_ACSR  Rac=0.849848 GMRac=0.307848 diam=0.267208 normamps=200.000000 emergamps=200.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.3/0_ACSR  Rac=0.339152 GMRac=0.490728 diam=0.424688 normamps=330.000000 emergamps=330.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4/0_ACSR  Rac=0.269616 GMRac=0.54864 diam=0.477012 normamps=390.000000 emergamps=390.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.336_ACSR  Rac=0.168264 GMRac=0.77724 diam=0.268986 normamps=570.000000 emergamps=570.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.477_ACSR  Rac=0.121032 GMRac=0.801624 diam=0.413512 normamps=570.000000 emergamps=570.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4_ALUM  Rac=0.81508 GMRac=0.192024 diam=0.518922 normamps=390.000000 emergamps=390.000000 Runits=km GMRunits=cm radunits=cm
+
+!New wiredata.2_POLY  Rac=0.849848 GMRac=0.307848 diam=0.267208 normamps=200.000000 emergamps=200.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.6A_CW  Rac=1.37323 GMRac=0.145999 diam=0.167894 normamps=639.000000 emergamps=639.000000 Runits=km GMRunits=cm radunits=cm
+
+*/
+
+!********************************************conductor data with updated resistance values, gmr FOR LINEDATA3.DSS****************************************************************************************************
+
+New wiredata.1/0_ACSR  Rac=0.535624 GMRac=0.387096 diam=0.337058 normamps=260.000000 emergamps=260.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.3/0_ACSR  Rac=0.339152 GMRac=0.490728 diam=0.424688 normamps=330.000000 emergamps=330.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4/0_ACSR  Rac=0.269616 GMRac=0.54864 diam=0.477012 normamps=390.000000 emergamps=390.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.336_ACSR  Rac=0.168264 GMRac=0.77724 diam=0.268986 normamps=570.000000 emergamps=570.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.477_ACSR  Rac=0.121032 GMRac=0.801624 diam=0.413512 normamps=570.000000 emergamps=570.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4_ALUM  Rac=0.81508 GMRac=0.192024 diam=0.518922 normamps=390.000000 emergamps=390.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.6A_CW  Rac=1.37323 GMRac=0.145999 diam=0.167894 normamps=639.000000 emergamps=639.000000 Runits=km GMRunits=cm radunits=cm
+
+
+
+
+/*
+
+!*************************************************AAC conductor data with updated resistance values, gmr  FOR LINEDATA4AAC.DSS*************************************************************************************
+
+New wiredata.1/0_AAC  Rac=0.54806 GMRac=0.33833 diam=0.31192 normamps=260.000000 emergamps=260.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.2_AAC Rac=0.87117 GMRac=0.26914 diam=0.2474 normamps=200.000000 emergamps=200.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.3/0_AAC  Rac=0.34549 GMRac=0.42672 diam=0.3932 normamps=330.000000 emergamps=330.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4/0_AAC  Rac=0.27403 GMRac=0.48159 diam=0.44171 normamps=390.000000 emergamps=390.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.336_AAC  Rac=0.17275 GMRac=0.64008 diam=0.33808 normamps=570.000000 emergamps=570.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.477_AAC  Rac=0.12242 GMRac=0.7620 diam=0.40234 normamps=570.000000 emergamps=570.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.4_AAC  Rac=1.38691 GMRac=0.21336 diam=0.19609 normamps=390.000000 emergamps=390.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.2_AAC  Rac=0.87117 GMRac=0.26914 diam=0.2474 normamps=200.000000 emergamps=200.000000 Runits=km GMRunits=cm radunits=cm
+New wiredata.6_AAC  Rac=2.2065 GMRac=0.16917 diam=0.15545 normamps=639.000000 emergamps=639.000000 Runits=km GMRunits=cm radunits=cm
+
+*/
+
+
+
+
+
+
+! overhead spacing data
+New linespacing.1PH_1_NNYY  Nconds=2 Nphases=1 x=[-0.099060 0.129540]  h=[10.546080 8.229600]  units=m
+New linespacing.1PH_1_NYNY  Nconds=2 Nphases=1 x=[-0.099060 0.129540]  h=[10.546080 8.229600]  units=m
+New linespacing.1PH_1_YNNY  Nconds=2 Nphases=1 x=[-0.099060 0.129540]  h=[10.546080 8.229600]  units=m
+New linespacing.2PH_H_2_NYYY  Nconds=3 Nphases=2 x=[-0.116840 0.759460 0.142240]  h=[11.917680 11.361420 9.601200]  units=m
+New linespacing.2PH_H_2_YNYY  Nconds=3 Nphases=2 x=[-0.116840 0.759460 0.142240]  h=[11.917680 11.361420 9.601200]  units=m
+New linespacing.2PH_H_2_YYNY  Nconds=3 Nphases=2 x=[-0.116840 0.759460 0.142240]  h=[11.917680 11.361420 9.601200]  units=m
+New linespacing.3PH_H_3_YYYY  Nconds=4 Nphases=3 x=[-0.762000 -0.116840 0.762000 0.147320]  h=[11.379189 11.917680 11.379189 9.601200]  units=m
+New linespacing.BUSS_1_NNYY  Nconds=2 Nphases=1 x=[-0.762000 0.147320]  h=[11.379189 9.601200]  units=m
+New linespacing.BUSS_1_NYNY  Nconds=2 Nphases=1 x=[-0.762000 0.147320]  h=[11.379189 9.601200]  units=m
+New linespacing.BUSS_1_YNNY  Nconds=2 Nphases=1 x=[-0.762000 0.147320]  h=[11.379189 9.601200]  units=m
+New linespacing.BUSS_3_YYYY  Nconds=4 Nphases=3 x=[-0.762000 -0.116840 0.762000 0.147320]  h=[11.379189 11.917680 11.379189 9.601200]  units=m
+

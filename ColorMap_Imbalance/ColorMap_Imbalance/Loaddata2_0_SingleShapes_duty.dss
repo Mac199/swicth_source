@@ -1,0 +1,1130 @@
+! ****** LOAD DATA
+
+!L5000****************** Feeder SINGLE PHASE LOAD DATA *******************************************
+
+New Load.B144 Bus1=N144T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.82 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.B144_1 Bus1=N144T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.46 vminpu=0.9 vmaxpu=1.10  
+New Load.B143 Bus1=N143T.2.0 phases=1 duty=shapeB  kV=0.12 kW=6.27 vminpu=0.9 vmaxpu=1.10 
+New Load.B143_1 Bus1=N143T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.54 vminpu=0.9 vmaxpu=1.10 
+New Load.B142 Bus1=N142T.2.0 phases=1 duty=shapeB  kV=0.12 kW=4.04 vminpu=0.9 vmaxpu=1.10 
+New Load.B142_1 Bus1=N142T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.89 vminpu=0.9 vmaxpu=1.10 
+New Load.B142_2 Bus1=N142T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B141_3 Bus1=N01413T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.96 vminpu=0.9 vmaxpu=1.10 
+New Load.B141_3_1 Bus1=N01413T.2.0 phases=1 duty=shapeB  kV=0.12 kW=1.26 vminpu=0.9 vmaxpu=1.10 
+New Load.B141_3_2 Bus1=N01413T.2.0 phases=1 duty=shapeB  kV=0.12 kW=13.33 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B141_3_3 Bus1=N01413T.2.0 phases=1 duty=shapeB kV=0.12 kW=29.31 vminpu=0.9 vmaxpu=1.10 
+New Load.B141_3_4 Bus1=N01413T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.02 vminpu=0.9 vmaxpu=1.10 
+New Load.B141_1 Bus1=N01411T.2.0 phases=1 duty=shapeB kV=0.12 kW=21.8 vminpu=0.9 vmaxpu=1.10 
+New Load.B141_1_1 Bus1=N01411T.2.0 phases=1 duty=shapeB  kV=0.12 kW=2.02 vminpu=0.9 vmaxpu=1.10 
+New Load.B141_1_2 Bus1=N01411T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.96 vminpu=0.9 vmaxpu=1.10
+New Load.B141_1_3 Bus1=N01411T.2.0 phases=1 duty=shapeB kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10
+New Load.B141 Bus1=N141T.2.0 phases=1 duty=shapeB kV=0.122 kW=4.67 vminpu=0.9 vmaxpu=1.10 
+New Load.B139 Bus1=N139T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.37 vminpu=0.9 vmaxpu=1.10 
+New Load.B138_1 Bus1=N138T.2.0 phases=1 duty=shapeB kV=0.12 kW=2.56 vminpu=0.9 vmaxpu=1.10 
+New Load.B138_2 Bus1=N138T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.52 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B133_4 Bus1=N01334T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.82 vminpu=0.9 vmaxpu=1.10 
+New Load.B133_1_1 Bus1=N013311T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.7 vminpu=0.9 vmaxpu=1.10 
+New Load.B130_2 Bus1=N01302T.2.0 phases=1 duty=shapeB kV=0.12 kW=22.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B130_1 Bus1=N01301T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.48 vminpu=0.9 vmaxpu=1.10 
+New Load.B130_1_1 Bus1=N01301T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.32 vminpu=0.9 vmaxpu=1.10 
+New Load.B130 Bus1=N130T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.75 vminpu=0.9 vmaxpu=1.10 
+New Load.B130_01 Bus1=N130T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.69 vminpu=0.9 vmaxpu=1.10 
+New Load.B128 Bus1=N128T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.01 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B124_1 Bus1=N01241T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.88 vminpu=0.9 vmaxpu=1.10 
+New load.B124_1_1 Bus1=N01241T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.64 vminpu=0.9 vmaxpu=1.10 
+New Load.B123 Bus1=N123T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.55 vminpu=0.9 vmaxpu=1.10 
+
+
+
+New Load.B120_3 Bus1=N01203T.2.0 phases=1 duty=shapeB kV=0.12 kW=21.68 vminpu=0.9 vmaxpu=1.10 
+New Load.B118 Bus1=N118T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.15 vminpu=0.9 vmaxpu=1.10 
+New Load.B118_1 Bus1=N118T.2.0 phases=1 duty=shapeB kV=0.12 kW=2.92 vminpu=0.9 vmaxpu=1.10 
+New Load.B115 Bus1=N115T.2.0 phases=1 duty=shapeB kV=0.12 kW=10.03 vminpu=0.9 vmaxpu=1.10 
+!New Load.B114_1_0 Bus1=N01141T.2.0 phases=1 duty=shapeB kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10 
+New Load.B114_1_1 Bus1=N01141T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.13 vminpu=0.9 vmaxpu=1.10 
+New Load.B114_1_2 Bus1=N01141T.2.0 phases=1 duty=shapeB kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10 
+New Load.B114_1_3 Bus1=N01141T.2.0 phases=1 duty=shapeB kV=0.12 kW=14.04 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B113_1_0 Bus1=N01131T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.77 vminpu=0.9 vmaxpu=1.10 
+New Load.B112_0 Bus1=N112T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.22 vminpu=0.9 vmaxpu=1.10 
+New Load.B112_1 Bus1=N112T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.6 vminpu=0.9 vmaxpu=1.10 
+New Load.B111 Bus1=N111T.2.0 phases=1 duty=shapeB kV=0.12 kW=18.75 vminpu=0.9 vmaxpu=1.10 
+New Load.B107 Bus1=N107T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.9 vminpu=0.9 vmaxpu=1.10 
+New Load.B101_2 Bus1=N01012T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.09 vminpu=0.9 vmaxpu=1.10 
+New Load.B101_1 Bus1=N01011T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.57 vminpu=0.9 vmaxpu=1.10 
+New Load.B100 Bus1=N100T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.72 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B99A Bus1=N99TA.1.0 phases=1 duty=shapeA kV=0.12 kW=9.01 vminpu=0.9 vmaxpu=1.10 
+New Load.B99B Bus1=N99TB.2.0 phases=1 duty=shapeB kV=0.12 kW=9.01 vminpu=0.9 vmaxpu=1.10 
+New Load.B99C Bus1=N99TC.3.0 phases=1 duty=shapeC kV=0.12 kW=9.01 vminpu=0.9 vmaxpu=1.10 
+
+
+
+New Load.B94_1 Bus1=N0941TA.1.0 phases=1 duty=shapeA kV=0.12 kW=0.22 vminpu=0.9 vmaxpu=1.10 
+New Load.B94_1_1 Bus1=N0941TA.1.0 phases=1 duty=shapeA kV=0.12 kW=9.84 vminpu=0.9 vmaxpu=1.10 
+New Load.B94 Bus1=N94T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.84 vminpu=0.9 vmaxpu=1.10 
+New Load.B94_01 Bus1=N94T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.16 vminpu=0.9 vmaxpu=1.10 
+New Load.B92_1_0 Bus1=N0921T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.27 vminpu=0.9 vmaxpu=1.10 
+New Load.B92_1_1 Bus1=N0921T.3.0 phases=1 duty=shapeC kV=0.12 kW=19.51 vminpu=0.9 vmaxpu=1.10 
+New Load.B91_4 Bus1=N0914T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.63 vminpu=0.9 vmaxpu=1.10 
+New Load.B91_3 Bus1=N0913T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.76 vminpu=0.9 vmaxpu=1.10 
+New Load.B91_1_0 Bus1=N0911T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.23 vminpu=0.9 vmaxpu=1.10 
+New Load.B91_1_1 Bus1=N0911T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.79 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B91_1_2 Bus1=N0911T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.24 vminpu=0.9 vmaxpu=1.10 
+New Load.B90 Bus1=N90T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.35 vminpu=0.9 vmaxpu=1.10 
+New Load.B89 Bus1=N89T.2.0 phases=1 duty=shapeB kV=0.12 kW=10.66 vminpu=0.9 vmaxpu=1.10 
+New Load.B89_1 Bus1=N89T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.17 vminpu=0.9 vmaxpu=1.10 
+New Load.B86_0 Bus1=N86T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.09 vminpu=0.9 vmaxpu=1.10 
+New Load.B86_1 Bus1=N86T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.26 vminpu=0.9 vmaxpu=1.10 
+New Load.B86_2 Bus1=N86T.1.0 phases=1 duty=shapeA kV=0.12 kW=16.62 vminpu=0.9 vmaxpu=1.10 
+New Load.B86_3 Bus1=N86T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B86_4 Bus1=N86T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B86_5 Bus1=N86T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.26 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B86_6 Bus1=N86T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.12 vminpu=0.9 vmaxpu=1.10 
+New Load.B85_0 Bus1=N85T.1.0 phases=1 duty=shapeA kV=0.12 kW=27.89 vminpu=0.9 vmaxpu=1.10 
+New Load.B85_1 Bus1=N85T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.9 vminpu=0.9 vmaxpu=1.10 
+New Load.B84A Bus1=N84TA.1.0 phases=1 duty=shapeA kV=0.12 kW=7.69 vminpu=0.9 vmaxpu=1.10 
+New Load.B84B Bus1=N84TB.2.0 phases=1 duty=shapeB kV=0.12 kW=7.69 vminpu=0.9 vmaxpu=1.10 
+New Load.B84C Bus1=N84TC.3.0 phases=1 duty=shapeC kV=0.12 kW=7.69 vminpu=0.9 vmaxpu=1.10 
+New Load.B83_0 Bus1=N83T.3.0 phases=1 duty=shapeC kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10 
+New Load.B83_1 Bus1=N83T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.84 vminpu=0.9 vmaxpu=1.10 
+New Load.B83_2 Bus1=N83T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B83_3 Bus1=N83T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.18 vminpu=0.9 vmaxpu=1.10 
+New Load.B81 Bus1=N81T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.8 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B80_0 Bus1=N80T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.27 vminpu=0.9 vmaxpu=1.10 
+New Load.B80_1 Bus1=N80T.3.0 phases=1 duty=shapeC kV=0.12 kW=16.17 vminpu=0.9 vmaxpu=1.10 
+New Load.B80_2 Bus1=N80T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.62 vminpu=0.9 vmaxpu=1.10 
+New Load.B80.3 Bus1=N80T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.36 vminpu=0.9 vmaxpu=1.10 
+New Load.B79_2A Bus1=N0792TA.1.0 phases=1 duty=shapeA kV=0.12 kW=3.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B79_2B Bus1=N0792TB.2.0 phases=1 duty=shapeB kV=0.12 kW=3.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B79_2C Bus1=N0792TC.3.0 phases=1 duty=shapeC kV=0.12 kW=3.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B79_1A Bus1=N0791TA.1.0 phases=1 duty=shapeA kV=0.12 kW=0.62 vminpu=0.9 vmaxpu=1.10 
+New Load.B79_1B Bus1=N0791TB.2.0 phases=1 duty=shapeB kV=0.12 kW=0.62 vminpu=0.9 vmaxpu=1.10 
+New Load.B79_1C Bus1=N0791TC.3.0 phases=1 duty=shapeC kV=0.12 kW=0.62 vminpu=0.9 vmaxpu=1.10 
+New Load.B79_0 Bus1=N79T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.83 vminpu=0.9 vmaxpu=1.10 
+New Load.B79_01 Bus1=N79T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.4 vminpu=0.9 vmaxpu=1.10 
+New Load.B77_0 Bus1=N77T.3.0 phases=1 duty=shapeC kV=0.12 kW=17.15 vminpu=0.9 vmaxpu=1.10 
+New Load.B77_1 Bus1=N77T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.96 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B77_2 Bus1=N77T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.27 vminpu=0.9 vmaxpu=1.10 
+New Load.B77_3 Bus1=N77T.3.0 phases=1 duty=shapeC kV=0.12 kW=3.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B76_1A Bus1=N0761TA.1.0 phases=1 duty=shapeA kV=0.12 kW=10.46 vminpu=0.9 vmaxpu=1.10 
+New Load.B76_1B Bus1=N0761TB.2.0 phases=1 duty=shapeB kV=0.12 kW=10.46 vminpu=0.9 vmaxpu=1.10 
+New Load.B76_1C Bus1=N0761TC.3.0 phases=1 duty=shapeC kV=0.12 kW=10.46 vminpu=0.9 vmaxpu=1.10 
+New Load.B76_1_0 Bus1=N76T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.11 vminpu=0.9 vmaxpu=1.10 
+New Load.B76_1_1 Bus1=N76T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.48 vminpu=0.9 vmaxpu=1.10 
+New Load.B76_1_2 Bus1=N76T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.09 vminpu=0.9 vmaxpu=1.10 
+New Load.B75_0 Bus1=N75T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.3 vminpu=0.9 vmaxpu=1.10 
+New Load.B75_1 Bus1=N75T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B74_1A Bus1=N0741TA.1.0 phases=1 duty=shapeA kV=0.12 kW=11.83 vminpu=0.9 vmaxpu=1.10 
+New Load.B74_1B Bus1=N0741TB.2.0 phases=1 duty=shapeB kV=0.12 kW=11.83 vminpu=0.9 vmaxpu=1.10 
+New Load.B74_1C Bus1=N0741TC.3.0 phases=1 duty=shapeC kV=0.12 kW=11.83 vminpu=0.9 vmaxpu=1.10 
+
+
+
+New Load.B73 Bus1=N73T.1.0 phases=1 duty=shapeA kV=0.12 kW=39.9 vminpu=0.9 vmaxpu=1.10 
+New Load.B72_0 Bus1=N72T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.32 vminpu=0.9 vmaxpu=1.10 
+New Load.B72_1 Bus1=N72T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.9 vminpu=0.9 vmaxpu=1.10 
+New Load.B71A Bus1=N71TA.1.0 phases=1 duty=shapeA kV=0.12 kW=9.76 vminpu=0.9 vmaxpu=1.10 
+New Load.B71B Bus1=N71TB.2.0 phases=1 duty=shapeB kV=0.12 kW=9.76 vminpu=0.9 vmaxpu=1.10 
+New Load.B71C Bus1=N71TC.3.0 phases=1 duty=shapeC kV=0.12 kW=9.76 vminpu=0.9 vmaxpu=1.10 
+New Load.B70_0 Bus1=N70T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.91 vminpu=0.9 vmaxpu=1.10 
+New Load.B70_1 Bus1=N70T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.6 vminpu=0.9 vmaxpu=1.10 
+New Load.B70_2 Bus1=N70T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.14 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B69_1A Bus1=N0691TA.1.0 phases=1 duty=shapeA kV=0.12 kW=12.39 vminpu=0.9 vmaxpu=1.10 
+New Load.B69_1B Bus1=N0691TB.2.0 phases=1 duty=shapeB kV=0.12 kW=12.39 vminpu=0.9 vmaxpu=1.10 
+New Load.B69_1C Bus1=N0691TC.3.0 phases=1 duty=shapeC kV=0.12 kW=12.39 vminpu=0.9 vmaxpu=1.10 
+New Load.B69 Bus1=N69T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.47 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_3_1A Bus1=N06831TA.1.0 phases=1 duty=shapeA kV=0.12 kW=3.8 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_3_1B Bus1=N06831TB.2.0 phases=1 duty=shapeB kV=0.12 kW=3.8 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_3_1C Bus1=N06831TC.3.0 phases=1 duty=shapeC kV=0.12 kW=3.8 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B68_3_2A Bus1=N06832TA.1.0 phases=1 duty=shapeA kV=0.12 kW=0.65 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_3_2C Bus1=N06832TC.3.0 phases=1 duty=shapeC kV=0.12 kW=0.65 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_3_3A Bus1=N06833TA.1.0 phases=1 duty=shapeA kV=0.12 kW=3.81 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_3_3B Bus1=N06833TB.2.0 phases=1 duty=shapeB kV=0.12 kW=3.81 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_3_3C Bus1=N06833TC.3.0 phases=1 duty=shapeC kV=0.12 kW=3.81 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_2 Bus1=N0682T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.6 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_1A Bus1=N0681TA.1.0 phases=1 duty=shapeA kV=0.12 kW=8.08 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_1B Bus1=N0681TB.2.0 phases=1 duty=shapeB kV=0.12 kW=8.08 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_1C Bus1=N0681TC.3.0 phases=1 duty=shapeC kV=0.12 kW=8.08 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B68_1_1A Bus1=N06811TA.1.0 phases=1 duty=shapeA kV=0.12 kW=8.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_1_1B Bus1=N06811TB.2.0 phases=1 duty=shapeB kV=0.12 kW=8.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B68_1_1C Bus1=N06811TC.3.0 phases=1 duty=shapeC kV=0.12 kW=8.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B67_5_1A Bus1=N06751TA.1.0 phases=1 duty=shapeA kV=0.12 kW=0.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B67_5_1B Bus1=N06751TB.2.0 phases=1 duty=shapeB kV=0.12 kW=0.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B67_5_1C Bus1=N06751TC.3.0 phases=1 duty=shapeC kV=0.12 kW=0.07 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B66 Bus1=N66T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.73 vminpu=0.9 vmaxpu=1.10 
+New Load.B65_0 Bus1=N65T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.12 vminpu=0.9 vmaxpu=1.10 
+New Load.B65_1 Bus1=N65T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.25 vminpu=0.9 vmaxpu=1.10 
+New Load.B64_0 Bus1=N64T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.08 vminpu=0.9 vmaxpu=1.10 
+New Load.B64_1 Bus1=N64T.1.0 phases=1 duty=shapeA kV=0.12 kW=25.57 vminpu=0.9 vmaxpu=1.10 
+New Load.B61_0 Bus1=N61T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.06 vminpu=0.9 vmaxpu=1.10 
+New Load.B61_1 Bus1=N61T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.78 vminpu=0.9 vmaxpu=1.10 
+New Load.B61_2 Bus1=N61T.1.0 phases=1 duty=shapeA kV=0.12 kW=2.46 vminpu=0.9 vmaxpu=1.10 
+New Load.B61_3 Bus1=N61T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.03 vminpu=0.9 vmaxpu=1.10 
+New Load.B61_4 Bus1=N61T.1.0 phases=1 duty=shapeA kV=0.12 kW=16.84 vminpu=0.9 vmaxpu=1.10 
+New Load.B60_0 Bus1=N60T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.1 vminpu=0.9 vmaxpu=1.10 
+New Load.B60_1 Bus1=N60T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.13 vminpu=0.9 vmaxpu=1.10 
+New Load.B60_2 Bus1=N60T.1.0 phases=1 duty=shapeA kV=0.12 kW=58.0 vminpu=0.9 vmaxpu=1.10 
+New Load.B60_3 Bus1=N60T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.83 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B60_4 Bus1=N60T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.6 vminpu=0.9 vmaxpu=1.10 
+New Load.B59_0 Bus1=N59T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.97 vminpu=0.9 vmaxpu=1.10 
+New Load.B59_1 Bus1=N59T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.1 vminpu=0.9 vmaxpu=1.10 
+New Load.B59_2 Bus1=N59T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.02 vminpu=0.9 vmaxpu=1.10 
+New Load.B59_3 Bus1=N59T.1.0 phases=1 duty=shapeA kV=0.12 kW=33.19 vminpu=0.9 vmaxpu=1.10 
+New Load.B59_4 Bus1=N59T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.32 vminpu=0.9 vmaxpu=1.10 
+New Load.B59_5 Bus1=N59T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.72 vminpu=0.9 vmaxpu=1.10 
+New Load.B58_0 Bus1=N58T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.65 vminpu=0.9 vmaxpu=1.10 
+New Load.B58_1 Bus1=N58T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.0 vminpu=0.9 vmaxpu=1.10 
+New Load.B58_2 Bus1=N58T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.18 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B58_3 Bus1=N58T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.58 vminpu=0.9 vmaxpu=1.10 
+New Load.B58_4 Bus1=N58T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.34 vminpu=0.9 vmaxpu=1.10 
+New Load.B58_5 Bus1=N58T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.06 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B57 Bus1=N57T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.06 vminpu=0.9 vmaxpu=1.10 
+New Load.B56 Bus1=N56T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.2 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B54_0 Bus1=N54T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.4 vminpu=0.9 vmaxpu=1.10 
+New Load.B54_1 Bus1=N54T.1.0 phases=1 duty=shapeA kV=0.12 kW=29.97 vminpu=0.9 vmaxpu=1.10 
+New Load.B54_2 Bus1=N54T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B53_0 Bus1=N53T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.11 vminpu=0.9 vmaxpu=1.10 
+New Load.B53_1 Bus1=N53T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.7 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B53_2 Bus1=N53T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.34 vminpu=0.9 vmaxpu=1.10 
+New Load.B53_3 Bus1=N53T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.73 vminpu=0.9 vmaxpu=1.10 
+New Load.B53_4 Bus1=N53T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.71 vminpu=0.9 vmaxpu=1.10 
+New Load.B52 Bus1=N52T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B51_1A Bus1=N0511TA.1.0 phases=1 duty=shapeA kV=0.12 kW=0.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B51_1C Bus1=N0511TC.3.0 phases=1 duty=shapeC kV=0.12 kW=0.07 vminpu=0.9 vmaxpu=1.10 
+New Load.B51_0 Bus1=N51T.1.0 phases=1 duty=shapeA kV=0.12 kW=16.81 vminpu=0.9 vmaxpu=1.10 
+New Load.B51_01 Bus1=N51T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.81 vminpu=0.9 vmaxpu=1.10 
+New Load.B51_02 Bus1=N51T.1.0 phases=1 duty=shapeA kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10 
+New Load.B50_0 Bus1=N50T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.23 vminpu=0.9 vmaxpu=1.10 
+New Load.B50_1 Bus1=N50T.2.0 phases=1 duty=shapeB kV=0.12 kW=22.89 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B50_2 Bus1=N50T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.3 vminpu=0.9 vmaxpu=1.10 
+New Load.B50_3 Bus1=N50T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.89 vminpu=0.9 vmaxpu=1.10 
+New Load.B50_4 Bus1=N50T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.62 vminpu=0.9 vmaxpu=1.10 
+New Load.B50_5 Bus1=N50T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.04 vminpu=0.9 vmaxpu=1.10 
+New Load.B50_6 Bus1=N50T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.52 vminpu=0.9 vmaxpu=1.10 
+New Load.B49_0 Bus1=N49T.2.0 phases=1 duty=shapeB kV=0.12 kW=22.89 vminpu=0.9 vmaxpu=1.10 
+New Load.B49_1 Bus1=N49T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.3 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B48_0A Bus1=N48TA.1.0 phases=1 duty=shapeA kV=0.12 kW=5.56 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_0B Bus1=N48TB.2.0 phases=1 duty=shapeB kV=0.12 kW=5.56 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_0C Bus1=N48TC.3.0 phases=1 duty=shapeC kV=0.12 kW=5.56 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_1A Bus1=N48TA.1.0 phases=1 duty=shapeA kV=0.12 kW=7.19 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_1B Bus1=N48TB.2.0 phases=1 duty=shapeB kV=0.12 kW=7.19 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_1C Bus1=N48TC.3.0 phases=1 duty=shapeC kV=0.12 kW=7.19 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_2A Bus1=N48TA.1.0 phases=1 duty=shapeA kV=0.12  kW=9.2 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_2B Bus1=N48TB.2.0 phases=1 duty=shapeB kV=0.12 kW=9.2 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_2C Bus1=N48TC.3.0 phases=1 duty=shapeC kV=0.12 kW=9.2 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_3A Bus1=N48TA.1.0 phases=1 duty=shapeA kV=0.12 kW=0.15 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_3B Bus1=N48TB.2.0 phases=1 duty=shapeB kV=0.12 kW=0.15 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_3C Bus1=N48TC.3.0 phases=1 duty=shapeC kV=0.12 kW=0.15 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_4A Bus1=N48TA.1.0 phases=1 duty=shapeA kV=0.12 kW=17.03 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_4B Bus1=N48TB.2.0 phases=1 duty=shapeB kV=0.12 kW=17.03 vminpu=0.9 vmaxpu=1.10 
+New Load.B48_4C Bus1=N48TC.3.0 phases=1 duty=shapeC kV=0.12 kW=17.03 vminpu=0.9 vmaxpu=1.10 
+New Load.B46 Bus1=N46T.2.0 phases=1 duty=shapeB kV=0.12 kW=19.79 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B45_0A Bus1=N45TA.1.0 phases=1 duty=shapeA kV=0.12 kW=5.76 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_0B Bus1=N45TB.2.0 phases=1 duty=shapeB kV=0.12 kW=5.76 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_0C Bus1=N45TC.3.0 phases=1 duty=shapeC kV=0.12 kW=5.76 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_1A Bus1=N45TA.1.0 phases=1 duty=shapeA kV=0.12 kW=2.57 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_1B Bus1=N45TB.2.0 phases=1 duty=shapeB kV=0.12 kW=2.57 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_1C Bus1=N45TC.3.0 phases=1 duty=shapeC kV=0.12 kW=2.57 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_2A Bus1=N45TA.1.0 phases=1 duty=shapeA kV=0.12 kW=8.86 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_2B Bus1=N45TB.2.0 phases=1 duty=shapeB kV=0.12 kW=8.86 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_2C Bus1=N45TC.3.0 phases=1 duty=shapeC kV=0.12 kW=8.86 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_3A Bus1=N45TA.1.0 phases=1 duty=shapeA kV=0.12 kW=1.44 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_3B Bus1=N45TB.2.0 phases=1 duty=shapeB kV=0.12 kW=1.44 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_3C Bus1=N45TC.3.0 phases=1 duty=shapeC kV=0.12 kW=1.44 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_4A Bus1=N45TA.1.0 phases=1 duty=shapeA kV=0.12 kW=17.02 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_4B Bus1=N45TB.2.0 phases=1 duty=shapeB kV=0.12 kW=17.02 vminpu=0.9 vmaxpu=1.10 
+New Load.B45_4C Bus1=N45TC.3.0 phases=1 duty=shapeC kV=0.12 kW=17.02 vminpu=0.9 vmaxpu=1.10 
+
+
+
+New Load.B44_0 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.86 vminpu=0.9 vmaxpu=1.10 
+New Load.B44_1 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.47 vminpu=0.9 vmaxpu=1.10 
+New Load.B44_2 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.93 vminpu=0.9 vmaxpu=1.10 
+New Load.B44_3 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.87 vminpu=0.9 vmaxpu=1.10 
+New Load.B44_4 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.3 vminpu=0.9 vmaxpu=1.10 
+New Load.B44_5 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=2.67 vminpu=0.9 vmaxpu=1.10 
+New Load.B44_6 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.39 vminpu=0.9 vmaxpu=1.10 
+New Load.B44_7 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=25.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B44_8 Bus1=N44T.3.0 phases=1 duty=shapeC kV=0.12 kW=18.7 vminpu=0.9 vmaxpu=1.10 
+New Load.B42_0 Bus1=N42T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.35 vminpu=0.9 vmaxpu=1.10 
+New Load.B42_1 Bus1=N42T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.42 vminpu=0.9 vmaxpu=1.10 
+New Load.B42_2 Bus1=N42T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.16 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B42_3 Bus1=N42T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.69 vminpu=0.9 vmaxpu=1.10 
+New Load.B41_0 Bus1=N41T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.65 vminpu=0.9 vmaxpu=1.10 
+New Load.B41_1 Bus1=N41T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.14 vminpu=0.9 vmaxpu=1.10 
+New Load.B41_2 Bus1=N41T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.59 vminpu=0.9 vmaxpu=1.10 
+
+
+
+New Load.B40_0 Bus1=N40T.3.0 phases=1 duty=shapeC kV=0.12 kW=26.29 vminpu=0.9 vmaxpu=1.10 
+New Load.B40_1 Bus1=N40T.3.0 phases=1 duty=shapeC kV=0.12 kW=3.43 vminpu=0.9 vmaxpu=1.10 
+New Load.B40_2 Bus1=N40T.3.0 phases=1 duty=shapeC kV=0.12 kW=19.57 vminpu=0.9 vmaxpu=1.10 
+New Load.B39_0 Bus1=N39T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.01 vminpu=0.9 vmaxpu=1.10 
+New Load.B39_1 Bus1=N39T.3.0 phases=1 duty=shapeC kV=0.12 kW=20.57 vminpu=0.9 vmaxpu=1.10 
+New Load.B39_2 Bus1=N39T.3.0 phases=1 duty=shapeC kV=0.12 kW=16.8 vminpu=0.9 vmaxpu=1.10 
+New Load.B39_3 Bus1=N39T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.53 vminpu=0.9 vmaxpu=1.10 
+New Load.B37_0 Bus1=N37T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.34 vminpu=0.9 vmaxpu=1.10 
+New Load.B37_1 Bus1=N37T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.01 vminpu=0.9 vmaxpu=1.10 
+New Load.B37_2 Bus1=N37T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.84 vminpu=0.9 vmaxpu=1.10 
+New Load.B37_3 Bus1=N37T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.66 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B37_4 Bus1=N37T.1.0 phases=1 duty=shapeA kV=0.12 kW=21.15 vminpu=0.9 vmaxpu=1.10 
+New Load.B35 Bus1=N35T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.4 vminpu=0.9 vmaxpu=1.10 
+New Load.B34 Bus1=N34T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.22 vminpu=0.9 vmaxpu=1.10 
+New Load.B33_0 Bus1=N33T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.82 vminpu=0.9 vmaxpu=1.10 
+New Load.B33_1 Bus1=N33T.1.0 phases=1 duty=shapeA kV=0.12 kW=24.11 vminpu=0.9 vmaxpu=1.10 
+New Load.B33_2 Bus1=N33T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.6 vminpu=0.9 vmaxpu=1.10 
+New Load.B33_3 Bus1=N33T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.08 vminpu=0.9 vmaxpu=1.10 
+New Load.B33_4 Bus1=N33T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.11 vminpu=0.9 vmaxpu=1.10 
+New Load.B33_5 Bus1=N33T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.34 vminpu=0.9 vmaxpu=1.10 
+New Load.B30_2A Bus1=N0302TA.1.0 phases=1 duty=shapeA kV=0.12 kW=3.78 vminpu=0.9 vmaxpu=1.10 
+New Load.B30_2B Bus1=N0302TB.2.0 phases=1 duty=shapeB kV=0.12 kW=3.78 vminpu=0.9 vmaxpu=1.10 
+New Load.B30_1A Bus1=N0301TA.1.0 phases=1 duty=shapeA kV=0.12 kW=10.72 vminpu=0.9 vmaxpu=1.10 
+New Load.B30_1B Bus1=N0301TB.2.0 phases=1 duty=shapeB kV=0.12 kW=10.72 vminpu=0.9 vmaxpu=1.10 
+New Load.B30_1C Bus1=N0301TC.3.0 phases=1 duty=shapeC kV=0.12 kW=10.72 vminpu=0.9 vmaxpu=1.10 
+
+
+
+
+
+
+
+
+New Load.B30A Bus1=N30TA.1.0 phases=1 duty=shapeA kV=0.12 kW=5.77 vminpu=0.9 vmaxpu=1.10 
+New Load.B30B Bus1=N30TB.2.0 phases=1 duty=shapeB kV=0.12 kW=5.77 vminpu=0.9 vmaxpu=1.10 
+New Load.B29 Bus1=N29T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.45 vminpu=0.9 vmaxpu=1.10 
+New Load.B28_0 Bus1=N28T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.88 vminpu=0.9 vmaxpu=1.10 
+New Load.B28_1 Bus1=N28T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.0 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B28_2 Bus1=N28T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.73 vminpu=0.9 vmaxpu=1.10 
+New Load.B27 Bus1=N27T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.83 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_0 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.01 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_1 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.49 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_2 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.4 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_3 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.48 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_4 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.46 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_5 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.67 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_6 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.36 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_7 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=16.78 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B26_8 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=22.89 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_9 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.38 vminpu=0.9 vmaxpu=1.10 
+New Load.B26_10 Bus1=N26T.1.0 phases=1 duty=shapeA kV=0.12 kW=20.31 vminpu=0.9 vmaxpu=1.10 
+New Load.B25_0 Bus1=N25T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.92 vminpu=0.9 vmaxpu=1.10 
+New Load.B25_1 Bus1=N25T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.45 vminpu=0.9 vmaxpu=1.10 
+New Load.B25_2 Bus1=N25T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.73 vminpu=0.9 vmaxpu=1.10 
+New Load.B25_3 Bus1=N25T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.19 vminpu=0.9 vmaxpu=1.10 
+New Load.B25_4 Bus1=N25T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.23 vminpu=0.9 vmaxpu=1.10 
+New Load.B24_0 Bus1=N24T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.88 vminpu=0.9 vmaxpu=1.10 
+New Load.B24_1 Bus1=N24T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.63 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B23_0 Bus1=N23T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.87 vminpu=0.9 vmaxpu=1.10 
+New Load.B23_1 Bus1=N23T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.62 vminpu=0.9 vmaxpu=1.10 
+New Load.B23_2 Bus1=N23T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.91 vminpu=0.9 vmaxpu=1.10 
+New Load.B22 Bus1=N22T.3.0 phases=1 duty=shapeC kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10 
+New Load.B21_2 Bus1=N0212T.1.0 phases=1 duty=shapeA kV=0.12 kW=2.89 vminpu=0.9 vmaxpu=1.10 
+New Load.B21 Bus1=N21T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.5 vminpu=0.9 vmaxpu=1.10 
+
+New Load.B20_0 Bus1=N20T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.2 vminpu=0.9 vmaxpu=1.10 
+New Load.B20_1 Bus1=N20T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.95 vminpu=0.9 vmaxpu=1.10 
+New Load.B19_0 Bus1=N19T.3.0 phases=1 duty=shapeC kV=0.12 kW=63.89 vminpu=0.9 vmaxpu=1.10 
+New Load.B19_1 Bus1=N19T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.12 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B19_2 Bus1=N19T.3.0 phases=1 duty=shapeC kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10 
+New Load.B18_0 Bus1=N18T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.32 vminpu=0.9 vmaxpu=1.10 
+New Load.B18_1 Bus1=N18T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.95 vminpu=0.9 vmaxpu=1.10 
+New Load.B18_2 Bus1=N18T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.78 vminpu=0.9 vmaxpu=1.10 
+New Load.B18_3 Bus1=N18T.3.0 phases=1 duty=shapeC kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10 
+New Load.B18_4 Bus1=N18T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.32 vminpu=0.9 vmaxpu=1.10 
+New Load.B18_5 Bus1=N18T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.57 vminpu=0.9 vmaxpu=1.10 
+New Load.B18_6 Bus1=N18T.3.0 phases=1 duty=shapeC kV=0.12 kW=24.74 vminpu=0.9 vmaxpu=1.10 
+New Load.B17 Bus1=N17T.3.0 phases=1 duty=shapeC kV=0.12 kW=20.99 vminpu=0.9 vmaxpu=1.10 
+New Load.B16_0 Bus1=N16T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.89 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B16_1 Bus1=N16T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.87 vminpu=0.9 vmaxpu=1.10 
+New Load.B16_2 Bus1=N16T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.97 vminpu=0.9 vmaxpu=1.10 
+New Load.B16_3 Bus1=N16T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.1 vminpu=0.9 vmaxpu=1.10 
+New Load.B15 Bus1=N15T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.86 vminpu=0.9 vmaxpu=1.10 
+New Load.B14_0 Bus1=N14T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.2 vminpu=0.9 vmaxpu=1.10 
+New Load.B14_1 Bus1=N14T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.45 vminpu=0.9 vmaxpu=1.10 
+New Load.B14_2 Bus1=N14T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.43 vminpu=0.9 vmaxpu=1.10 
+New Load.B14_3 Bus1=N14T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.54 vminpu=0.9 vmaxpu=1.10 
+New Load.B14_4 Bus1=N14T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.32 vminpu=0.9 vmaxpu=1.10 
+New Load.B14_5 Bus1=N14T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.17 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B12 Bus1=N12T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.88 vminpu=0.9 vmaxpu=1.10 
+New Load.B10_0 Bus1=N10T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.65 vminpu=0.9 vmaxpu=1.10 
+New Load.B10_1 Bus1=N10T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.11 vminpu=0.9 vmaxpu=1.10 
+New Load.B10_2 Bus1=N10T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.88 vminpu=0.9 vmaxpu=1.10 
+New Load.B10_3 Bus1=N10T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.75 vminpu=0.9 vmaxpu=1.10 
+New Load.B10_4 Bus1=N10T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.95 vminpu=0.9 vmaxpu=1.10 
+New Load.B9_3 Bus1=N093T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.72 vminpu=0.9 vmaxpu=1.10 
+New Load.B9_2_0 Bus1=N092T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.82 vminpu=0.9 vmaxpu=1.10 
+New Load.B9_2_1 Bus1=N092T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.53 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B9_2_3 Bus1=N092T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.97 vminpu=0.9 vmaxpu=1.10 
+New Load.B9_2_4 Bus1=N092T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.89 vminpu=0.9 vmaxpu=1.10 
+New Load.B9_2_5 Bus1=N092T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.76 vminpu=0.9 vmaxpu=1.10 
+New Load.B9_2_6 Bus1=N092T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.41 vminpu=0.9 vmaxpu=1.10 
+New Load.B9_2_7 Bus1=N092T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.83 vminpu=0.9 vmaxpu=1.10 
+New Load.B9_2_8 Bus1=N092T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.54 vminpu=0.9 vmaxpu=1.10 
+New Load.B9 Bus1=N9T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.97 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B8_0 Bus1=N8T.2.0 phases=1 duty=shapeB kV=0.12 kW=19.77 vminpu=0.9 vmaxpu=1.10 
+New Load.B8_1 Bus1=N8T.2.0 phases=1 duty=shapeB kV=0.12 kW=3.95 vminpu=0.9 vmaxpu=1.10 
+New Load.B6A Bus1=N6TA.1.0 phases=1 duty=shapeA kV=0.12 kW=9.28 vminpu=0.9 vmaxpu=1.10 
+New Load.B6B Bus1=N6TB.2.0 phases=1 duty=shapeB kV=0.12 kW=9.28 vminpu=0.9 vmaxpu=1.10 
+New Load.B6C Bus1=N6TC.3.0 phases=1 duty=shapeC kV=0.12 kW=9.28 vminpu=0.9 vmaxpu=1.10 
+New Load.B4_2_0 Bus1=N042T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.03 vminpu=0.9 vmaxpu=1.10 
+New Load.B4_2_1 Bus1=N042T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.08 vminpu=0.9 vmaxpu=1.10 
+New Load.B4_2_2 Bus1=N042T.1.0 phases=1 duty=shapeA kV=0.12 kW=0 vminpu=0.9 vmaxpu=1.10 
+New Load.B4_1_0 Bus1=N041T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.35 vminpu=0.9 vmaxpu=1.10 
+New Load.B4_1_1 Bus1=N041T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.1 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.B4_1_2 Bus1=N041T.1.0 phases=1 duty=shapeA kV=0.12 kW=34.58 vminpu=0.9 vmaxpu=1.10 
+New Load.B4_1_3 Bus1=N041T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.71 vminpu=0.9 vmaxpu=1.10 
+New Load.B4 Bus1=N4T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.59 vminpu=0.9 vmaxpu=1.10 
+
+
+
+!***************L5100 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+New Load.P5_3 Bus1=P053T.2.0 phases=1 duty=shapeB kV=0.12 kW=14.42 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.P5_2 Bus1=P052T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.12 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.46 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_1 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.08 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_2 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.5 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_3 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.99 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_4 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.18 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_5 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.89 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_6 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=18.34 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_7 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.47 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_8 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.78 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_9 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.8 vminpu=0.9 vmaxpu=1.10 
+New Load.P5_1_10 Bus1=P051T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.67 vminpu=0.9 vmaxpu=1.10 
+
+New Load.P1_1 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.24 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_1 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.99 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_2 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.15 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_3 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.09 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_4 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.48 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_5 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.56 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_6 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.76 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_7 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.48 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_8 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.76 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_9 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=21.51 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_10 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.88 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_11 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=18.95 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_12 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.55 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_13 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.3 vminpu=0.9 vmaxpu=1.10 
+New Load.P1_1_14 Bus1=P011T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.22 vminpu=0.9 vmaxpu=1.10 
+
+
+
+!***************L5300 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+New Load.Q20 Bus1=Q20TB.2.0 phases=1 duty=shapeB kV=0.12 kW=7.1 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Q20_1 Bus1=Q20TB.2.0 phases=1 duty=shapeB kV=0.12 kW=0.46 vminpu=0.9 vmaxpu=1.10 
+New Load.Q20_2 Bus1=Q20TB.2.0 phases=1 duty=shapeB kV=0.12 kW=10.86 vminpu=0.9 vmaxpu=1.10 
+New Load.Q20_3 Bus1=Q20TB.2.0 phases=1 duty=shapeB kV=0.12 kW=0.05 vminpu=0.9 vmaxpu=1.10 
+New Load.Q20_4 Bus1=Q20TB.2.0 phases=1 duty=shapeB kV=0.12 kW=13.49 vminpu=0.9 vmaxpu=1.10 
+New Load.Q19 Bus1=Q19T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.67 vminpu=0.9 vmaxpu=1.10 
+New Load.Q19_1 Bus1=Q19T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.73 vminpu=0.9 vmaxpu=1.10 
+New Load.Q18 Bus1=Q19T.2.0 phases=1 duty=shapeB kV=0.12 kW=16.9 vminpu=0.9 vmaxpu=1.10 
+New Load.Q18_1 Bus1=Q18T.2.0 phases=1 duty=shapeB kV=0.12 kW=22.03 vminpu=0.9 vmaxpu=1.10 
+New Load.Q18_2 Bus1=Q18T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.38 vminpu=0.9 vmaxpu=1.10 
+New Load.Q17 Bus1=Q17T.2.0 phases=1 duty=shapeB kV=0.12 kW=22.35 vminpu=0.9 vmaxpu=1.10 
+New Load.Q16 Bus1=Q16T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.09 vminpu=0.9 vmaxpu=1.10 
+New Load.Q16_1 Bus1=Q16T.2.0 phases=1 duty=shapeB kV=0.12 kW=14.91 vminpu=0.9 vmaxpu=1.10 
+New Load.Q15 Bus1=Q15T.2.0 phases=1 duty=shapeB kV=0.12 kW=3.09 vminpu=0.9 vmaxpu=1.10 
+
+New Load.Q14_1 Bus1=Q0141T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.63 vminpu=0.9 vmaxpu=1.10 
+New Load.Q14_1_1 Bus1=Q0141T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.0 vminpu=0.9 vmaxpu=1.10 
+New Load.Q14_1_2 Bus1=Q0141T.2.0 phases=1 duty=shapeB kV=0.12 kW=15.12 vminpu=0.9 vmaxpu=1.10 
+New Load.Q14 Bus1=Q14T.2.0 phases=1 duty=shapeB kV=0.12 kW=10.96 vminpu=0.9 vmaxpu=1.10 
+New Load.Q13 Bus1=Q13T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.55 vminpu=0.9 vmaxpu=1.10 
+New Load.Q13_1 Bus1=Q13T.2.0 phases=1 duty=shapeB kV=0.12 kW=19.73 vminpu=0.9 vmaxpu=1.10 
+New Load.Q13_2 Bus1=Q13T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.19 vminpu=0.9 vmaxpu=1.10 
+
+New Load.Q12 Bus1=Q12TC.3.0 phases=1 duty=shapeC kV=0.12 kW=13.41 vminpu=0.9 vmaxpu=1.10 
+New Load.Q12_1 Bus1=Q12TC.3.0 phases=1 duty=shapeC kV=0.12 kW=24.68 vminpu=0.9 vmaxpu=1.10 
+New Load.Q12_2 Bus1=Q12TC.3.0 phases=1 duty=shapeC kV=0.12 kW=9.6 vminpu=0.9 vmaxpu=1.10 
+New Load.Q12_3 Bus1=Q12TC.3.0 phases=1 duty=shapeC kV=0.12 kW=6.83 vminpu=0.9 vmaxpu=1.10 
+New Load.Q12_4 Bus1=Q12TC.3.0 phases=1 duty=shapeC kV=0.12 kW=1.03 vminpu=0.9 vmaxpu=1.10 
+New Load.Q12_5 Bus1=Q12TC.3.0 phases=1 duty=shapeC kV=0.12 kW=17.19 vminpu=0.9 vmaxpu=1.10 
+New Load.Q12_6 Bus1=Q12TB.2.0 phases=1 duty=shapeB kV=0.12 kW=17.42 vminpu=0.9 vmaxpu=1.10 
+New Load.Q12_7 Bus1=Q12TB.2.0 phases=1 duty=shapeB kV=0.12 kW=8.07 vminpu=0.9 vmaxpu=1.10 
+New Load.Q12_8 Bus1=Q12TB.2.0 phases=1 duty=shapeB kV=0.12 kW=6.49 vminpu=0.9 vmaxpu=1.10 
+New Load.Q11 Bus1=Q11T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.82 vminpu=0.9 vmaxpu=1.10 
+
+New Load.Q10 Bus1=Q10TC.3.0 phases=1 duty=shapeC kV=0.12 kW=20.89 vminpu=0.9 vmaxpu=1.10 
+New Load.Q10_1 Bus1=Q10TC.3.0 phases=1 duty=shapeC kV=0.12 kW=16.48 vminpu=0.9 vmaxpu=1.10 
+New Load.Q10_2 Bus1=Q10TC.3.0 phases=1 duty=shapeC kV=0.12 kW=10.74 vminpu=0.9 vmaxpu=1.10 
+New Load.Q10_3 Bus1=Q10TC.3.0 phases=1 duty=shapeC kV=0.12 kW=4.56 vminpu=0.9 vmaxpu=1.10 
+New Load.Q9 Bus1=Q9T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.43 vminpu=0.9 vmaxpu=1.10 
+New Load.Q9_1 Bus1=Q9T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.87 vminpu=0.9 vmaxpu=1.10 
+New Load.Q9_2 Bus1=Q9T.2.0 phases=1 duty=shapeB kV=0.12 kW=10.22 vminpu=0.9 vmaxpu=1.10 
+New Load.Q9_3 Bus1=Q9T.2.0 phases=1 duty=shapeB kV=0.12 kW=19.23 vminpu=0.9 vmaxpu=1.10 
+New Load.Q9_4 Bus1=Q9T.2.0 phases=1 duty=shapeB kV=0.12 kW=13.45 vminpu=0.9 vmaxpu=1.10 
+
+New Load.Q8 Bus1=Q8T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.82 vminpu=0.9 vmaxpu=1.10 
+New Load.Q8_1 Bus1=Q8T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.78 vminpu=0.9 vmaxpu=1.10 
+New Load.Q7 Bus1=Q7T.2.0 phases=1 duty=shapeB kV=0.12 kW=13.02 vminpu=0.9 vmaxpu=1.10 
+New Load.Q7_1 Bus1=Q7T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.28 vminpu=0.9 vmaxpu=1.10 
+New Load.Q7_2 Bus1=Q7T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.77 vminpu=0.9 vmaxpu=1.10 
+New Load.Q7_3 Bus1=Q7T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.21 vminpu=0.9 vmaxpu=1.10 
+New Load.Q7_4 Bus1=Q7T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.85 vminpu=0.9 vmaxpu=1.10 
+New Load.Q7_5 Bus1=Q7T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.15 vminpu=0.9 vmaxpu=1.10 
+New Load.Q4 Bus1=Q4T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.67 vminpu=0.9 vmaxpu=1.10 
+
+New Load.Q3 Bus1=Q3T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.25 vminpu=0.9 vmaxpu=1.10 
+New Load.Q3_1 Bus1=Q3T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.32 vminpu=0.9 vmaxpu=1.10 
+New Load.Q3_2 Bus1=Q3T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.37 vminpu=0.9 vmaxpu=1.10 
+New Load.Q2 Bus1=Q2T.2.0 phases=1 duty=shapeB kV=0.12 kW=14.96 vminpu=0.9 vmaxpu=1.10 
+New Load.Q2_1 Bus1=Q2T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.57 vminpu=0.9 vmaxpu=1.10 
+New Load.Q2_2 Bus1=Q2T.2.0 phases=1 duty=shapeB kV=0.12 kW=17.40 vminpu=0.9 vmaxpu=1.10 
+New Load.Q2_3 Bus1=Q2T.2.0 phases=1 duty=shapeB kV=0.12 kW=25.92 vminpu=0.9 vmaxpu=1.10 
+New Load.Q1 Bus1=Q1T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.61 vminpu=0.9 vmaxpu=1.10 
+New Load.Q1_1 Bus1=Q1T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.85 vminpu=0.9 vmaxpu=1.10 
+
+
+
+
+
+!***************L5400 & L5420 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+
+New Load.R37 Bus1=R37T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.R32 Bus1=R32T.1.0 phases=1 duty=shapeA kV=0.12 kW=18.47 vminpu=0.9 vmaxpu=1.10 
+New Load.R32_1 Bus1=R32T.1.0 phases=1 duty=shapeA kV=0.12 kW=16.69 vminpu=0.9 vmaxpu=1.10 
+New Load.R31 Bus1=R31T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.09 vminpu=0.9 vmaxpu=1.10 
+New Load.R31_1 Bus1=R31T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.46 vminpu=0.9 vmaxpu=1.10 
+New Load.R30 Bus1=R30T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.29 vminpu=0.9 vmaxpu=1.10 
+New Load.R29 Bus1=R29T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.44 vminpu=0.9 vmaxpu=1.10 
+New Load.R27 Bus1=R27T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.36 vminpu=0.9 vmaxpu=1.10 
+New Load.R27_1 Bus1=R27T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.89 vminpu=0.9 vmaxpu=1.10 
+New Load.R27_2 Bus1=R27T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.29 vminpu=0.9 vmaxpu=1.10 
+New Load.R24 Bus1=R24T.1.0 phases=1 duty=shapeA kV=0.12 kW=2.0 vminpu=0.9 vmaxpu=1.10 
+New Load.R23 Bus1=R23T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.44 vminpu=0.9 vmaxpu=1.10 
+New Load.R23_1 Bus1=R23T.1.0 phases=1 duty=shapeA kV=0.12 kW=18.75 vminpu=0.9 vmaxpu=1.10 
+
+New Load.R21 Bus1=R21T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.83 vminpu=0.9 vmaxpu=1.10 
+New Load.R21_1 Bus1=R21T.2.0 phases=1 duty=shapeB kV=0.12 kW=21.78 vminpu=0.9 vmaxpu=1.10 
+New Load.R21_2 Bus1=R21T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.65 vminpu=0.9 vmaxpu=1.10 
+New Load.R21_3 Bus1=R21T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.23 vminpu=0.9 vmaxpu=1.10 
+New Load.R20 Bus1=R20T.2.0 phases=1 duty=shapeB kV=0.12 kW=2.82 vminpu=0.9 vmaxpu=1.10 
+New Load.R20_1 Bus1=R20T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.39 vminpu=0.9 vmaxpu=1.10 
+New Load.R20_2 Bus1=R20T.2.0 phases=1 duty=shapeB kV=0.12 kW=22.15 vminpu=0.9 vmaxpu=1.10 
+
+New Load.R19 Bus1=R19T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.99 vminpu=0.9 vmaxpu=1.10 
+New Load.R19_1 Bus1=R19T.3.0 phases=1 duty=shapeC kV=0.12 kW=17.44 vminpu=0.9 vmaxpu=1.10 
+New Load.R19_2 Bus1=R19T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.53 vminpu=0.9 vmaxpu=1.10 
+New Load.R19_3 Bus1=R19T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.78 vminpu=0.9 vmaxpu=1.10 
+New Load.R18 Bus1=R18T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.73 vminpu=0.9 vmaxpu=1.10 
+New Load.R18_1 Bus1=R18T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.06 vminpu=0.9 vmaxpu=1.10 
+New Load.R18_2 Bus1=R18T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.41 vminpu=0.9 vmaxpu=1.10 
+New Load.R18_3 Bus1=R18T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.92 vminpu=0.9 vmaxpu=1.10 
+New Load.R17 Bus1=R17T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.75 vminpu=0.9 vmaxpu=1.10 
+New Load.R17_1 Bus1=R17T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.48 vminpu=0.9 vmaxpu=1.10 
+New Load.R16 Bus1=R16T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.72 vminpu=0.9 vmaxpu=1.10 
+New Load.R16_1 Bus1=R16T.3.0 phases=1 duty=shapeC kV=0.12 kW=18.76 vminpu=0.9 vmaxpu=1.10 
+New Load.R16_2 Bus1=R16T.3.0 phases=1 duty=shapeC kV=0.12 kW=16.56 vminpu=0.9 vmaxpu=1.10 
+New Load.R16_3 Bus1=R16T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.13 vminpu=0.9 vmaxpu=1.10 
+New Load.R15 Bus1=R15T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.62 vminpu=0.9 vmaxpu=1.10 
+New Load.R15_1 Bus1=R15T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.24 vminpu=0.9 vmaxpu=1.10 
+New Load.R15_2 Bus1=R15T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.57 vminpu=0.9 vmaxpu=1.10 
+
+New Load.R14 Bus1=R14T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.57 vminpu=0.9 vmaxpu=1.10 
+New Load.R14_1 Bus1=R14T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.89 vminpu=0.9 vmaxpu=1.10 
+New Load.R13 Bus1=R13T.2.0 phases=1 duty=shapeB kV=0.12 kW=13.32 vminpu=0.9 vmaxpu=1.10 
+New Load.R13_1 Bus1=R13T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.1 vminpu=0.9 vmaxpu=1.10 
+New Load.R13_2 Bus1=R13T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.54 vminpu=0.9 vmaxpu=1.10 
+New Load.R13_3 Bus1=R13T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.07 vminpu=0.9 vmaxpu=1.10 
+New Load.R12 Bus1=R12T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.39 vminpu=0.9 vmaxpu=1.10 
+New Load.R12_1 Bus1=R12T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.26 vminpu=0.9 vmaxpu=1.10 
+New Load.R11 Bus1=R11T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.62 vminpu=0.9 vmaxpu=1.10 
+New Load.R11_1 Bus1=R11T.2.0 phases=1 duty=shapeB kV=0.12 kW=20.41 vminpu=0.9 vmaxpu=1.10 
+New Load.R11_2 Bus1=R11T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.43 vminpu=0.9 vmaxpu=1.10 
+New Load.R10 Bus1=R10T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.56 vminpu=0.9 vmaxpu=1.10 
+New Load.R10_1 Bus1=R10T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.76 vminpu=0.9 vmaxpu=1.10 
+
+New Load.R9 Bus1=R9T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.4 vminpu=0.9 vmaxpu=1.10 
+New Load.R9_1 Bus1=R9T.2.0 phases=1 duty=shapeB kV=0.12 kW=17.05 vminpu=0.9 vmaxpu=1.10 
+New Load.R8 Bus1=R8T.2.0 phases=1 duty=shapeB kV=0.12 kW=11.72 vminpu=0.9 vmaxpu=1.10 
+New Load.R8_1 Bus1=R8T.2.0 phases=1 duty=shapeB kV=0.12 kW=14.73 vminpu=0.9 vmaxpu=1.10 
+New Load.R8_2 Bus1=R8T.2.0 phases=1 duty=shapeB kV=0.12 kW=15.19 vminpu=0.9 vmaxpu=1.10 
+New Load.R8_3 Bus1=R8T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.55 vminpu=0.9 vmaxpu=1.10 
+New Load.R6 Bus1=R6T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.86 vminpu=0.9 vmaxpu=1.10 
+New Load.R6_1 Bus1=R6T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.78 vminpu=0.9 vmaxpu=1.10 
+New Load.R5 Bus1=R5T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.42 vminpu=0.9 vmaxpu=1.10 
+New Load.R4 Bus1=R4T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.01 vminpu=0.9 vmaxpu=1.10 
+New Load.R2_1 Bus1=R021T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.56 vminpu=0.9 vmaxpu=1.10 
+
+
+New Load.RR6 Bus1=RR6T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.71 vminpu=0.9 vmaxpu=1.10 
+New Load.RR6_1 Bus1=RR6T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.36 vminpu=0.9 vmaxpu=1.10 
+New Load.RR3 Bus1=RR3T.1.0 phases=1 duty=shapeA kV=0.12 kW=18.53 vminpu=0.9 vmaxpu=1.10 
+New Load.RR2_1 Bus1=RR021T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.39 vminpu=0.9 vmaxpu=1.10 
+New Load.RR2 Bus1=RR2T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.81 vminpu=0.9 vmaxpu=1.10 
+New Load.RR1 Bus1=RR1T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.21 vminpu=0.9 vmaxpu=1.10 
+
+
+
+!***************L5500, L5510, L5530 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+
+New Load.S42 Bus1=S42T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S40 Bus1=S40T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.33 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S40_1 Bus1=S40T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.88 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S39_1 Bus1=S0391T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.76 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S37_2 Bus1=S0372T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.28 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S37_1 Bus1=S0371T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.74 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S36 Bus1=S36T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.1 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S33 Bus1=S33T.3.0 phases=1 duty=shapeC kV=0.12 kW=40.41 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S29_1 Bus1=S0291T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.1 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S28 Bus1=S28T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S28_1 Bus1=S28T.3.0 phases=1 duty=shapeC kV=0.12 kW=18.05 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S27 Bus1=S27T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.05 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S25 Bus1=S25T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.32 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.S21_1 Bus1=S0211T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.47 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S21_1_1 Bus1=S0211T.3.0 phases=1 duty=shapeC kV=0.12 kW= 3.2 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S20_1 Bus1=S0201T.3.0 phases=1 duty=shapeC kV=0.12 kW= 14.7 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S19 Bus1=S19T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.62 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S19_1 Bus1=S19T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.42 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S19_2 Bus1=S19T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.71 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S19_3 Bus1=S19T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.2 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S18 Bus1=S18T.3.0 phases=1 duty=shapeC kV=0.12 kW=21.92 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S17S Bus1=S17ST.3.0 phases=1 duty=shapeC kV=0.12 kW=43.98 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S15 Bus1=S15T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.46 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S12_1 Bus1=S0121T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.27 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S11 Bus1=S11T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.3 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.S9 Bus1=S9T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.01 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S9_1 Bus1=S9T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.14 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S6 Bus1=S6T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.24 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S6_1 Bus1=S6T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.18 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S6_2 Bus1=S6T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.84 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S6_3 Bus1=S6T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.48 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S1_1 Bus1=S011T.3.0 phases=1 duty=shapeC kV=0.12 kW=16.06 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S1_1_1 Bus1=S011T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.14 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.S1_1_2 Bus1=S011T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.97 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.SS7 Bus1=SS7T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.771 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SS6 Bus1=SS6T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.04 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SS6_1 Bus1=SS6T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.09 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SS5 Bus1=SS5T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.39 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SS1 Bus1=SS1T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.59 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SS1_1 Bus1=SS1T.3.0 phases=1 duty=shapeC kV=0.12 kW=31.66 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SS1_2 Bus1=SS1T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.67 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.SSS12 Bus1=SSS12T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.7 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SSS11 Bus1=SSS11T.3.0 phases=1 duty=shapeC kV=0.12 kW=3.7 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SSS7 Bus1=SSS7T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.05 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SSS4 Bus1=SSS4T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.44 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SSS3 Bus1=SSS3T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.48 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SSS2 Bus1=SSS2T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.38 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SSS1_1 Bus1=SSS011T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.75 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.SSS1_1_2 Bus1=SSS011T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.7 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+!***************L5600, L5610 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+
+
+New Load.T21 Bus1=T21T.1.0 phases=1 duty=shapeA kV=0.12 kW=23.08 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T19 Bus1=T19T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T16 Bus1=T16T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.28 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T15 Bus1=T15T.1.0 phases=1 duty=shapeA kV=0.12 kW=16.72 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T13 Bus1=T13T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.91 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T13_1 Bus1=T13T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.05 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T13_2 Bus1=T13T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.15 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T12_1 Bus1=T0121T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.87 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T11 Bus1=T11T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.73 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T11_1 Bus1=T11T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.92 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T10_1 Bus1=T0101T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.87 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T10_1_1 Bus1=T0101T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.94 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T10 Bus1=T10T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.14 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.T9_1 Bus1=T091T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.35 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T9 Bus1=T9T.1.0 phases=1 duty=shapeA kV=0.12 kW=18.06 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T8 Bus1=T8T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T7 Bus1=T7T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.08 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T7_1 Bus1=T7T.1.0 phases=1 duty=shapeA kV=0.12 kW=18.45 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T7_2 Bus1=T7T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.32 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T7_3 Bus1=T7T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T6 Bus1=T6T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.9 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T5 Bus1=T5T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T4 Bus1=T4T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.76 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T3 Bus1=T3T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.55 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.T2_3 Bus1=T023T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.31 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T2_3_1 Bus1=T023T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T2_3_2 Bus1=T023T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T2_3_3 Bus1=T023T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.93 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T2_2 Bus1=T022T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.T2_2_1 Bus1=T022T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.63 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.TT9 Bus1=TT9T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.82 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.TT3_2 Bus1=TT032T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.1 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.TT3_2_2 Bus1=TT032T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+
+
+
+!*************** L5800 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+New Load.U9 Bus1=U9T.2.0 phases=1 duty=shapeB kV=0.12 kW=11.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U9_1 Bus1=U9T.2.0 phases=1 duty=shapeB kV=0.12 kW=15.63 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U8 Bus1=U8T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.03 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U6_2 Bus1=U062T.2.0 phases=1 duty=shapeB kV=0.12 kW=13.17 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U5_5_1 Bus1=U0551T.2.0 phases=1 duty=shapeB kV=0.12 kW=13.54 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U5 Bus1=U5T.2.0 phases=1 duty=shapeB kV=0.12 kW=13.17 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U5_1 Bus1=U5T.2.0 phases=1 duty=shapeB kV=0.12 kW=3.75 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U5_2 Bus1=U5T.2.0 phases=1 duty=shapeB kV=0.12 kW=10.64 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U4_1 Bus1=U041T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.17 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U3 Bus1=U3T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.96 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U2_1 Bus1=U021T.2.0 phases=1 duty=shapeB kV=0.12 kW=10.96 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.U1 Bus1=U1T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.33 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+
+
+
+!*************** L1000 Feeder SINGLE PHASE LOAD DATA PHASE C *********************************************************************************
+
+
+New Load.V204 Bus1=V204T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.95 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V202 Bus1=V202T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V201_1 Bus1=V02011T.3.0 phases=1 duty=shapeC kV=0.12 kW=16.69 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V198_3 Bus1=V01983T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V198_3_1 Bus1=V01983T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.51 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V198_2_1 Bus1=V019821T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.8 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V198.2 Bus1=V01982T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.23 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V198_21 Bus1=V01982T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.59 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V198_1 Bus1=V01981T.3.0 phases=1 duty=shapeC kV=0.12 kW=26.44 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V198_11 Bus1=V01981T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.94 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V198 Bus1=V198T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.14 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V198_0 Bus1=V198T.3.0 phases=1 duty=shapeC kV=0.12 kW=2.13 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V198_01 Bus1=V198T.3.0 phases=1 duty=shapeC kV=0.12 kW=16.21 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V194 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.0 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V194_1 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.96 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_2 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.49 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_3 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.33 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_4 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.87 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_5 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.45 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_6 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_7 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_8 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.55 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_9 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.46 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_10 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.99 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_11 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.4 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_12 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.34 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_13 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.98 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_14 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_15 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.25 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V194_16 Bus1=V194T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.89 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V191 Bus1=V191T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.19 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V191_1 Bus1=V191T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.48 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V191_2 Bus1=V191T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.41 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V191_3 Bus1=V191T.3.0 phases=1 duty=shapeC kV=0.12 kW=18.49 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V189 Bus1=V189T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.73 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V189_1 Bus1=V189T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.92 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V189_2 Bus1=V189T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.8 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V189_3 Bus1=V189T.3.0 phases=1 duty=shapeC kV=0.12 kW=16.9 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+
+New Load.V183 Bus1=V183T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.21 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V178 Bus1=V178T.3.0 phases=1 duty=shapeC kV=0.12 kW=27.17 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V178_1 Bus1=V178T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.04 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V178_2 Bus1=V178T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.35 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V162 Bus1=V162T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.18 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V161 Bus1=V161T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.57 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V152 Bus1=V152T.3.0 phases=1 duty=shapeC kV=0.12 kW=13 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V152_1 Bus1=V152T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.46 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V152_2 Bus1=V152T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.86 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V151 Bus1=V151T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.39 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V150_7 Bus1=V01507T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V150_2 Bus1=V01502T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.03 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V150_21 Bus1=V01502T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.05 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V150_22 Bus1=V01502T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.54 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V145_2 Bus1=V01452T.3.0 phases=1 duty=shapeC kV=0.12 kW=2.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V145_1 Bus1=V01451T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.13 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V143_1 Bus1=V01431T.3.0 phases=1 duty=shapeC kV=0.12 kW=19.96 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V140 Bus1=V140T.3.0 phases=1 duty=shapeC kV=0.12 kW=2.97 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V137_1 Bus1=V01371T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V136 Bus1=V136T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.76 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V136_1 Bus1=V136T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.76 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V128 Bus1=V128T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V124 Bus1=V124T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.44 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V118_1 Bus1=V01181T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.4 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V118_11 Bus1=V01181T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.71 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V113 Bus1=V113T.3.0 phases=1 duty=shapeC kV=0.12 kW=2.71 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V113_1 Bus1=V113T.3.0 phases=1 duty=shapeC kV=0.12 kW=25.4 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V108 Bus1=V108T.3.0 phases=1 duty=shapeC kV=0.12 kW=19.53 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V106 Bus1=V106T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.05 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V106_1 Bus1=V106T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V105_1 Bus1=V01051T.3.0 phases=1 duty=shapeC kV=0.12 kW=15.06 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V105_11 Bus1=V01051T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V104 Bus1=V104T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.53 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V102 Bus1=V102T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V101 Bus1=V101T.3.0 phases=1 duty=shapeC kV=0.12 kW=22.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V100_2 Bus1=V01002T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.92 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V97 Bus1=V97T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.77 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V97_1 Bus1=V97T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.97 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V95 Bus1=V95T.3.0 phases=1 duty=shapeC kV=0.12 kW=4.43 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V92 Bus1=V92T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.19 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V89 Bus1=V89T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.88 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V89_1 Bus1=V89T.3.0 phases=1 duty=shapeC kV=0.12 kW=5.99 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V87 Bus1=V87T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.46 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V81 Bus1=V81T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.64 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V81_1 Bus1=V81T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.78 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V81_2 Bus1=V81T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.61 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V81_3 Bus1=V81T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+!*********************************************L1000 SINGLE PHASE LOAD DATA PHASES A, B &C***********************************************************
+
+
+New Load.V74 Bus1=V74T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.06 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V73 Bus1=V73T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V71_5 Bus1=V0715T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.67 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V71_4 Bus1=V0714T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.95 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V71_3 Bus1=V0713T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.57 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V71_2 Bus1=V0712T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.56 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V71_1 Bus1=V0711T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.17 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V71_11 Bus1=V0711T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V71_12 Bus1=V0711T.1.0 phases=1 duty=shapeA kV=0.12 kW=15.01 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V69 Bus1=V69T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.07 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V68B Bus1=V68TB.2.0 phases=1 duty=shapeB kV=0.12 kW=9.13 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V68C Bus1=V68TC.3.0 phases=1 duty=shapeC kV=0.12 kW=9.13 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V68B.1 Bus1=V68TB.2.0 phases=1 duty=shapeB kV=0.12 kW=17.5 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V68C.1 Bus1=V68TC.3.0 phases=1 duty=shapeC kV=0.12 kW=17.5 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V66 Bus1=V66T.2.0 phases=1 duty=shapeB kV=0.12 kW=16.22 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V66_1 Bus1=V66T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.86 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V64 Bus1=V64T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.07 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V64_1 Bus1=V64T.3.0 phases=1 duty=shapeC kV=0.12 kW=1.57 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V63 Bus1=V63T.3.0 phases=1 duty=shapeC kV=0.12 kW=8.21 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V61 Bus1=V61T.3.0 phases=1 duty=shapeC kV=0.12 kW=17.3 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V57 Bus1=V57T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.37 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V55 Bus1=V55T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.92 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V55_1 Bus1=V55T.3.0 phases=1 duty=shapeC kV=0.12 kW=14.77 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V55_2 Bus1=V55T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.28 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V49 Bus1=V49T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.36 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V48 Bus1=V48T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.16 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V46 Bus1=V46T.3.0 phases=1 duty=shapeC kV=0.12 kW=11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V45 Bus1=V45T.2.0 phases=1 duty=shapeB kV=0.12 kW=10.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V42 Bus1=V42T.2.0 phases=1 duty=shapeB kV=0.12 kW=10.19 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V41 Bus1=V41T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.02 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V41_1 Bus1=V41T.1.0 phases=1 duty=shapeA kV=0.12 kW=21.04 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V33 Bus1=V33T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.73 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V30_3 Bus1=V0303T.3.0 phases=1 duty=shapeC kV=0.12 kW=10.57 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V30 Bus1=V30T.3.0 phases=1 duty=shapeC kV=0.12 kW=9.36 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V27 Bus1=V27T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.03 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V27_1 Bus1=V27T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.73 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V26 Bus1=V26T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.45 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V26_1 Bus1=V26T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.2 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V25 Bus1=V25T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.03 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V25_1 Bus1=V25T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.62 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V24 Bus1=V24T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.2 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V24_1 Bus1=V24T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.71 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V23 Bus1=V23T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.47 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V22 Bus1=V22T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.42 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V22_1 Bus1=V22T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.98 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V22_2 Bus1=V22T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V22_3 Bus1=V22T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.47 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V21 Bus1=V21T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.84 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V21_1 Bus1=V21T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.62 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V21_2 Bus1=V21T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.44 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V20 Bus1=V20T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V20_1 Bus1=V20T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.51 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V20_2 Bus1=V20T.1.0 phases=1 duty=shapeA kV=0.12 kW=18.67 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V20_3 Bus1=V20T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.89 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V19 Bus1=V19T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V19_1 Bus1=V19T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V19_2 Bus1=V19T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.72 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V19_3 Bus1=V19T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V19_4 Bus1=V19T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V19_5 Bus1=V19T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V19_6 Bus1=V19T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V19_7 Bus1=V19T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V18 Bus1=V18T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.52 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V18_1 Bus1=V18T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.43 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V18_2 Bus1=V18T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.78 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V18_3 Bus1=V18T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.64 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V16 Bus1=V16T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.91 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V16_1 Bus1=V16T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.53 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V16_2 Bus1=V16T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V16_3 Bus1=V16T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.28 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V16_4 Bus1=V16T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.76 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V16_5 Bus1=V16T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.29 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V15 Bus1=V15T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.34 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V15_1 Bus1=V15T.1.0 phases=1 duty=shapeA kV=0.12 kW=1.13 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V15_2 Bus1=V15T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V14_02 Bus1=V0142T.2.0 phases=1 duty=shapeB kV=0.12 kW=18.75 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V14_2_1 Bus1=V0142T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.39 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V14_2_2 Bus1=V0142T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.77 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V14_01 Bus1=V0141T.2.0 phases=1 duty=shapeB kV=0.12 kW=11.7 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V14 Bus1=V14T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.67 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V14_1 Bus1=V14T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.66 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V14_2 Bus1=V14T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.06 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V14_3 Bus1=V14T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.66 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V14_4 Bus1=V14T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.52 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V13 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=21.48 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_1 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_2 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_3 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.53 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_4 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.36 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_5 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.21 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_6 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.61 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_7 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.68 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_8 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.22 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_9 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.15 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_10 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.49 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V13_11 Bus1=V13T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.03 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V12 Bus1=V12T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V12_1 Bus1=V12T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.32 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V12_2 Bus1=V12T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.57 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V12_3 Bus1=V12T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.21 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.62 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11_1 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.51 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V11_2 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.82 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11_3 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.61 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11_4 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.49 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11_5 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.32 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11_6 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.93 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11_7 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.19 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11_8 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.23 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V11_9 Bus1=V11T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.47 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.V10 Bus1=V10T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.31 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V10_1 Bus1=V10T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.04 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V10_2 Bus1=V10T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V9 Bus1=V9T.1.0 phases=1 duty=shapeA kV=0.12 kW=2.01 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V9_1 Bus1=V9T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V8 Bus1=V8T.1.0 phases=1 duty=shapeA kV=0.12 kW=19.31 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V8_1 Bus1=V8T.1.0 phases=1 duty=shapeA kV=0.12 kW=2.21 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V6 Bus1=V6T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V6_1 Bus1=V6T.1.0 phases=1 duty=shapeA kV=0.12 kW=2.21 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V5 Bus1=V5T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.04 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V5_1 Bus1=V5T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.51 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V5_2 Bus1=V5T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.23 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V4 Bus1=V4T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.19 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V4_1 Bus1=V4T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.1 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V3 Bus1=V3T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.78 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.V2 Bus1=V2T.1.0 phases=1 duty=shapeA kV=0.12 kW=21.11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V2_1 Bus1=V2T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.12 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V2_2 Bus1=V2T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.77 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V2_3 Bus1=V2T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.8 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V2_4 Bus1=V2T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.06 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V2_5 Bus1=V2T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.56 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.V2_6 Bus1=V2T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.99 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+
+!*************** L1100 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+
+
+New Load.W27 Bus1=W27T.2.0 phases=1 duty=shapeB kV=0.12 kW=11.59 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W26 Bus1=W26T.2.0 phases=1 duty=shapeB kV=0.12 kW=22.14 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W24 Bus1=W24T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.52 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W22 Bus1=W22T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W20 Bus1=W20T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.36 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W17 Bus1=W0171T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.0 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W17_1 Bus1=W0171T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.34 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W17_2 Bus1=W0171T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.98 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W17_3 Bus1=W0171T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.43 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W017 Bus1=W17T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.93 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W017_1 Bus1=W17T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.08 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W15 Bus1=W15T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W14 Bus1=W14T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.1 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W8 Bus1=W8T.2.0 phases=1 duty=shapeB kV=0.12 kW=11.52 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W5 Bus1=W5T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.41 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W4_5 Bus1=W045T.2.0 phases=1 duty=shapeB kV=0.12 kW=17.55 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W4_5_1 Bus1=W045T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.34 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.W0_5 Bus1=W05T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.66 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.WW17 Bus1=WW17T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.97 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW14 Bus1=WW14T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.19 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW14_1 Bus1=WW14T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.01 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW13_7 Bus1=WW0137T.2.0 phases=1 duty=shapeB kV=0.12 kW=5.69 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW13_5 Bus1=WW0135T.2.0 phases=1 duty=shapeB kV=0.12 kW=9.64 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW13_3 Bus1=WW0133T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.93 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW13_3_1 Bus1=WW0133T.2.0 phases=1 duty=shapeB kV=0.12 kW=4.54 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW13 Bus1=WW13T.2.0 phases=1 duty=shapeB kV=0.12 kW=11.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW12 Bus1=WW12T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.61 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW12_1 Bus1=WW12T.2.0 phases=1 duty=shapeB kV=0.12 kW=1.57 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW11 Bus1=WW11T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.11 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+New Load.WW9 Bus1=WW9T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.24 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW8 Bus1=WW8T.2.0 phases=1 duty=shapeB kV=0.12 kW=5 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW7_4 Bus1=WW074T.2.0 phases=1 duty=shapeB kV=0.12 kW=0.95 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW7_4_1 Bus1=WW074T.2.0 phases=1 duty=shapeB kV=0.12 kW=3.09 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW6 Bus1=WW6T.2.0 phases=1 duty=shapeB kV=0.12 kW=6.51 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW4_5 Bus1=WW045T.2.0 phases=1 duty=shapeB kV=0.12 kW=2.01 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW4 Bus1=WW4T.2.0 phases=1 duty=shapeB kV=0.12 kW=11.82 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW4_1 Bus1=WW4T.2.0 phases=1 duty=shapeB kV=0.12 kW=2.51 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW2 Bus1=WW2T.2.0 phases=1 duty=shapeB kV=0.12 kW=7.45 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW2_1 Bus1=WW2T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.08 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW1_6 Bus1=WW016T.2.0 phases=1 duty=shapeB kV=0.12 kW=12.15 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.WW1_1 Bus1=WW011T.2.0 phases=1 duty=shapeB kV=0.12 kW=8.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+!*************** L1200 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+New Load.X34 Bus1=X34T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.01 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X29 Bus1=X29T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.85 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X29_1 Bus1=X29T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.84 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X23 Bus1=X23T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.14 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X21 Bus1=X21T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.84 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X19_2 Bus1=X0192T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.56 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X18 Bus1=X18T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.44 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X17 Bus1=X17T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.9 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X15 Bus1=X15T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.58 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X15_1 Bus1=X15T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.81 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X14 Bus1=X14T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.66 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X12 Bus1=X12T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.54 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X11_1 Bus1=X0111T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.3 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X10 Bus1=X10T.1.0 phases=1 duty=shapeA kV=0.12 kW=2.54 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X8 Bus1=X8T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.75 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.X1 Bus1=X1T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.91 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+New Load.XX10 Bus1=XX10T.1.0 phases=1 duty=shapeA kV=0.12 kW=12.74 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XX7 Bus1=XX7T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.9 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XX6 Bus1=XX6T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.54 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XX1_3 Bus1=XX013T.1.0 phases=1 duty=shapeA kV=0.12 kW=9.07 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XX1_1_1 Bus1=XX0111T.1.0 phases=1 duty=shapeA kV=0.12 kW=12 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XX1_1_1_1 Bus1=XX0111T.1.0 phases=1 duty=shapeA kV=0.12 kW=5.02 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XX1_1_1_2 Bus1=XX0111T.1.0 phases=1 duty=shapeA kV=0.12 kW=0.52 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XX1 Bus1=XX1T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.54 vminpu=19.45 vmaxpu=1.10 pf=1.0
+New Load.XX1_1 Bus1=XX1T.1.0 phases=1 duty=shapeA kV=0.12 kW=8.54 vminpu=11.18 vmaxpu=1.10 pf=1.0
+
+
+New Load.XXX5 Bus1=XXX5T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.86 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XXX4_1 Bus1=XXX041T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.22 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XXX3 Bus1=XXX3T.1.0 phases=1 duty=shapeA kV=0.12 kW=2.37 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XXX3_1 Bus1=XXX3T.1.0 phases=1 duty=shapeA kV=0.12 kW=10.6 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XXX3_2 Bus1=XXX3T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.18 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.XXX1 Bus1=XXX1T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.3 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+!*************** L1400 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+New Load.Y18 Bus1=Y18T.1.0 phases=1 duty=shapeA kV=0.12 kW=22.96 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y16 Bus1=Y16T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.37 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y12 Bus1=Y12T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.81 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y11 Bus1=Y11T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.99 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y10 Bus1=Y10T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.21 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y9 Bus1=Y9T.1.0 phases=1 duty=shapeA kV=0.12 kW=17.33 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y8 Bus1=Y8T.1.0 phases=1 duty=shapeA kV=0.12 kW=6.3 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y6_1 Bus1=Y061T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.73 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y5_3 Bus1=Y053T.1.0 phases=1 duty=shapeA kV=0.12 kW=4.3 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y4_1 Bus1=Y041T.1.0 phases=1 duty=shapeA kV=0.12 kW=23.56 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y4_1_2 Bus1=Y041T.1.0 phases=1 duty=shapeA kV=0.12 kW=13.26 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y2_1 Bus1=Y021T.1.0 phases=1 duty=shapeA kV=0.12 kW=3.25 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y1_5 Bus1=Y015T.1.0 phases=1 duty=shapeA kV=0.12 kW=7.88 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y1 Bus1=Y1T.1.0 phases=1 duty=shapeA kV=0.12 kW=11.72 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Y1_1 Bus1=Y1T.1.0 phases=1 duty=shapeA kV=0.12 kW=14.9 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+!*************** L1500 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+New Load.Z14 Bus1=Z14T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.63 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Z14_1 Bus1=Z14T.3.0 phases=1 duty=shapeC kV=0.12 kW=11.8 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Z13_2 Bus1=Z0132T.3.0 phases=1 duty=shapeC kV=0.12 kW=0.2 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.Z6 Bus1=Z6T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.95 vminpu=0.9 vmaxpu=1.10 pf=1.0
+
+
+!*************** L1600 Feeder SINGLE PHASE LOAD DATA*********************************************************************************
+
+New Load.L3 Bus1=L3T.3.0 phases=1 duty=shapeC kV=0.12 kW=13.25 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.L3_1 Bus1=L3T.3.0 phases=1 duty=shapeC kV=0.12 kW=25.96 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.L3_2 Bus1=L3T.3.0 phases=1 duty=shapeC kV=0.12 kW=7.48 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.L1 Bus1=L1T.3.0 phases=1 duty=shapeC kV=0.12 kW=12.24 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.L1_1 Bus1=L1T.3.0 phases=1 duty=shapeC kV=0.12 kW=6.65 vminpu=0.9 vmaxpu=1.10 pf=1.0
+New Load.L1_2 Bus1=L1T.3.0 phases=1 duty=shapeC kV=0.12 kW=27.62 vminpu=0.9 vmaxpu=1.10 pf=1.0

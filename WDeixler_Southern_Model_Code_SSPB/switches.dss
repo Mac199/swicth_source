@@ -1,0 +1,178 @@
+! converted from CYME 5.04 .sxst-file with OpenDSS_SFC.py (version: 01.00.012, last update: 03/22/2017)
+
+New Line.100P107878_M3442-9466_switch  Phases=1 Bus1=200_1204497_2S.2 Bus2=200_1204497.2 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004119500_M3222-9466_switch  Phases=3 Bus1=200_815681_2S.1.2.3 Bus2=200_815681.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004119509_M3222-9466_switch  Phases=3 Bus1=200_815682_2S.1.2.3 Bus2=200_815682.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004119518_M3222-9466_switch  Phases=3 Bus1=200_815683_2S.1.2.3 Bus2=200_815683.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004119558_M3222-9466_switch  Phases=3 Bus1=200_815687_2S.1.2.3 Bus2=200_815687.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004119567_M3222-9466_switch  Phases=3 Bus1=200_815688_2S.1.2.3 Bus2=200_815688.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004119576_M3222-9466_switch  Phases=3 Bus1=200_815689_2S.1.2.3 Bus2=200_815689.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004393266_M3442-9466_switch  Phases=1 Bus1=200_877443_2S.1 Bus2=200_877443.1 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004393294_M3442-9466_switch  Phases=1 Bus1=200_877444_2S.2 Bus2=200_877444.2 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004393302_M3442-9466_switch  Phases=1 Bus1=200_877445_2S.3 Bus2=200_877445.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004466062_M3442-9466_switch  Phases=1 Bus1=200_881942_2S.2 Bus2=200_881942.2 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004466070_M3442-9466_switch  Phases=1 Bus1=200_881943_2S.3 Bus2=200_881943.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000004476577_M3442-9466_switch  Phases=1 Bus1=200_882691_2S.3 Bus2=200_882691.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000008002977_M3442-9466_switch  Phases=1 Bus1=193_484401_2S.1 Bus2=193_484401.1 NormAmps=1000 Length=0.001 units=m
+New Line.1010000008225447_M3222-9466_switch  Phases=3 Bus1=200_1092046_2S.1.2.3 Bus2=200_1092046.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000008225448_M3222-9466_switch  Phases=3 Bus1=200_1092047_2S.1.2.3 Bus2=200_1092047.1.2.3 NormAmps=1000 Length=0.001 units=m
+!New Line.1010000008225457_M3222-9466_switch  Phases=3 Bus1=200_1092048_2S.1.2.3 Bus2=200_1092048.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.1010000009367799_1306801_switch  Phases=3 Bus1=200_1163636_2S.1.2.3 Bus2=200_1163636.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009367799_M3442-9466_switch  Phases=3 Bus1=200_1163636_2S.1.2.3 Bus2=200_1163636.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.1010000009367809_M3442-9466_switch  Phases=3 Bus1=200_1163637_2S.1.2.3 Bus2=200_1163637.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009367811_M3442-9466_switch  Phases=3 Bus1=200_1163638_2S.1.2.3 Bus2=200_1163638.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009370182_M3442-9466_switch  Phases=3 Bus1=200_1163642_2S.1.2.3 Bus2=200_1163642.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009370192_1306801_switch  Phases=3 Bus1=200_1163643_2S.1.2.3 Bus2=200_1163643.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009370192_M3442-9466_switch  Phases=3 Bus1=200_1163643_2S.1.2.3 Bus2=200_1163643.1.2.3 NormAmps=1000 Length=0.001 units=m
+!New Line.1010000009370194_M3442-9466_switch  Phases=3 Bus1=200_1163644_2S.1.2.3 Bus2=200_1163644.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009373253_M3442-9466_switch  Phases=3 Bus1=200_1163847_2S.1.2.3 Bus2=200_1163847.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009373263_1306801_switch  Phases=3 Bus1=200_1163848_2S.1.2.3 Bus2=200_1163848.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009373263_M3442-9466_switch  Phases=3 Bus1=200_1163848_2S.1.2.3 Bus2=200_1163848.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009373265_M3442-9466_switch  Phases=3 Bus1=200_1163849_2S.1.2.3 Bus2=200_1163849.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009377401_M3442-9466_switch  Phases=3 Bus1=200_1163937_2S.1.2.3 Bus2=200_1163937.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009377411_1306801_switch  Phases=3 Bus1=200_1163938_2S.1.2.3 Bus2=200_1163938.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009377411_M3442-9466_switch  Phases=3 Bus1=200_1163938_2S.1.2.3 Bus2=200_1163938.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009377413_M3442-9466_switch  Phases=3 Bus1=200_1163939_2S.1.2.3 Bus2=200_1163939.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009389005_M3222-9466_switch  Phases=3 Bus1=200_1164225_2S.1.2.3 Bus2=200_1164225.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.1010000009389015_1306801_switch  Phases=3 Bus1=200_1164226_2S.1.2.3 Bus2=200_1164226.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009389015_M3222-9466_switch  Phases=3 Bus1=200_1164226_2S.1.2.3 Bus2=200_1164226.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.1010000009389017_M3222-9466_switch  Phases=3 Bus1=200_1164227_2S.1.2.3 Bus2=200_1164227.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009406062_1306801_switch  Phases=3 Bus1=200_1164657_2S.1.2.3 Bus2=200_1164657.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009406062_M3222-9466_switch  Phases=3 Bus1=200_1164657_2S.1.2.3 Bus2=200_1164657.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009406072_M3222-9466_switch  Phases=3 Bus1=200_1164658_2S.1.2.3 Bus2=200_1164658.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009406074_M3222-9466_switch  Phases=3 Bus1=200_1164659_2S.1.2.3 Bus2=200_1164659.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.1010000009608553_1306801_switch  Phases=3 Bus1=200_1168241_2S.1.2.3 Bus2=200_1168241.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009608553_M3442-9466_switch  Phases=3 Bus1=200_1168241_2S.1.2.3 Bus2=200_1168241.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.1010000009608555_1306801_switch  Phases=3 Bus1=200_1168242_2S.1.2.3 Bus2=200_1168242.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000009608555_M3442-9466_switch  Phases=3 Bus1=200_1168242_2S.1.2.3 Bus2=200_1168242.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.1010000009608557_M3442-9466_switch  Phases=3 Bus1=200_1168243_2S.1.2.3 Bus2=200_1168243.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.1010000010187885_1306801_switch  Phases=3 Bus1=200_1181805_2S.1.2.3 Bus2=200_1181805.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000010187885_M3442-9466_switch  Phases=3 Bus1=200_1181805_2S.1.2.3 Bus2=200_1181805.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.1010000010369530_M3442-9466_switch  Phases=3 Bus1=200_1187953_2S.1.2.3 Bus2=200_1187953.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000010794979_M3442-9466_switch  Phases=3 Bus1=200_1203040_2S.1.2.3 Bus2=200_1203040.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000010794991_M3442-9466_switch  Phases=3 Bus1=200_1203041_2S.1.2.3 Bus2=200_1203041.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000010794993_M3442-9466_switch  Phases=3 Bus1=200_1203042_2S.1.2.3 Bus2=200_1203042.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000010833391_M3222-9466_switch  Phases=3 Bus1=200_1204420_2S.1.2.3 Bus2=200_1204420.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000010833393_M3222-9466_switch  Phases=3 Bus1=200_1204421_2S.1.2.3 Bus2=200_1204421.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000010833395_M3222-9466_switch  Phases=3 Bus1=200_1204422_2S.1.2.3 Bus2=200_1204422.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011035386_M3222-9466_switch  Phases=3 Bus1=200_1211268_2S.1.2.3 Bus2=200_1211268.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011035388_M3222-9466_switch  Phases=3 Bus1=200_1211269_2S.1.2.3 Bus2=200_1211269.1.2.3 NormAmps=1000 Length=0.001 units=m
+!New Line.1010000011035390_M3222-9466_switch  Phases=3 Bus1=200_1211270_2S.1.2.3 Bus2=200_1211270.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011054814_M3222-9466_switch  Phases=3 Bus1=200_1211914_2S.1.2.3 Bus2=200_1211914.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011054816_M3222-9466_switch  Phases=3 Bus1=200_1211915_2S.1.2.3 Bus2=200_1211915.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011054818_M3222-9466_switch  Phases=3 Bus1=200_1211916_2S.1.2.3 Bus2=200_1211916.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011301935_M3222-9466_switch  Phases=3 Bus1=200_1216257_2S.1.2.3 Bus2=200_1216257.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011301937_M3442-9466_switch  Phases=3 Bus1=200_1216258_2S.1.2.3 Bus2=200_1216258.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011301939_M3222-9466_switch  Phases=3 Bus1=200_1216259_2S.1.2.3 Bus2=200_1216259.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011301939_M3442-9466_switch  Phases=3 Bus1=S2195_2S.1.2.3 Bus2=S2195.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011740104_M3442-9466_switch  Phases=3 Bus1=200_1229925_2S.1.2.3 Bus2=200_1229925.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000011740141_M3442-9466_switch  Phases=3 Bus1=200_1229927_2S.1.2.3 Bus2=200_1229927.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000012818424_M3222-9466_switch  Phases=3 Bus1=200_1253508_2S.1.2.3 Bus2=200_1253508.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1010000013081146_M3222-9466_switch  Phases=3 Bus1=193_610001_2S.1.2.3 Bus2=193_610001.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1021013_M3442-9466_switch  Phases=3 Bus1=200_1187921_2S.1.2.3 Bus2=200_1187921.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.1027600_M3442-9466_switch  Phases=1 Bus1=200_1216811_2S.2 Bus2=200_1216811.2 NormAmps=1000 Length=0.001 units=m
+New Line.227_3296659_1-1_switch  Phases=3 Bus1=200_815684_2S.1.2.3 Bus2=200_815684.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.229_660484_2-1_switch  Phases=3 Bus1=200_815686_2S.1.2.3 Bus2=200_815686.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.25P108068_M3442-9466_switch  Phases=1 Bus1=200_1193826_2S.3 Bus2=200_1193826.3 NormAmps=1000 Length=0.001 units=m
+New Line.37P120695_M3222-9466_switch  Phases=1 Bus1=200_1192497_2S.3 Bus2=200_1192497.3 NormAmps=1000 Length=0.001 units=m
+New Line.5557100003082688_M3442-9466_switch  Phases=1 Bus1=200_612272_2S.3 Bus2=200_612272.3 NormAmps=1000 Length=0.001 units=m
+New Line.5557100003194256_M3442-9466_switch  Phases=1 Bus1=200_612341_2S.1 Bus2=200_612341.1 NormAmps=1000 Length=0.001 units=m
+New Line.5557100003194325_M3442-9466_switch  Phases=1 Bus1=200_612342_2S.2 Bus2=200_612342.2 NormAmps=1000 Length=0.001 units=m
+New Line.5557100003194413_M3442-9466_switch  Phases=1 Bus1=200_612343_2S.3 Bus2=200_612343.3 NormAmps=1000 Length=0.001 units=m
+New Line.5557100003233186_M3222-9466_switch  Phases=1 Bus1=200_612362_2S.1 Bus2=200_612362.1 NormAmps=1000 Length=0.001 units=m
+New Line.938980_M3222-9466_switch  Phases=1 Bus1=200_891905_2S.1 Bus2=200_891905.1 NormAmps=1000 Length=0.001 units=m
+New Line.946875_M3442-9466_switch  Phases=1 Bus1=200_882694_2S.2 Bus2=200_882694.2 NormAmps=1000 Length=0.001 units=m
+New Line.946876_M3442-9466_switch  Phases=2 Bus1=200_882695_2S.1.3 Bus2=200_882695.1.3 NormAmps=1000 Length=0.001 units=m
+New Line.946878_M3442-9466_switch  Phases=1 Bus1=200_882697_2S.3 Bus2=200_882697.3 NormAmps=1000 Length=0.001 units=m
+New Line.946879_M3442-9466_switch  Phases=1 Bus1=200_882698_2S.1 Bus2=200_882698.1 NormAmps=1000 Length=0.001 units=m
+New Line.964143_M3442-9466_switch  Phases=1 Bus1=200_1069318_2S.1 Bus2=200_1069318.1 NormAmps=1000 Length=0.001 units=m
+
+!New Line.AF5044_1306801_switch  Phases=3 Bus1=200_1045009_2S.1.2.3 Bus2=200_1045009.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AF5044_M3442-9466_switch  Phases=3 Bus1=200_1045009_2S.1.2.3 Bus2=200_1045009.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.AG2285_M3442-9466_switch  Phases=3 Bus1=200_1168002_2S.1.2.3 Bus2=200_1168002.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AG2296_M3442-9466_switch  Phases=3 Bus1=200_1168003_2S.1.2.3 Bus2=200_1168003.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AG2438_M3442-9466_switch  Phases=3 Bus1=200_1168004_2S.1.2.3 Bus2=200_1168004.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AG6359_1306801_switch  Phases=3 Bus1=200_1181697_2S.1.2.3 Bus2=200_1181697.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AG6770_M3222-9466_switch  Phases=3 Bus1=200_613968_2S.1.2.3 Bus2=200_613968.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AH0955_M3222-9466_switch  Phases=3 Bus1=200_1188529_2S.1.2.3 Bus2=200_1188529.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AH1453_1306801_switch  Phases=3 Bus1=200_1185060_2S.1.2.3 Bus2=200_1185060.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AH1453_M3442-9466_switch  Phases=3 Bus1=200_1230097_2S.1.2.3 Bus2=200_1230097.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AH4651_M3222-9466_switch  Phases=3 Bus1=200_1210341_2S.1.2.3 Bus2=200_1210341.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AH4653_M3442-9466_switch  Phases=3 Bus1=200_1210340_2S.1.2.3 Bus2=200_1210340.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AH4655_M3222-9466_switch  Phases=3 Bus1=200_1210342_2S.1.2.3 Bus2=200_1210342.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AK2008_M3222-9466_switch  Phases=3 Bus1=200_1220529_2S.1.2.3 Bus2=200_1220529.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AL1710_M3442-9466_switch  Phases=3 Bus1=200_1256465_2S.1.2.3 Bus2=200_1256465.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.AL1811_M3442-9466_switch  Phases=3 Bus1=200_1257073_2S.1.2.3 Bus2=200_1257073.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.BR-001G_M3222-9466_switch  Phases=3 Bus1=200_612633_2S.1.2.3 Bus2=200_612633.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.BR-002_M3222-9466_switch  Phases=1 Bus1=200_613958_2S.2 Bus2=200_613958.2 NormAmps=1000 Length=0.001 units=m
+New Line.BR-020_M3222-9466_switch  Phases=3 Bus1=200_613047_2S.1.2.3 Bus2=200_613047.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.BR-023_M3222-9466_switch  Phases=3 Bus1=200_612704_2S.1.2.3 Bus2=200_612704.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.BR-025G_M3222-9466_switch  Phases=3 Bus1=200_613125_2S.1.2.3 Bus2=200_613125.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.BU-003G_M3222-9466_switch  Phases=3 Bus1=200_613374_2S.1.2.3 Bus2=200_613374.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-009G_M3222-9466_switch  Phases=3 Bus1=200_612446_2S.1.2.3 Bus2=200_612446.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-011_1306801_switch  Phases=3 Bus1=200_613777_2S.1.2.3 Bus2=200_613777.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-041_M3222-9466_switch  Phases=3 Bus1=200_613666_2S.1.2.3 Bus2=200_613666.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-052G_1306801_switch  Phases=3 Bus1=200_613968_2S.1.2.3 Bus2=200_613968.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-053G_1306801_switch  Phases=3 Bus1=200_1045185_2S.1.2.3 Bus2=200_1045185.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-060G_M3442-9466_switch  Phases=3 Bus1=200_612963_2S.1.2.3 Bus2=200_612963.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-061G_1306801_switch  Phases=3 Bus1=200_613082_2S.1.2.3 Bus2=200_613082.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-071G_1306801_switch  Phases=3 Bus1=200_612626_2S.1.2.3 Bus2=200_612626.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-080G_1306801_switch  Phases=3 Bus1=200_613195_2S.1.2.3 Bus2=200_613195.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-080G_M3442-9466_switch  Phases=3 Bus1=200_613195_2S.1.2.3 Bus2=200_613195.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.EF-110G_M3222-9466_switch  Phases=3 Bus1=200_613317_2S.1.2.3 Bus2=200_613317.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-115G_M3222-9466_switch  Phases=3 Bus1=200_612522_2S.1.2.3 Bus2=200_612522.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-123_M3442-9466_switch  Phases=3 Bus1=200_614611_2S.1.2.3 Bus2=200_614611.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-163_M3222-9466_switch  Phases=3 Bus1=200_614229_2S.1.2.3 Bus2=200_614229.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-169_1306801_switch  Phases=3 Bus1=200_612840_2S.1.2.3 Bus2=200_612840.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-169_M3442-9466_switch  Phases=3 Bus1=200_612840_2S.1.2.3 Bus2=200_612840.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-170_1306801_switch  Phases=3 Bus1=200_612427_2S.1.2.3 Bus2=200_612427.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-170_M3442-9466_switch  Phases=3 Bus1=200_612427_2S.1.2.3 Bus2=200_612427.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.EF-172G_M3222-9466_switch  Phases=3 Bus1=200_613238_2S.1.2.3 Bus2=200_613238.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-197G_1306801_switch  Phases=3 Bus1=200_613322_2S.1.2.3 Bus2=200_613322.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-197G_M3442-9466_switch  Phases=3 Bus1=200_613322_2S.1.2.3 Bus2=200_613322.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.EF-206_M3442-9466_switch  Phases=3 Bus1=200_612630_2S.1.2.3 Bus2=200_612630.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-216G_1306801_switch  Phases=3 Bus1=200_614601_2S.1.2.3 Bus2=200_614601.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-216G_M3442-9466_switch  Phases=3 Bus1=200_614601_2S.1.2.3 Bus2=200_614601.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.EF-225_1306801_switch  Phases=3 Bus1=200_612412_2S.1.2.3 Bus2=200_612412.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-241G_1306801_switch  Phases=3 Bus1=200_613479_2S.1.2.3 Bus2=200_613479.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-241G_M3222-9466_switch  Phases=3 Bus1=200_613479_2S.1.2.3 Bus2=200_613479.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.EF-254_M3442-9466_switch  Phases=3 Bus1=200_613847_2S.1.2.3 Bus2=200_613847.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-255G_M3222-9466_switch  Phases=3 Bus1=200_889971_2S.1.2.3 Bus2=200_889971.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-328_M3442-9466_switch  Phases=3 Bus1=200_612454_2S.1.2.3 Bus2=200_612454.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-338_M3222-9466_switch  Phases=1 Bus1=200_613645_2S.1 Bus2=200_613645.1 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-345_1306801_switch  Phases=3 Bus1=200_613123_2S.1.2.3 Bus2=200_613123.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-345_M3442-9466_switch  Phases=3 Bus1=200_613123_2S.1.2.3 Bus2=200_613123.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-358G_1306801_switch  Phases=3 Bus1=200_889970_2S.1.2.3 Bus2=200_889970.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-358G_M3222-9466_switch  Phases=3 Bus1=200_889970_2S.1.2.3 Bus2=200_889970.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+!New Line.EF-510_1306801_switch  Phases=3 Bus1=200_877442_2S.1.2.3 Bus2=200_877442.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.EF-510_M3442-9466_switch  Phases=3 Bus1=200_877442_2S.1.2.3 Bus2=200_877442.1.2.3 NormAmps=1000 Length=0.001 units=m
+
+New Line.FEF3153_M3222-9466_switch  Phases=1 Bus1=200_901591_2S.2 Bus2=200_901591.2 NormAmps=1000 Length=0.001 units=m
+New Line.FEF674_M3222-9466_switch  Phases=1 Bus1=200_1321761_2S.1 Bus2=200_1321761.1 NormAmps=1000 Length=0.001 units=m
+New Line.FWB1528_M3442-9466_switch  Phases=3 Bus1=200_1258945_2S.1.2.3 Bus2=200_1258945.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.INTCENTER#3_M3222-9466_switch  Phases=3 Bus1=200_1230433_2S.1.2.3 Bus2=200_1230433.1.2.3 NormAmps=1000 Length=0.001 units=m
+New Line.UNK_M3222-9466_switch  Phases=3 Bus1=200_815685_2S.1.2.3 Bus2=200_815685.1.2.3 NormAmps=1000 Length=0.001 units=m
