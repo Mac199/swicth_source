@@ -1,5 +1,55 @@
-variables:
+cvariables:
 	Node: this defines the location of device placement.
 	I_Meas: this defines the current measurment location.
 	Vnode: this defines the voltage measument location.
-	
+	Sys_Voltage: this is the line to line voltage of the location of device placement.
+	Vbaseold: phase voltage of the location of device placement.
+	filepath: defines the directory of the executable MATLAB .m file
+	DG_buses: stores generator bus number.
+	PBA_Node: this is the node where the PBA is installed.
+	PBA_Line: this is the line that terminates at the PBA bus (the line where to meaure current before compensation).
+	Line_Upstream: this is the line to measure current afetr compensation.
+	V_measur_bus: this is the voltage measumrent bus to calacualte voltage ubalanace.
+	DSSText: stores the Text interface through which standard OpenDSS text command may be sent and results messages retrieved. 
+	DSSCircuit: stores a type Circuit interface that points to the active circuit.
+	DSSBus: stores an interface to the active bus.
+	Buses: stores all the bus names of the circuit.
+	Nodes: stores all nodes names of the circuit.
+	SystemLosses0: distribution System Losses in kWs and kVArs.
+	DSSTransformers: interface to Transformers collection.
+	DSSCktElement: interface to active circuit element.
+	DSSActiveBus: refers to active bus selected.
+	Vbus671: selected bus voltage in complex value.
+	alpha: complex operator
+	ABC_to_SEQ: phsor to sequence transformation matrix.
+	V_downABC671: 3x1 array representing the three phase voltage of selected bus(V_measur_bus).
+	V_old: the three sequence components of a three-phase signal. 
+	DSSActiveBus: refers to PBA active bus name.
+	Vbus: three phase bus voltages at PBA location.
+	VV：refers to a vector of all the bus voltages.
+	Vmax: maximum voltage in VV.
+	VminTest: equal to VV but all 0 elements in VV are removed.
+	Vmin: minimum voltage value in VminTest.
+	idxVV: the vector index where voltage violation occurred.
+	DSSLines: refers to DSS interface of active lines
+	DSSActiveCktElement: refers to active line.
+	i_Line: refers to each line in DSSLines.
+	BiDirCurrents: refers to line currents in phasor formats, the currents are bidirectional
+	Currents: refers to one direction currents in BiDirCurrents.
+	CurrentMag: current magnitude.
+	Amax: refers to maximum current in CurrentMag.
+
+
+OPENDSS interface command:
+	DSSText.Command=filepath: Write Path where Master and its associated files are stored and compile
+	DSSText.Command='set voltagebases=[13.2 24.94 69.0]': define legal bus voltage bases for this circuit. Enter an array of the legal voltage bases,in phase-to-phase voltages.
+	DSSText.Command='solve': excutes a solution.
+
+	DSSText.Command=['New Generator.671a1 Phases=1 Bus1=', PBA_Node '.1 ', 'kV=', num2str(Vbaseold/1e3), ' model=1 kVar=0 kW=0']: initialize a gnerator at a specified location.
+	DSSText.Command = sprintf('new generator.PVGen%i phases=1 bus1=%s kV=7.967433714828 kW=10 kvar=0 model=3', 1, DG_buses(1)): initialize a single phase PV generator at the first bus in the DG_buses array.
+
+	DSSCircuit.Generators.Name = 'PVGen1': sets Generator as active element.
+	DSSCircuit.SetActiveBus(V_measur_bus): this is the node where voltage is measured for voltage unbalance.
+	DSSCircuit.SetActiveBus(PBA_Node): set the bus at which PBA is installed to be active bus.
+	DSSCircuit.SetActiveElement(PBA_Line): set an active element to be the line that terminates at the PBA bus.
+	DSSCircuit.SetActiveElement(['LINE.227_4349091_1']): set the LINE.227_4349091_1 as active element.
