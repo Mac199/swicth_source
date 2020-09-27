@@ -3,20 +3,16 @@ close all;
 
 Node='189_3744947'; % Location of device placment
 I_Meas='LINE.227_2772953_3'; %Current measurment location
-
+step=2754;
 Vnode=Node; %Voltage Measurment node, usually same as device node, so keep the same unless you want to look at voltages at a different node
 Sys_Voltage=13.2e3; %what's the line to line voltage of the location of PB placement
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Vbaseold = Sys_Voltage/sqrt(3);
 
-filepath='Compile (F:\swith source\WDeixler_Southern_Model_Code_SSPB\master_Meldrim_M3222_M3442_OneFeeder.dss)'; % Here modify according to the name and location of the system file
-
-I_DL=133; % Current limit, keep the same unless instructed to change
-I_SH=133; %Current limit, keep the same unless instructed to change
+filepath='Compile (C:\Users\wangying\Documents\switch_source\WDeixler_Southern_Model_Code_SSPB\master_Meldrim_M3222_M3442_OneFeeder.dss)'; % Here modify according to the name and location of the system file
 
 DG_buses = fileread('BusListLocation2Phase1.txt'); % set DG location here
 DG_buses = string(strsplit(DG_buses))';
-
 %***************************************
 
 DSSObj = actxserver('OpenDSSEngine.DSS');
@@ -24,7 +20,6 @@ if ~DSSObj.Start(0)
 disp('Unable to start the OpenDSS Engine');
 return
 end
-
 
 PBA_Node=Node; %This is the node where the PBA is installed
 PBA_Line=I_Meas;%This is the line that terminates at the PBA bus (the line where to meaure current before compensation)
@@ -76,55 +71,66 @@ for i = 1:1000
     V_downABC671=[Vbus671(1)+j*Vbus671(2); Vbus671(3)+j*Vbus671(4); Vbus671(5)+j*Vbus671(6)];
     V_old=ABC_to_SEQ*V_downABC671;
 
-
-
     DSSCircuit.SetActiveBus(PBA_Node); % This is the node where the PBA is installed
     DSSActiveBus=DSSCircuit.ActiveBus;
     Vbus=DSSActiveBus.Voltages;
-    V_downABC=[Vbus(1)+j*Vbus(2); Vbus(3)+j*Vbus(4); Vbus(5)+j*Vbus(6)];
-
+    V_ABC_before1=[Vbus(1)+j*Vbus(2); Vbus(3)+j*Vbus(4); Vbus(5)+j*Vbus(6)];
+    I_line_before1=DSSCircuit.ActiveCktElement.Currents;
+    I_ABC_before1=[I_line_before1(7)+j*I_line_before1(8); I_line_before1(9)+j*I_line_before1(10); I_line_before1(11)+j*I_line_before1(12)];
 
     DSSCircuit.SetActiveElement(PBA_Line); %This is the line that terminates at the PBA bus
     DSSActiveCktElement=DSSCircuit.ActiveCktElement;
     I_line=DSSActiveCktElement.Currents;
     I_ABC=[I_line(7)+j*I_line(8); I_line(9)+j*I_line(10); I_line(11)+j*I_line(12)];
-
-
     %%%%%%%%%%%%%%%%%%
     %Runs the device code algorithm to determine the optimal set points to be
     %used as inputs to the 6 generatros below (3 for real power and 3 for
     %reactive power)
-    [S_inj, I0632_old, IP632_old, IN632_old, I632seq_new]=SSPB_Integrated_Fun(ZIGZAG, DELTA, I_DL, I_SH, Sys_Voltage, V_downABC, I_ABC);
-
-
+    [Iabc_compensation,Iabc_power,ZCMMIN,Device_Losses] = PBAL_func_withlosses(V_ABC_before1,I_ABC_before1,50e3);
+    Iabc_shunt=Iabc_compensation+Iabc_power;
+    V_PB=V_ABC_before1;
     %%%%%%%%%%The part below simulates the optimal setpoint in the OpenDSS
     %%%%%%%%%%model***********%%%
+    for n=1:6    
+    S_inj=V_PB.*(conj(Iabc_shunt));
+    if n>1
+        type='Edit';
+    else
+        type='New';
+    end
+        DSSCircuit.Generators.Name = ('671a1');
+        DSSCircuit.Generators.kW = real(S_inj(1))/1e3;
 
+        DSSCircuit.Generators.Name = ('671a2');
+        DSSCircuit.Generators.kVar = imag(S_inj(1))/1e3;
 
-    %sets power output of PB generators
+        DSSCircuit.Generators.Name = ('671b1');
+        DSSCircuit.Generators.kW = real(S_inj(2))/1e3;
 
-    DSSCircuit.Generators.Name = ('671a1');
-    DSSCircuit.Generators.kW = real(S_inj(1))/1e3;
+        DSSCircuit.Generators.Name = ('671b2');
+        DSSCircuit.Generators.kVar = imag(S_inj(2))/1e3;
 
-    DSSCircuit.Generators.Name = ('671a2');
-    DSSCircuit.Generators.kVar = imag(S_inj(1))/1e3;
+        DSSCircuit.Generators.Name = ('671c1');
+        DSSCircuit.Generators.kW = real(S_inj(3))/1e3;
 
-    DSSCircuit.Generators.Name = ('671b1');
-    DSSCircuit.Generators.kW = real(S_inj(2))/1e3;
-
-    DSSCircuit.Generators.Name = ('671b2');
-    DSSCircuit.Generators.kVar = imag(S_inj(2))/1e3;
-
-    DSSCircuit.Generators.Name = ('671c1');
-    DSSCircuit.Generators.kW = real(S_inj(3))/1e3;
-
-    DSSCircuit.Generators.Name = ('671c2');
-    DSSCircuit.Generators.kVar = imag(S_inj(3))/1e3;
-
-    DSSText.Command='set mode=snap';
-    DSSText.Command='Batchedit regcontrol..* Enabled=no';
-    DSSText.Command='calcv';
+        DSSCircuit.Generators.Name = ('671c2');
+        DSSCircuit.Generators.kVar = imag(S_inj(3))/1e3;
+    DSSText.Command='calcv';% Z Ding added
+    DSSText.Command='set number=1 stepsize=15m hour=0 sec=0';
+    DSSText.Command=['set hour=',num2str(0/4),' h=',num2str(900*step),' sec=',num2str(0)];
     DSSText.Command='solve';
+
+    DSSCircuit.SetActiveBus(PBA_Node); % This is the node where voltage is measured for voltage unbalance
+    DSSActiveBus=DSSCircuit.ActiveBus;
+    Vbus_new=DSSActiveBus.Voltages;
+    V_downABC_new=[Vbus_new(1)+j*Vbus_new(2); Vbus_new(3)+j*Vbus_new(4); Vbus_new(5)+j*Vbus_new(6)];
+    V_new=ABC_to_SEQ*V_downABC_new;
+
+    error(:,n)=V_downABC_new-V_PB;
+
+    V_PB=V_downABC_new;
+
+    end
 
     SystemLosses1=(DSSCircuit.Losses)/1000;
 
@@ -137,16 +143,14 @@ for i = 1:1000
     I632seq_actual= ABC_to_SEQ*I_ABC632;
 
     %% Calculate "Actual" upstream current reduction
-    I0_red_actual = 100*(1-abs(I632seq_actual(1))/abs(I0632_old));
-    IP_red_actual = 100*(1-abs(I632seq_actual(2))/abs(IP632_old));
-    IN_red_actual = 100*(1-abs(I632seq_actual(3))/abs(IN632_old));
-
+%     I0_red_actual = 100*(1-abs(I632seq_actual(1))/abs(I0632_old));
+%     IP_red_actual = 100*(1-abs(I632seq_actual(2))/abs(IP632_old));
+%     IN_red_actual = 100*(1-abs(I632seq_actual(3))/abs(IN632_old));
 
     DSSCircuit.SetActiveBus(PBA_Node); % This is the node where the PBA is installed
     DSSActiveBus=DSSCircuit.ActiveBus;
     Vbus_new=DSSActiveBus.Voltages;
     %V_downABC_new=[Vbus_new(1)+j*Vbus_new(2); Vbus_new(3)+j*Vbus_new(4); Vbus_new(5)+j*Vbus_new(6)];
-
 
     DSSCircuit.SetActiveBus(V_measur_bus); % This is the node where voltage is measured for voltage unbalance
     DSSActiveBus=DSSCircuit.ActiveBus;
@@ -160,12 +164,12 @@ for i = 1:1000
     %disp(['.........................................................................'])
     %disp(['System Losses before balancing is ',num2str(SystemLosses0(1)),' kW','...Sysem Losses after balancing is ', num2str(SystemLosses1(1)), ' kW',' Losses reduction is ',num2str(SystemLosses0(1)-SystemLosses1(1)),' kW'])
 
-    I_Old_Target_Actual=[abs(I0632_old) abs(IN632_old) abs(IP632_old) abs(I632seq_new(1)) abs(I632seq_new(3))...
-        abs(I632seq_new(2)) abs(I632seq_actual(1)) abs(I632seq_actual(3)) abs(I632seq_actual(2)) SystemLosses0(1)-SystemLosses1(1) SystemLosses0(1) SystemLosses1(1)];
+%     I_Old_Target_Actual=[abs(I0632_old) abs(IN632_old) abs(IP632_old) abs(I632seq_new(1)) abs(I632seq_new(3))...
+%         abs(I632seq_new(2)) abs(I632seq_actual(1)) abs(I632seq_actual(3)) abs(I632seq_actual(2)) SystemLosses0(1)-SystemLosses1(1) SystemLosses0(1) SystemLosses1(1)];
     %V in kV
-    V_Old_New=[abs(V_old(1))/1e3 abs(V_old(3))/1e3 abs(V_old(2))/1e3 abs(V_new(1))/1e3 abs(V_new(3))/1e3 abs(V_new(2))/1e3]; %in 0,1,2
+%     V_Old_New=[abs(V_old(1))/1e3 abs(V_old(3))/1e3 abs(V_old(2))/1e3 abs(V_new(1))/1e3 abs(V_new(3))/1e3 abs(V_new(2))/1e3]; %in 0,1,2
 
-    Vabc_Old_New=[abs(V_downABC671(1))/1e3 abs(V_downABC671(2))/1e3 abs(V_downABC671(3))/1e3 abs(V_downABC671_new(1))/1e3 abs(V_downABC671_new(2))/1e3 abs(V_downABC671_new(3))/1e3]; %abc, to be used for NEMA% Unbalance
+%     Vabc_Old_New=[abs(V_downABC671(1))/1e3 abs(V_downABC671(2))/1e3 abs(V_downABC671(3))/1e3 abs(V_downABC671_new(1))/1e3 abs(V_downABC671_new(2))/1e3 abs(V_downABC671_new(3))/1e3]; %abc, to be used for NEMA% Unbalance
    
    DSSText.Command='calcvoltagebases';% Z Ding added
    DSSText.Command='solve';
