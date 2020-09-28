@@ -15,7 +15,7 @@ alpha = exp(1j*2*pi/3);
 ABC_to_SEQ = 1/3*[1 1 1;1 alpha alpha^2;1 alpha^2 alpha];
 SEQ_to_ABC = [1 1 1;1 alpha^2 alpha;1 alpha alpha^2];
 
-path='F:\swith source\ColorMap_Imbalance\ColorMap_Imbalance\MasterSherburne_SingleShapes_duty.DSS';
+path='C:\Users\wangying\Documents\switch_source\ColorMap_Imbalance\ColorMap_Imbalance\MasterSherburne_SingleShapes_duty.DSS';
 %*************************************************************************%
 %*************************************************************************%
 %*************************************************************************%

@@ -38,18 +38,32 @@ cvariables:
 	Currents: refers to one direction currents in BiDirCurrents.
 	CurrentMag: current magnitude.
 	Amax: refers to maximum current in CurrentMag.
+	BiDirPowers： refers to DSS powers interface.
+	Powers: refers to unidirectional powers in BiDirPowers array.
+	RealPowers: refers to real powers in variable Powers.
+	pMax: refers to maximum power in RealPowers.
+	[tMax,tPhaseMax]: refers to index of which the power is backfeed.  
+	VU: refers to voltage of bus in phasor format.
+	VU123: refers to voltage magnitude of bus.
+	M: refers to mean of voltage at the bus.
+	unbalance: refers to percent unbalance.
+	phaseU: refers to the bus at which voltage unbalance occurred.
+	GenBus: refers to the bus location at the bus list.
+	NewBus: refers to bus number in the bus list.
 
 
 OPENDSS interface command:
 	DSSText.Command=filepath: Write Path where Master and its associated files are stored and compile
 	DSSText.Command='set voltagebases=[13.2 24.94 69.0]': define legal bus voltage bases for this circuit. Enter an array of the legal voltage bases,in phase-to-phase voltages.
 	DSSText.Command='solve': excutes a solution.
-
 	DSSText.Command=['New Generator.671a1 Phases=1 Bus1=', PBA_Node '.1 ', 'kV=', num2str(Vbaseold/1e3), ' model=1 kVar=0 kW=0']: initialize a gnerator at a specified location.
+	
 	DSSText.Command = sprintf('new generator.PVGen%i phases=1 bus1=%s kV=7.967433714828 kW=10 kvar=0 model=3', 1, DG_buses(1)): initialize a single phase PV generator at the first bus in the DG_buses array.
-
 	DSSCircuit.Generators.Name = 'PVGen1': sets Generator as active element.
 	DSSCircuit.SetActiveBus(V_measur_bus): this is the node where voltage is measured for voltage unbalance.
 	DSSCircuit.SetActiveBus(PBA_Node): set the bus at which PBA is installed to be active bus.
 	DSSCircuit.SetActiveElement(PBA_Line): set an active element to be the line that terminates at the PBA bus.
 	DSSCircuit.SetActiveElement(['LINE.227_4349091_1']): set the LINE.227_4349091_1 as active element.
+	DSSCircuit.Generators.Name = sprintf('PVGen%i', i): sets last placed DG as active.
+	DSSText.Command = sprintf('new generator.PVGen%i phases=1 bus1=%s kV=7.967433714828 kW=10 kvar=0 model=3', i+1, NewBus): places new DG on bus 'NewBus'.
+	DSSCircuit.Generators.Name = sprintf('PVGen%i', i+1): sets new DG as active.
